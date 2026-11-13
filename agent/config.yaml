@@ -123,3 +123,4 @@ platform_rules:
   prohibit_fabricated_experience: true
   require_explicit_human_approval_for_submission: true
   max_unsupported_claim_tolerance: 0
+

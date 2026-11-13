@@ -19,3 +19,4 @@ test.describe('Onboarding & Persona Selection Flow', () => {
     await expect(page).toHaveURL(/.*inbox/);
   });
 });
+

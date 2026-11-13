@@ -15,3 +15,4 @@ test.describe('Proposal Studio Approval Flow', () => {
     await expect(page.locator('text=Proposal approved and committed')).toBeVisible({ timeout: 5000 });
   });
 });
+

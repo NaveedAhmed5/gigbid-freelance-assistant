@@ -48,3 +48,4 @@ docker-up:
 
 docker-down:
 	docker compose -f infra/docker-compose.yml down
+

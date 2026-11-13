@@ -14,3 +14,4 @@ We enforce a mandatory human-in-the-loop approval gate prior to live marketplace
 ## Consequences
 - **Positive:** Guarantees zero unauthorized Connects spend, full regulatory compliance, and enables crash recovery.
 - **Negative:** Introduces an asynchronous waiting state for end users until approval is submitted.
+

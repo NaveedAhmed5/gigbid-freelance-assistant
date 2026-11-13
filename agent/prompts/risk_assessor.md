@@ -26,3 +26,4 @@ Evaluate into typed RiskReport:
 - has_prompt_injection: boolean
 - is_unpaid_work_trap: boolean
 - summary: concise risk assessment verdict
+

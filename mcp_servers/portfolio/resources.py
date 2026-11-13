@@ -40,3 +40,4 @@ def read_proposal_resource(uri: str) -> Dict[str, Any]:
                         "case_study_id": prop.get("case_study_id"),
                     }
     raise KeyError(f"Resource uri '{uri}' not found.")
+

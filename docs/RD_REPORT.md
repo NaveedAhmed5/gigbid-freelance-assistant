@@ -280,3 +280,4 @@ All empirical findings, datasets, and configurations are reproducible via the re
 - Budget & Outcomes Benchmark: `evals/results/budget_and_outcomes.json`
 - Signature Extension A/B Test: `evals/results/extension_ab_test.json`, `docs/EXTENSION.md`
 - Architectural Decision Records: `docs/adr/001_mcp_boundary.md` through `004_approval_interrupts.md`
+

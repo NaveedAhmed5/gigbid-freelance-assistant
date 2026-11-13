@@ -62,3 +62,4 @@ AI-generated code was committed only after passing multi-tiered validation:
 - **No Real PII**: No authentic freelance client data, Upwork client contact details, or proprietary contractor resumes were ingested. All personas, case studies, client reviews, and proposal histories were synthetically constructed.
 - **Secret Hygiene**: Zero API keys or private credentials exist in the codebase. All cryptographic keys are loaded via environment variables documented in `.env.example`.
 - **Policy Compliance**: Guardrails actively redact PII and reject off-platform payment solicitations to adhere to freelance platform terms of service.
+

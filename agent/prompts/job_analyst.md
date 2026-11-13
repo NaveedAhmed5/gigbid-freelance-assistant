@@ -18,3 +18,4 @@ Extract into typed JobSpec:
 - timeline: Estimated timeline or deadline.
 - client_industry: Inferred industry domain.
 - screening_questions: Any questions requiring specific answers.
+

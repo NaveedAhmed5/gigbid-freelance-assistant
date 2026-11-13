@@ -13,3 +13,4 @@ We adopted `Variant V4 (Outcome-Aware Boosting)` over a hybrid BM25 + Dense vect
 ## Consequences
 - **Positive:** Recall@5 increased from 58% (`V0`) to 94% (`V4`); unsupported claims per proposal dropped from 1.8 to 0.10.
 - **Negative:** Slightly increased indexing and retrieval latency (~380ms vs 80ms naive), well within the 30-second system SLA.
+

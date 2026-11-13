@@ -29,3 +29,4 @@ def test_mcp_schema_contract_snapshots():
     assert "create_tentative_interview_hold" in w_tools
     assert "create_email_draft" in w_tools
     assert w_tools["get_free_calendar_slots"]["annotations"]["readOnlyHint"] is True
+

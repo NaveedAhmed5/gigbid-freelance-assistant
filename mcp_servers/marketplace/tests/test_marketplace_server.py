@@ -56,3 +56,4 @@ def test_marketplace_server_idempotency_and_dry_run():
     )
     assert live_res_2["submission_id"] == live_res_1["submission_id"]
     assert live_res_2["bid_amount_usd"] == live_res_1["bid_amount_usd"]
+

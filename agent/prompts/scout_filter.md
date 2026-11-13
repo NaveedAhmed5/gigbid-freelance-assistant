@@ -18,3 +18,4 @@ Budget: {job_budget}
 1. Determine if the job has basic technical relevance to the candidate's core domain.
 2. Filter out immediate spam, blatant scams, or completely mismatched domains (e.g. logo design for an AI engineer).
 3. Output whether this job should be ingested for deep analysis.
+

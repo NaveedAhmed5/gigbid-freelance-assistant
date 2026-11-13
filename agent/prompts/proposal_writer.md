@@ -28,3 +28,4 @@ Draft into typed ProposalDraft:
 - proof_points: Array of cited metrics.
 - screening_answers: Answers to any screening questions.
 - cover_letter: Full compiled text of proposal.
+

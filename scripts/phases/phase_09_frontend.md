@@ -20,3 +20,4 @@
    - Test 5: Degraded mode banner display on simulator disconnect.
 3. Verification:
    - Ensure `npm run build` or Next.js typecheck / component tests pass.
+

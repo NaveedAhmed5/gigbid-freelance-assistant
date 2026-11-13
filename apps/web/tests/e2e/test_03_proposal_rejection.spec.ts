@@ -17,3 +17,4 @@ test.describe('Proposal Studio Rejection Flow', () => {
     await expect(page.locator('text=Draft rejected: Need more emphasis')).toBeVisible({ timeout: 5000 });
   });
 });
+

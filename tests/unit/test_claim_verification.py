@@ -42,3 +42,4 @@ def test_verify_claims_grounding_and_sanitization():
     # Sanitized text must not contain the ungrounded $100M claim
     assert "$100M" not in report.sanitized_text
     assert "NASA" not in report.sanitized_text
+

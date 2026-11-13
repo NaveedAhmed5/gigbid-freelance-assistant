@@ -18,3 +18,4 @@
 3. Generate TypeScript API client definitions in `apps/web/src/lib/api/client.ts`.
 4. Verification:
    - Run tests in `tests/integration/test_api_routes.py`.
+

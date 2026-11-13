@@ -19,3 +19,4 @@
 6. Verification:
    - Full test suite passes via `pytest`.
    - All evaluation artifacts exist in `evals/results/`.
+

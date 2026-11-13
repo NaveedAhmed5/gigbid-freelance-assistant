@@ -23,3 +23,4 @@ Synthesize into typed Critique:
 - feedback: direct, actionable critique
 - requires_revision: boolean (true if either score < 3.8 or generic traps found)
 - suggested_improvements: concrete recommendations for revision
+

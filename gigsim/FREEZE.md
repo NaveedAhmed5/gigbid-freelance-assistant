@@ -7,3 +7,4 @@ Starter files inside `gigsim/`:
 - `gigsim/main.py`
 
 Any modification to these starter files will fail CI checks.
+

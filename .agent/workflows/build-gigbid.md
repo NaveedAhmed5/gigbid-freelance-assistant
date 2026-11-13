@@ -29,3 +29,4 @@ git commit -m "Completed Phase X"
 
 ## Step 6: Loop
 Repeat Steps 1-5 until all Phases 0 through 10 in `PROGRESS.md` are marked `[x]`.
+

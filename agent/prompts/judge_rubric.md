@@ -28,3 +28,4 @@ Return an overall weighted score between 1.0 and 5.0, dimension breakdown, and c
 - `GOOD` (3.5 <= Score < 4.2)
 - `ADEQUATE` (2.8 <= Score < 3.5)
 - `POOR` (Score < 2.8)
+

@@ -58,3 +58,4 @@ def test_typescript_api_client_exists():
     content = client_file.read_text(encoding="utf-8")
     assert "class GigBidClient" in content
     assert "submitApprovalDecision" in content
+

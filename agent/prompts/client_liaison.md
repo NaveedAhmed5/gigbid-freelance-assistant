@@ -25,3 +25,4 @@ Synthesize into typed LiaisonDraft:
 - response_draft: proposed message
 - calendar_hold_slot_ids: slot IDs tentatively proposed
 - requires_human_approval: boolean (always true for autonomous safeguards)
+

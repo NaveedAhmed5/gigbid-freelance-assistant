@@ -47,3 +47,4 @@ export default function DegradedModeBanner({ forcedDegraded = false }: DegradedM
     </div>
   );
 }
+

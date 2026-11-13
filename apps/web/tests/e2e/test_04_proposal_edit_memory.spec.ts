@@ -17,3 +17,4 @@ test.describe('Proposal Studio Edit & Style Memory Flow', () => {
     await expect(page.locator('text=Proposal approved and committed')).toBeVisible({ timeout: 5000 });
   });
 });
+

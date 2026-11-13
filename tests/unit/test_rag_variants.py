@@ -36,3 +36,4 @@ def test_rag_retriever_active_variant_from_config():
     # Outcomes in v4 should prioritize won/replied outcomes
     top_chunk, score = results[0]
     assert score > 0
+

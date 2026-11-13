@@ -25,3 +25,4 @@ Synthesize into typed PriceQuote:
 - connects_required: int
 - expected_roi_ratio: float
 - rationale: clear mathematical and strategic justification
+

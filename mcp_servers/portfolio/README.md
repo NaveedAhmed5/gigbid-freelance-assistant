@@ -35,3 +35,4 @@ Or configure in your MCP host (e.g. Claude Desktop / Antigravity MCP config):
   }
 }
 ```
+

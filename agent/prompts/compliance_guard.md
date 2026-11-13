@@ -21,3 +21,4 @@ Synthesize into typed ComplianceVerdict:
 - terms_checked: list of terms verified
 - can_submit: boolean (only true if is_compliant is true and violations is empty)
 - summary: compliance audit summary
+

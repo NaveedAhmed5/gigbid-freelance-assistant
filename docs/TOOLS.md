@@ -43,3 +43,4 @@ This document provides a comprehensive catalog of all tools exposed via GigBid M
 ### GitHub MCP Server (`https://api.github.com`)
 - **Trust Boundary:** Used strictly for read-only repository synchronization and code snippet extraction.
 - **Permissions:** Scoped to read-only `public_repo` permissions. Never requests write or administrative tokens.
+

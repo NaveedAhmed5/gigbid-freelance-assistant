@@ -34,3 +34,4 @@ def test_workspace_server_calendar_and_email():
     )
     assert draft["status"] == "DRAFT"
     assert "draft_id" in draft
+

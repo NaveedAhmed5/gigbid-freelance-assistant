@@ -42,3 +42,4 @@ where $\hat{p}_{pool} = \frac{x_A + x_B}{n_A + n_B}$.
 1. **The Cost of Generic Hooks:** Clients penalize boilerplate openings heavily. Removing generic greetings increases initial view-to-reply conversion by 2.38x.
 2. **Proof Points Drive Final Hiring:** Grounded metric proof points are the single strongest predictor of interview-to-hire conversion ($42.0\%$ hire rate vs $12.0\%$).
 3. **Connects Conservation:** By maintaining a high conversion rate, GigBid delivers a **931x Connects ROI Multiplier**, completely resolving freelance platform attrition.
+

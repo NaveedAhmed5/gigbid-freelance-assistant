@@ -21,3 +21,4 @@ Synthesize into typed FitReport:
 - primary_case_study_id: strongest single reference project
 - proof_points: specific metrics and architecture highlights to cite
 - fit_summary: concise technical alignment overview
+

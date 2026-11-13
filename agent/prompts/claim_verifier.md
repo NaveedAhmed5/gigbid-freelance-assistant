@@ -20,3 +20,4 @@ Given a draft proposal and verified evidence items from the candidate's portfoli
 1. Extract all atomic factual assertions.
 2. Tag each claim with `SUPPORTED`, `PARTLY_SUPPORTED`, or `UNSUPPORTED`.
 3. If unsupported claims exist, rewrite or omit them so that 100% of the revised draft is grounded in verified evidence.
+

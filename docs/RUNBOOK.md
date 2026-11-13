@@ -64,3 +64,4 @@ Outputs are written to `evals/results/*.json` and `*.csv`.
 ## 4. Troubleshooting & Degraded Mode
 - **Simulator / MCP Disconnect:** The system automatically enters **Degraded Mode**. A warning banner appears on the frontend, and proposal submissions are queued locally without consuming connects.
 - **Process Crash During Human Approval:** Because LangGraph state is durable, pending approvals are preserved. Once the backend restarts, fetching `/approvals` restores the exact state and resume thread.
+

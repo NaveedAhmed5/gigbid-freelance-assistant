@@ -18,3 +18,4 @@ We architected a custom LangGraph StateGraph featuring:
 ## Consequences
 - **Positive:** 100% compliance adherence, 45% reduction in token consumption (13.5k tokens vs 24.8k for ReAct), and deterministic execution flow.
 - **Negative:** Requires explicit graph topology definition and typed schemas upfront.
+

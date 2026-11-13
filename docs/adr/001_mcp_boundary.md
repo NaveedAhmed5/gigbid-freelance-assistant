@@ -13,3 +13,4 @@ We enforce a strict Model Context Protocol (MCP) boundary:
 ## Consequences
 - **Positive:** Guarantees auditability, prevents accidental double Connects spend, enables hot-swapping adapters (GigSim vs Upwork Live), and isolates agent execution.
 - **Negative:** Slight serialization overhead per tool call (mitigated by localized Python client dispatch).
+

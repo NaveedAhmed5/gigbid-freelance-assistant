@@ -22,3 +22,4 @@
 4. Wire `rag/retriever.py` to route queries to active variant in `agent/config.yaml`.
 5. Verification:
    - Run tests in `tests/unit/test_rag_variants.py`.
+

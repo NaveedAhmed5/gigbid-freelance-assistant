@@ -37,3 +37,4 @@ The GigBid dataset collection provides realistic, high-fidelity freelance biddin
 1. **No Personal PII:** All persona and client identities are synthetic.
 2. **Adversarial Injections:** Specific adversarial examples test agent resilience against indirect prompt injection and unauthorized connects consumption.
 3. **Immutability:** Once generated and verified, baseline simulator schemas are immutable.
+

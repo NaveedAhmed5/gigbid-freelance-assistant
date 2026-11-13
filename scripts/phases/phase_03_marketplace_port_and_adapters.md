@@ -15,3 +15,4 @@
    - Output `evals/results/rd_question_a.json` and `evals/results/rd_question_a.csv`.
 6. Verification:
    - Unit tests for client discipline and adapters in `tests/unit/test_marketplace_adapters.py`.
+
