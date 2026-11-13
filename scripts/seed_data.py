@@ -33,8 +33,16 @@ PERSONA_SPECS = {
         "title": "Senior AI / Machine Learning Engineer & LLM Specialist",
         "hourly_rate": 110.0,
         "primary_skills": [
-            "Python", "PyTorch", "LangChain", "LangGraph", "FastAPI",
-            "Vector Search", "Transformers", "RAG Systems", "vLLM", "Docker"
+            "Python",
+            "PyTorch",
+            "LangChain",
+            "LangGraph",
+            "FastAPI",
+            "Vector Search",
+            "Transformers",
+            "RAG Systems",
+            "vLLM",
+            "Docker",
         ],
         "domain": "AI/ML & LLM Engineering",
         "industries": ["Healthcare", "FinTech", "LegalTech", "E-Commerce", "SaaS"],
@@ -44,8 +52,16 @@ PERSONA_SPECS = {
         "title": "Staff Full-Stack & Cloud Systems Architect",
         "hourly_rate": 95.0,
         "primary_skills": [
-            "TypeScript", "React", "Next.js", "Node.js", "PostgreSQL",
-            "TailwindCSS", "GraphQL", "Docker", "AWS", "Redis"
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Node.js",
+            "PostgreSQL",
+            "TailwindCSS",
+            "GraphQL",
+            "Docker",
+            "AWS",
+            "Redis",
         ],
         "domain": "Web & Cloud Architecture",
         "industries": ["FinTech", "E-Commerce", "EdTech", "B2B SaaS", "Logistics"],
@@ -55,22 +71,31 @@ PERSONA_SPECS = {
         "title": "Lead Business Intelligence & Analytics Engineer",
         "hourly_rate": 85.0,
         "primary_skills": [
-            "SQL", "Python", "PowerBI", "Tableau", "dbt", "Snowflake",
-            "BigQuery", "Statistical Modeling", "A/B Testing", "Excel"
+            "SQL",
+            "Python",
+            "PowerBI",
+            "Tableau",
+            "dbt",
+            "Snowflake",
+            "BigQuery",
+            "Statistical Modeling",
+            "A/B Testing",
+            "Excel",
         ],
         "domain": "Data Analytics & BI",
         "industries": ["Retail", "FinTech", "Supply Chain", "Media", "Gaming"],
     },
 }
 
+
 def generate_cv(persona_key: str, spec: Dict[str, Any]) -> str:
     skills_str = ", ".join(spec["primary_skills"])
-    return f"""# Curriculum Vitae: {spec['name']}
-**{spec['title']}**
-*Hourly Rate:* ${spec['hourly_rate']}/hr | *Domain:* {spec['domain']}
+    return f"""# Curriculum Vitae: {spec["name"]}
+**{spec["title"]}**
+*Hourly Rate:* ${spec["hourly_rate"]}/hr | *Domain:* {spec["domain"]}
 
 ## Executive Summary
-Results-driven engineer with 8+ years of production experience delivering mission-critical systems across {', '.join(spec['industries'])}. Specializing in scalable enterprise architectures, rigorous data-driven evaluation, and low-latency delivery.
+Results-driven engineer with 8+ years of production experience delivering mission-critical systems across {", ".join(spec["industries"])}. Specializing in scalable enterprise architectures, rigorous data-driven evaluation, and low-latency delivery.
 
 ## Core Technical Proficiencies
 - **Primary Languages & Frameworks:** {skills_str}
@@ -86,25 +111,90 @@ Results-driven engineer with 8+ years of production experience delivering missio
 - Professional Cloud Solutions Architect Certification
 """
 
+
 def generate_case_studies(persona_key: str, spec: Dict[str, Any]) -> List[Dict[str, Any]]:
     case_studies = []
     projects = [
-        ("High-Throughput Enterprise Ingestion Engine", "Engineered scalable pipeline processing 50M events daily with sub-50ms latency.", 42.0),
-        ("Multi-Tenant Retrieval Augmentation System", "Architected hybrid lexical-dense search indexing 10M records with 94% recall.", 35.0),
-        ("Real-Time Fraud & Anomaly Detection Gateway", "Implemented streaming risk assessment flagging anomalous behaviors within 20ms.", 50.0),
-        ("Automated Compliance & Redaction Service", "Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.", 28.0),
-        ("Distributed Cache & Query Acceleration Layer", "Optimized database read latency by 65% utilizing multi-tiered Redis caching.", 65.0),
-        ("Dynamic Pricing & Revenue Optimization Model", "Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.", 14.8),
-        ("Low-Latency Microservice Orchestration Mesh", "Decoupled monolithic backend into resilient event-driven microservices.", 30.0),
-        ("Interactive Real-Time Analytics Dashboard", "Delivered responsive web analytics platform handling 100k concurrent active sessions.", 80.0),
-        ("Customer Churn & Lifetime Value Predictor", "Trained predictive ensemble model boosting retention campaign ROI by 3.2x.", 32.0),
-        ("Secure OAuth 2.1 & Tenant Isolation Gateway", "Constructed zero-trust authorization gateway supporting SSO and RBAC.", 40.0),
-        ("Multi-Modal Document Parsing Pipeline", "Automated extraction and classification of complex financial statements.", 91.0),
-        ("Continuous Evaluation & Regression Harness", "Created automated benchmark suite running synthetic test cases across builds.", 45.0),
-        ("Cloud Cost & Infrastructure Optimizer", "Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.", 38.0),
-        ("A/B Testing & Experimentation Framework", "Architected Bayesian statistical experimentation engine for conversion testing.", 22.0),
-        ("Zero-Downtime Database Migration Framework", "Migrated 2TB relational database across regions without customer disruption.", 100.0),
-        ("Adaptive Skill Knowledge Graph", "Constructed NetworkX knowledge graph mapping semantic dependencies across domains.", 75.0),
+        (
+            "High-Throughput Enterprise Ingestion Engine",
+            "Engineered scalable pipeline processing 50M events daily with sub-50ms latency.",
+            42.0,
+        ),
+        (
+            "Multi-Tenant Retrieval Augmentation System",
+            "Architected hybrid lexical-dense search indexing 10M records with 94% recall.",
+            35.0,
+        ),
+        (
+            "Real-Time Fraud & Anomaly Detection Gateway",
+            "Implemented streaming risk assessment flagging anomalous behaviors within 20ms.",
+            50.0,
+        ),
+        (
+            "Automated Compliance & Redaction Service",
+            "Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.",
+            28.0,
+        ),
+        (
+            "Distributed Cache & Query Acceleration Layer",
+            "Optimized database read latency by 65% utilizing multi-tiered Redis caching.",
+            65.0,
+        ),
+        (
+            "Dynamic Pricing & Revenue Optimization Model",
+            "Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.",
+            14.8,
+        ),
+        (
+            "Low-Latency Microservice Orchestration Mesh",
+            "Decoupled monolithic backend into resilient event-driven microservices.",
+            30.0,
+        ),
+        (
+            "Interactive Real-Time Analytics Dashboard",
+            "Delivered responsive web analytics platform handling 100k concurrent active sessions.",
+            80.0,
+        ),
+        (
+            "Customer Churn & Lifetime Value Predictor",
+            "Trained predictive ensemble model boosting retention campaign ROI by 3.2x.",
+            32.0,
+        ),
+        (
+            "Secure OAuth 2.1 & Tenant Isolation Gateway",
+            "Constructed zero-trust authorization gateway supporting SSO and RBAC.",
+            40.0,
+        ),
+        (
+            "Multi-Modal Document Parsing Pipeline",
+            "Automated extraction and classification of complex financial statements.",
+            91.0,
+        ),
+        (
+            "Continuous Evaluation & Regression Harness",
+            "Created automated benchmark suite running synthetic test cases across builds.",
+            45.0,
+        ),
+        (
+            "Cloud Cost & Infrastructure Optimizer",
+            "Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.",
+            38.0,
+        ),
+        (
+            "A/B Testing & Experimentation Framework",
+            "Architected Bayesian statistical experimentation engine for conversion testing.",
+            22.0,
+        ),
+        (
+            "Zero-Downtime Database Migration Framework",
+            "Migrated 2TB relational database across regions without customer disruption.",
+            100.0,
+        ),
+        (
+            "Adaptive Skill Knowledge Graph",
+            "Constructed NetworkX knowledge graph mapping semantic dependencies across domains.",
+            75.0,
+        ),
     ]
 
     for i, (title, summary, metric) in enumerate(projects, 1):
@@ -120,13 +210,13 @@ def generate_case_studies(persona_key: str, spec: Dict[str, Any]) -> List[Dict[s
             "summary": summary,
             "content": f"""# Case Study: {title}
 **Project ID:** {cs_id} | **Industry:** {industry} | **Role:** Lead Engineer
-**Key Technologies:** {', '.join(skills_used)}
+**Key Technologies:** {", ".join(skills_used)}
 
 ### Problem Statement
 The client experienced severe operational bottlenecks in their {industry.lower()} workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.
 
 ### Architecture & Technical Solution
-1. **Core Architecture:** Deployed a modern event-driven solution leveraging {', '.join(skills_used)}.
+1. **Core Architecture:** Deployed a modern event-driven solution leveraging {", ".join(skills_used)}.
 2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.
 3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.
 
@@ -134,21 +224,23 @@ The client experienced severe operational bottlenecks in their {industry.lower()
 - **Performance Impact:** {summary}
 - **Quantifiable ROI:** Demonstrated a {metric}% measurable efficiency improvement within 60 days of production deployment.
 - **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.
-"""
+""",
         }
         case_studies.append(cs)
     return case_studies
+
 
 def generate_github_repos(persona_key: str, spec: Dict[str, Any]) -> List[Dict[str, Any]]:
     repos = []
     repo_names = [
         f"{persona_key}-core-toolkit",
         f"{persona_key}-production-starter",
-        f"{persona_key}-benchmarking-suite"
+        f"{persona_key}-benchmarking-suite",
     ]
     for repo in repo_names:
         code_ext = "py" if persona_key in ("ai_ml_engineer", "data_analyst") else "ts"
-        code_sample = f"""# Production implementation for {repo}
+        code_sample = (
+            f"""# Production implementation for {repo}
 import time
 
 def process_pipeline(batch: list) -> dict:
@@ -159,7 +251,9 @@ def process_pipeline(batch: list) -> dict:
         "duration_ms": round((time.time() - start_time) * 1000, 2),
         "status": "success"
     }}
-""" if code_ext == "py" else f"""// Production implementation for {repo}
+"""
+            if code_ext == "py"
+            else f"""// Production implementation for {repo}
 export async function processPipeline<T>(batch: T[]): Promise<{{ processedCount: number; status: string }}> {{
   const validItems = batch.filter(Boolean);
   return {{
@@ -168,42 +262,63 @@ export async function processPipeline<T>(batch: T[]): Promise<{{ processedCount:
   }};
 }}
 """
-        repos.append({
-            "name": repo,
-            "readme": f"""# {repo}
-Official open-source repository maintained by {spec['name']}.
-Focuses on production-grade implementations in {spec['domain']}.
+        )
+        repos.append(
+            {
+                "name": repo,
+                "readme": f"""# {repo}
+Official open-source repository maintained by {spec["name"]}.
+Focuses on production-grade implementations in {spec["domain"]}.
 
 ## Features
 - Fully typed architecture with strict linting and tests.
 - High-concurrency support and benchmarked throughput.
 - Zero external vulnerable dependencies.
 """,
-            "code_sample": code_sample,
-            "language": "Python" if code_ext == "py" else "TypeScript"
-        })
+                "code_sample": code_sample,
+                "language": "Python" if code_ext == "py" else "TypeScript",
+            }
+        )
     return repos
+
 
 def generate_reviews(persona_key: str, spec: Dict[str, Any]) -> List[Dict[str, Any]]:
     reviews = []
     feedbacks = [
-        ("Exceptional technical rigor. Delivered ahead of schedule with flawless code quality.", 5.0),
-        ("Understood our enterprise requirements immediately. Great communication throughout.", 5.0),
-        ("Solved an architectural bottleneck our internal team had struggled with for months.", 4.9),
-        ("Very responsive and professional. The case studies and documentation were top-notch.", 5.0),
+        (
+            "Exceptional technical rigor. Delivered ahead of schedule with flawless code quality.",
+            5.0,
+        ),
+        (
+            "Understood our enterprise requirements immediately. Great communication throughout.",
+            5.0,
+        ),
+        (
+            "Solved an architectural bottleneck our internal team had struggled with for months.",
+            4.9,
+        ),
+        (
+            "Very responsive and professional. The case studies and documentation were top-notch.",
+            5.0,
+        ),
         ("Great engineering execution and domain expertise in our industry.", 4.8),
     ]
     for i, (comment, rating) in enumerate(feedbacks, 1):
-        reviews.append({
-            "review_id": f"rev_{persona_key}_{i}",
-            "client_name": f"Enterprise Client {chr(64 + i)}",
-            "rating": rating,
-            "comment": comment,
-            "date": f"2026-0{i % 9 + 1}-15"
-        })
+        reviews.append(
+            {
+                "review_id": f"rev_{persona_key}_{i}",
+                "client_name": f"Enterprise Client {chr(64 + i)}",
+                "rating": rating,
+                "comment": comment,
+                "date": f"2026-0{i % 9 + 1}-15",
+            }
+        )
     return reviews
 
-def generate_past_proposals(persona_key: str, spec: Dict[str, Any], case_studies: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+
+def generate_past_proposals(
+    persona_key: str, spec: Dict[str, Any], case_studies: List[Dict[str, Any]]
+) -> List[Dict[str, Any]]:
     proposals = []
     # 150 proposals: 40 won, 50 replied, 60 ignored
     outcomes = ["won"] * 40 + ["replied"] * 50 + ["ignored"] * 60
@@ -222,25 +337,28 @@ def generate_past_proposals(persona_key: str, spec: Dict[str, Any], case_studies
             opening = f"Hello! I saw your post regarding {cs['title']} and wanted to share direct experience using {', '.join(skills_subset)}."
             body = f"I've built similar systems in {industry} focusing on stability and throughput. What is your preferred timeline for the first deliverable?"
             closing = "Best regards, looking forward to discussing further."
-        else: # ignored
+        else:  # ignored
             opening = "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest."
             body = "I have extensive experience in all the required technologies and can do any task you need with 100% guarantee."
             closing = "Please let me know when we can start immediately."
 
-        proposals.append({
-            "id": f"prop_{persona_key}_{i:03d}",
-            "persona": persona_key,
-            "type": "fixed_price" if i % 2 == 0 else "hourly",
-            "project": cs["title"],
-            "case_study_id": cs["id"],
-            "skills": skills_subset,
-            "date": f"2026-0{(i % 11) + 1:02d}-10",
-            "client_industry": industry,
-            "outcome": outcome,
-            "cover_letter": f"{opening}\n\n{body}\n\n{closing}",
-            "bid_amount_usd": round(spec["hourly_rate"] * (20 if i % 2 == 0 else 1), 2)
-        })
+        proposals.append(
+            {
+                "id": f"prop_{persona_key}_{i:03d}",
+                "persona": persona_key,
+                "type": "fixed_price" if i % 2 == 0 else "hourly",
+                "project": cs["title"],
+                "case_study_id": cs["id"],
+                "skills": skills_subset,
+                "date": f"2026-0{(i % 11) + 1:02d}-10",
+                "client_industry": industry,
+                "outcome": outcome,
+                "cover_letter": f"{opening}\n\n{body}\n\n{closing}",
+                "bid_amount_usd": round(spec["hourly_rate"] * (20 if i % 2 == 0 else 1), 2),
+            }
+        )
     return proposals
+
 
 def generate_policy_pack() -> str:
     return """# Marketplace Compliance & Platform Policy Pack
@@ -266,6 +384,7 @@ Version: 2026.11 (Upwork Policy Alignment)
 - Autonomous systems must enforce human-in-the-loop review for final proposal submission.
 """
 
+
 def generate_job_streams(spec_personas: Dict[str, Any]) -> List[Dict[str, Any]]:
     jobs = []
     # Generate 1500 historical + live jobs
@@ -283,10 +402,14 @@ def generate_job_streams(spec_personas: Dict[str, Any]) -> List[Dict[str, Any]]:
         spec = spec_personas[p_key]
         job_type = "fixed_price" if i % 2 == 0 else "hourly"
         budget = round(random.uniform(500, 8000), -1) if job_type == "fixed_price" else None
-        hourly_range = [round(spec["hourly_rate"] * 0.8, 1), round(spec["hourly_rate"] * 1.25, 1)] if job_type == "hourly" else None
+        hourly_range = (
+            [round(spec["hourly_rate"] * 0.8, 1), round(spec["hourly_rate"] * 1.25, 1)]
+            if job_type == "hourly"
+            else None
+        )
 
-        is_scam = (i % 23 == 0)
-        has_injection = (i % 37 == 0)
+        is_scam = i % 23 == 0
+        has_injection = i % 37 == 0
         scam_reason = None
 
         title = f"Seeking Expert {spec['title'].split()[0]} for {spec['industries'][i % len(spec['industries'])]} Project"
@@ -301,30 +424,39 @@ def generate_job_streams(spec_personas: Dict[str, Any]) -> List[Dict[str, Any]]:
         if has_injection:
             desc += f"\n\n{injection_payloads[i % len(injection_payloads)]}"
 
-        jobs.append({
-            "id": f"job_{i:04d}",
-            "title": title,
-            "description": desc,
-            "client_id": f"client_{i % 80 + 1:03d}",
-            "category": spec["domain"],
-            "subcategory": spec["industries"][i % len(spec["industries"])],
-            "skills": skills,
-            "job_type": job_type,
-            "budget_usd": budget,
-            "hourly_rate_range": hourly_range,
-            "duration": "1 to 3 months",
-            "experience_level": "Expert" if i % 3 == 0 else "Intermediate",
-            "connects_required": 8 if (budget or 1000) > 2000 else 6,
-            "posted_at": f"2026-11-{(i % 28) + 1:02d}T10:00:00Z",
-            "is_active": True,
-            "is_scam": is_scam,
-            "has_injection": has_injection,
-            "scam_reason": scam_reason,
-            "screening_questions": [f"What experience do you have with {skills[0]} in production?"] if i % 4 == 0 else []
-        })
+        jobs.append(
+            {
+                "id": f"job_{i:04d}",
+                "title": title,
+                "description": desc,
+                "client_id": f"client_{i % 80 + 1:03d}",
+                "category": spec["domain"],
+                "subcategory": spec["industries"][i % len(spec["industries"])],
+                "skills": skills,
+                "job_type": job_type,
+                "budget_usd": budget,
+                "hourly_rate_range": hourly_range,
+                "duration": "1 to 3 months",
+                "experience_level": "Expert" if i % 3 == 0 else "Intermediate",
+                "connects_required": 8 if (budget or 1000) > 2000 else 6,
+                "posted_at": f"2026-11-{(i % 28) + 1:02d}T10:00:00Z",
+                "is_active": True,
+                "is_scam": is_scam,
+                "has_injection": has_injection,
+                "scam_reason": scam_reason,
+                "screening_questions": [
+                    f"What experience do you have with {skills[0]} in production?"
+                ]
+                if i % 4 == 0
+                else [],
+            }
+        )
     return jobs
 
-def generate_dev_set(jobs: List[Dict[str, Any]], spec_personas: Dict[str, Any]) -> List[Dict[str, Any]]:
+
+def generate_dev_set(
+    jobs: List[Dict[str, Any]], spec_personas: Dict[str, Any]
+) -> List[Dict[str, Any]]:
     # Select 60 high-quality dev jobs balanced across personas and edge cases
     dev_jobs = []
     selected = jobs[:60]
@@ -332,20 +464,23 @@ def generate_dev_set(jobs: List[Dict[str, Any]], spec_personas: Dict[str, Any]) 
         bid_or_skip = "SKIP" if (j["is_scam"] or j["has_injection"]) else "BID"
         price_band = [
             round((j["budget_usd"] or 1500) * 0.85, 2),
-            round((j["budget_usd"] or 1500) * 1.10, 2)
+            round((j["budget_usd"] or 1500) * 1.10, 2),
         ]
-        dev_jobs.append({
-            "job_id": j["id"],
-            "title": j["title"],
-            "description": j["description"],
-            "skills": j["skills"],
-            "is_scam": j["is_scam"],
-            "has_injection": j["has_injection"],
-            "gold_decision": bid_or_skip,
-            "gold_evidence_ids": ["cs_ai_ml_engineer_01", "cs_ai_ml_engineer_02"],
-            "fair_price_band": price_band,
-        })
+        dev_jobs.append(
+            {
+                "job_id": j["id"],
+                "title": j["title"],
+                "description": j["description"],
+                "skills": j["skills"],
+                "is_scam": j["is_scam"],
+                "has_injection": j["has_injection"],
+                "gold_decision": bid_or_skip,
+                "gold_evidence_ids": ["cs_ai_ml_engineer_01", "cs_ai_ml_engineer_02"],
+                "fair_price_band": price_band,
+            }
+        )
     return dev_jobs
+
 
 def main():
     print("Beginning GigBid Seed Data Generation...")
@@ -373,7 +508,9 @@ def main():
         case_studies = generate_case_studies(p_key, spec)
         for cs in case_studies:
             (cs_dir / f"{cs['id']}.md").write_text(cs["content"], encoding="utf-8")
-        (p_dir / "case_studies.json").write_text(json.dumps(case_studies, indent=2), encoding="utf-8")
+        (p_dir / "case_studies.json").write_text(
+            json.dumps(case_studies, indent=2), encoding="utf-8"
+        )
 
         # GitHub Repos
         repos = generate_github_repos(p_key, spec)
@@ -390,8 +527,12 @@ def main():
 
         # Past Proposals
         past_props = generate_past_proposals(p_key, spec, case_studies)
-        (p_dir / "past_proposals.json").write_text(json.dumps(past_props, indent=2), encoding="utf-8")
-        print(f"Generated complete persona corpus for {p_key}: 15+ case studies, repos, reviews, 150 proposals.")
+        (p_dir / "past_proposals.json").write_text(
+            json.dumps(past_props, indent=2), encoding="utf-8"
+        )
+        print(
+            f"Generated complete persona corpus for {p_key}: 15+ case studies, repos, reviews, 150 proposals."
+        )
 
     # 3. Policy Pack
     policy_md = generate_policy_pack()
@@ -409,6 +550,7 @@ def main():
     print(f"Generated gold dev set with {len(dev_set)} annotated evaluation items.")
 
     print("Data seeding completed successfully!")
+
 
 if __name__ == "__main__":
     main()

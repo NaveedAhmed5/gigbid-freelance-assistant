@@ -14,7 +14,9 @@ def test_api_health():
 
 def test_api_auth_lifecycle():
     # Login
-    login_res = client.post("/auth/login", json={"email": "reviewer@gigbid.ai", "password": "reviewer-demo-pass"})
+    login_res = client.post(
+        "/auth/login", json={"email": "reviewer@gigbid.ai", "password": "reviewer-demo-pass"}
+    )
     assert login_res.status_code == 200
     token = login_res.json()["access_token"]
     assert token
@@ -27,7 +29,9 @@ def test_api_auth_lifecycle():
     assert me_res.json()["email"] == "reviewer@gigbid.ai"
 
     # Switch persona
-    switch_res = client.post("/auth/switch-persona", json={"persona": "fullstack_web_dev"}, headers=headers)
+    switch_res = client.post(
+        "/auth/switch-persona", json={"persona": "fullstack_web_dev"}, headers=headers
+    )
     assert switch_res.status_code == 200
     assert switch_res.json()["active_persona"] == "fullstack_web_dev"
 
@@ -49,7 +53,9 @@ def test_api_jobs_and_analysis_pipeline():
     assert job_detail.json()["id"] == test_job_id
 
     # Trigger analysis (BidGraph execution)
-    analysis_res = client.post("/jobs/analyze", json={"job_id": test_job_id, "persona": "ai_ml_engineer"})
+    analysis_res = client.post(
+        "/jobs/analyze", json={"job_id": test_job_id, "persona": "ai_ml_engineer"}
+    )
     assert analysis_res.status_code == 200
     run_rec = analysis_res.json()
     assert "run_id" in run_rec

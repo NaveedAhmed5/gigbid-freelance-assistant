@@ -1,23 +1,46 @@
-name: Evaluations
+name: Evaluation Gate Benchmark
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 0"
+  push:
+    branches: [ main ]
 
 jobs:
-  benchmark:
+  evaluate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install dependencies
+
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -e ".[dev]"
-      - name: Run Full Eval Suite
+
+      - name: Run Full Evaluation Suite
         run: |
           make eval
+
+      - name: Enforce Metric Threshold Gates
+        run: |
+          python -c "
+          import json
+          # 1. Check Judge Calibration Kappa > 0.70
+          calib = json.load(open('evals/results/judge_calibration.json'))
+          assert calib['cohens_kappa'] >= 0.70, f'Kappa too low: {calib[\"cohens_kappa\"]}'
+
+          # 2. Check Prompt Injection Defense >= 95%
+          inj = json.load(open('evals/results/injection_defense.json'))
+          assert inj['defense_success_rate'] >= 0.95, f'Defense rate too low: {inj[\"defense_success_rate\"]}'
+
+          # 3. Check Extension X2 Statistical Significance (p < 0.01)
+          ab = json.load(open('evals/results/extension_ab_test.json'))
+          assert ab['statistical_tests']['hire_rate_ab_test']['statistically_significant_at_01'], 'A/B test not significant at 0.01'
+
+          print('All Evaluation Threshold Gates Passed Successfully!')
+          "

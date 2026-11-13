@@ -18,12 +18,14 @@ REQUIRED_DIRS = [
     "docs",
 ]
 
+
 def test_directory_layout_invariants():
     """Verify that all Rule 1 required directories exist."""
     root = Path(__file__).resolve().parents[2]
     for dir_rel in REQUIRED_DIRS:
         target = root / dir_rel
         assert target.exists() and target.is_dir(), f"Required directory missing: {dir_rel}"
+
 
 def test_agent_config_and_rule_3():
     """Verify agent configuration, budgets, profiles, and node model resolution."""
@@ -35,8 +37,16 @@ def test_agent_config_and_rule_3():
 
     # Check that each required agent node resolves dynamically
     nodes = [
-        "scout", "analyst", "risk", "matcher", "pricing",
-        "writer", "verifier", "critic", "compliance", "liaison"
+        "scout",
+        "analyst",
+        "risk",
+        "matcher",
+        "pricing",
+        "writer",
+        "verifier",
+        "critic",
+        "compliance",
+        "liaison",
     ]
     for n in nodes:
         open_model = config.resolve_model_for_node(n, profile_override="open")
@@ -49,6 +59,7 @@ def test_agent_config_and_rule_3():
     assert config.budgets.cost_budget_usd == 0.05
     assert config.active_rag_variant == "v4_outcome_aware"
     assert config.marketplace_adapter == "gigsim"
+
 
 def test_env_example_contains_all_keys():
     """Verify .env.example defines key auth and configuration secrets."""

@@ -50,7 +50,9 @@ def evaluate_style_promotion(candidate: MemoryCandidate) -> PromotionDecision:
     edit_words = edit.split()
 
     if len(edit_words) < len(orig_words) * 0.90:
-        rule_desc = "Human editor demonstrated preference for high conciseness; omit introductory fluff."
+        rule_desc = (
+            "Human editor demonstrated preference for high conciseness; omit introductory fluff."
+        )
     elif any(term in edit.lower() for term in ["architecture", "benchmark", "sub-50ms", "metrics"]):
         rule_desc = "Human editor emphasized quantitative architectural proof points."
     else:
@@ -82,11 +84,13 @@ def evaluate_outcome_promotion(candidate: MemoryCandidate) -> PromotionDecision:
         )
 
     industry = candidate.metadata.get("industry", "general")
-    winning_hook = candidate.original_text.split("\n\n")[0] if "\n\n" in candidate.original_text else candidate.original_text[:120]
-
-    promoted_rule = (
-        f"Winning pattern in {industry}: Hook '{winning_hook}' led to {candidate.outcome.upper()} status."
+    winning_hook = (
+        candidate.original_text.split("\n\n")[0]
+        if "\n\n" in candidate.original_text
+        else candidate.original_text[:120]
     )
+
+    promoted_rule = f"Winning pattern in {industry}: Hook '{winning_hook}' led to {candidate.outcome.upper()} status."
 
     return PromotionDecision(
         promoted=True,

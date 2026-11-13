@@ -12,10 +12,10 @@ Outputs:
 
 import json
 import math
-from pathlib import Path
 import random
 import sys
-from typing import Any, Dict, List
+from pathlib import Path
+from typing import Dict
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 if str(ROOT_DIR) not in sys.path:
@@ -70,7 +70,9 @@ def calculate_two_proportion_z_test(x1: int, n1: int, x2: int, n2: int) -> Dict[
 
 
 def main():
-    print(f"Running Signature Extension X2: A/B Testing in GigSim ({SAMPLE_SIZE_PER_VARIANT} jobs per variant)...")
+    print(
+        f"Running Signature Extension X2: A/B Testing in GigSim ({SAMPLE_SIZE_PER_VARIANT} jobs per variant)..."
+    )
 
     # Variant A (Baseline) Outcomes
     views_a = 58
@@ -84,8 +86,12 @@ def main():
     interviews_b = 51
     hires_b = 42
 
-    reply_test = calculate_two_proportion_z_test(replies_a, SAMPLE_SIZE_PER_VARIANT, replies_b, SAMPLE_SIZE_PER_VARIANT)
-    hire_test = calculate_two_proportion_z_test(hires_a, SAMPLE_SIZE_PER_VARIANT, hires_b, SAMPLE_SIZE_PER_VARIANT)
+    reply_test = calculate_two_proportion_z_test(
+        replies_a, SAMPLE_SIZE_PER_VARIANT, replies_b, SAMPLE_SIZE_PER_VARIANT
+    )
+    hire_test = calculate_two_proportion_z_test(
+        hires_a, SAMPLE_SIZE_PER_VARIANT, hires_b, SAMPLE_SIZE_PER_VARIANT
+    )
 
     experiment_report = {
         "experiment_name": "Signature Extension X2: Proposal A/B Testing in GigSim",
@@ -133,9 +139,13 @@ def main():
 
     out_file = RESULTS_DIR / "extension_ab_test.json"
     out_file.write_text(json.dumps(experiment_report, indent=2), encoding="utf-8")
-    print(f"Extension X2 A/B Testing complete!")
-    print(f"Reply Rate Lift: {reply_test['relative_lift_pct']}% (z={reply_test['z_statistic']}, p={reply_test['p_value']})")
-    print(f"Hire Rate Lift: {hire_test['relative_lift_pct']}% (z={hire_test['z_statistic']}, p={hire_test['p_value']})")
+    print("Extension X2 A/B Testing complete!")
+    print(
+        f"Reply Rate Lift: {reply_test['relative_lift_pct']}% (z={reply_test['z_statistic']}, p={reply_test['p_value']})"
+    )
+    print(
+        f"Hire Rate Lift: {hire_test['relative_lift_pct']}% (z={hire_test['z_statistic']}, p={hire_test['p_value']})"
+    )
     print(f"Results saved to: {out_file}")
 
 

@@ -30,6 +30,7 @@ from agent.state import BidGraphState, TraceStep
 # Graph Node Definitions
 # -----------------------------------------------------------------------------
 
+
 def node_analyst(state: BidGraphState) -> Dict[str, Any]:
     job_spec = analyst_node(state["raw_job_data"])
     step: TraceStep = {
@@ -75,7 +76,7 @@ def node_matcher(state: BidGraphState) -> Dict[str, Any]:
         "action_type": "RETRIEVE_EVIDENCE",
         "tokens_consumed": 620,
         "latency_ms": 160.0,
-        "output_summary": f"FitReport: Coverage={int(fit_report.coverage_score*100)}%, Evidence={fit_report.evidence_ids}",
+        "output_summary": f"FitReport: Coverage={int(fit_report.coverage_score * 100)}%, Evidence={fit_report.evidence_ids}",
     }
     return {
         "fit_report": fit_report,
@@ -147,7 +148,7 @@ def node_verifier(state: BidGraphState) -> Dict[str, Any]:
         "action_type": "VERIFY_GROUNDING",
         "tokens_consumed": 520,
         "latency_ms": 130.0,
-        "output_summary": f"Grounding verified: {int(verified_draft.grounding_ratio*100)}%",
+        "output_summary": f"Grounding verified: {int(verified_draft.grounding_ratio * 100)}%",
     }
     return {
         "proposal_draft": verified_draft,
@@ -214,7 +215,9 @@ def node_human_approval(state: BidGraphState) -> Dict[str, Any]:
     # Pause execution and yield state for human approval
     human_response = interrupt({"type": "APPROVAL_REQUIRED", "data": approval_payload})
 
-    is_approved = human_response.get("approved", False) if isinstance(human_response, dict) else False
+    is_approved = (
+        human_response.get("approved", False) if isinstance(human_response, dict) else False
+    )
 
     step: TraceStep = {
         "step_number": state.get("total_steps_executed", 0) + 1,
@@ -315,6 +318,7 @@ def node_needs_attention(state: BidGraphState) -> Dict[str, Any]:
 # Conditional Edge Routing Functions
 # -----------------------------------------------------------------------------
 
+
 def route_after_fanout(state: BidGraphState) -> str:
     config = load_agent_config()
     if state.get("total_tokens_used", 0) > config.budgets.max_tokens_per_thread:
@@ -351,6 +355,7 @@ def route_after_approval(state: BidGraphState) -> str:
 # Graph Construction & Compilation
 # -----------------------------------------------------------------------------
 
+
 def build_bid_graph(checkpointer: Optional[Any] = None) -> Any:
     workflow = StateGraph(BidGraphState)
 
@@ -374,23 +379,33 @@ def build_bid_graph(checkpointer: Optional[Any] = None) -> Any:
     workflow.add_edge("risk", "matcher")
 
     # Routing to pricing or budget overrun
-    workflow.add_conditional_edges("matcher", route_after_fanout, {"pricing": "pricing", "needs_attention": "needs_attention"})
+    workflow.add_conditional_edges(
+        "matcher", route_after_fanout, {"pricing": "pricing", "needs_attention": "needs_attention"}
+    )
 
     # Routing from pricing
-    workflow.add_conditional_edges("pricing", route_after_pricing, {"writer": "writer", "end_skipped": "end_skipped"})
+    workflow.add_conditional_edges(
+        "pricing", route_after_pricing, {"writer": "writer", "end_skipped": "end_skipped"}
+    )
 
     # Core Pipeline
     workflow.add_edge("writer", "verifier")
     workflow.add_edge("verifier", "critic")
 
     # Critic Loop or Advance
-    workflow.add_conditional_edges("critic", route_after_critic, {"writer": "writer", "compliance": "compliance"})
+    workflow.add_conditional_edges(
+        "critic", route_after_critic, {"writer": "writer", "compliance": "compliance"}
+    )
 
     # Compliance to Human Gate
     workflow.add_edge("compliance", "human_approval")
 
     # Human Gate to Submit Live or End
-    workflow.add_conditional_edges("human_approval", route_after_approval, {"submit_live": "submit_live", "end_skipped": "end_skipped"})
+    workflow.add_conditional_edges(
+        "human_approval",
+        route_after_approval,
+        {"submit_live": "submit_live", "end_skipped": "end_skipped"},
+    )
 
     workflow.add_edge("submit_live", END)
     workflow.add_edge("end_skipped", END)

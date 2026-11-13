@@ -16,7 +16,9 @@ class VariantV5MultiVector:
 
         for chunk, score in child_results:
             # Group by parent project / case study ID
-            parent_key = chunk.metadata.get("case_study_id") or chunk.metadata.get("repo") or chunk.chunk_id
+            parent_key = (
+                chunk.metadata.get("case_study_id") or chunk.metadata.get("repo") or chunk.chunk_id
+            )
             if parent_key not in parent_map:
                 parent_map[parent_key] = (chunk, score)
             else:

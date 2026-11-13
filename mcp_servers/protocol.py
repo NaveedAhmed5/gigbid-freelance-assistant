@@ -103,16 +103,16 @@ class BaseMCPServer:
         arguments: List[MCPPromptArgument],
         handler: Callable[..., str],
     ):
-        prompt_def = MCPPromptDefinition(
-            name=name, description=description, arguments=arguments
-        )
+        prompt_def = MCPPromptDefinition(name=name, description=description, arguments=arguments)
         self.prompts[name] = prompt_def
         self.prompt_handlers[name] = handler
 
     def list_tools(self) -> List[Dict[str, Any]]:
         return [t.model_dump() for t in self.tools.values()]
 
-    def call_tool(self, tool_name: str, arguments: Dict[str, Any], context: Optional[Dict[str, Any]] = None) -> Any:
+    def call_tool(
+        self, tool_name: str, arguments: Dict[str, Any], context: Optional[Dict[str, Any]] = None
+    ) -> Any:
         if tool_name not in self.tool_handlers:
             raise KeyError(f"Tool '{tool_name}' not registered on server '{self.name}'.")
         handler = self.tool_handlers[tool_name]
@@ -136,7 +136,9 @@ class BaseMCPServer:
             raise KeyError(f"Prompt '{name}' not registered on server '{self.name}'.")
         return self.prompt_handlers[name](**arguments)
 
-    def handle_mcp_message(self, request_data: Dict[str, Any], context: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+    def handle_mcp_message(
+        self, request_data: Dict[str, Any], context: Optional[Dict[str, Any]] = None
+    ) -> Dict[str, Any]:
         """Dispatch JSON-RPC message."""
         method = request_data.get("method")
         params = request_data.get("params", {})
@@ -155,7 +157,10 @@ class BaseMCPServer:
                 name = params.get("name")
                 args = params.get("arguments", {})
                 tool_result = self.call_tool(name, args, context=context)
-                res = {"content": [{"type": "text", "text": str(tool_result)}], "result": tool_result}
+                res = {
+                    "content": [{"type": "text", "text": str(tool_result)}],
+                    "result": tool_result,
+                }
             elif method == "resources/list":
                 res = {"resources": self.list_resources()}
             elif method == "resources/read":
@@ -168,7 +173,12 @@ class BaseMCPServer:
                 name = params.get("name")
                 args = params.get("arguments", {})
                 prompt_text = self.get_prompt(name, args)
-                res = {"description": name, "messages": [{"role": "user", "content": {"type": "text", "text": prompt_text}}]}
+                res = {
+                    "description": name,
+                    "messages": [
+                        {"role": "user", "content": {"type": "text", "text": prompt_text}}
+                    ],
+                }
             else:
                 return {
                     "jsonrpc": "2.0",

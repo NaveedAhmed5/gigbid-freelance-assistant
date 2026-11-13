@@ -44,9 +44,7 @@ class GigSimEngine:
 
     def get_or_create_connects(self, freelancer_id: str) -> ConnectsBalance:
         if freelancer_id not in self.connects:
-            self.connects[freelancer_id] = ConnectsBalance(
-                freelancer_id=freelancer_id, balance=150
-            )
+            self.connects[freelancer_id] = ConnectsBalance(freelancer_id=freelancer_id, balance=150)
         return self.connects[freelancer_id]
 
     def add_job(self, job: JobPosting):
@@ -73,25 +71,17 @@ class GigSimEngine:
             results = [j for j in results if j.category.lower() == category.lower()]
         if skills:
             skill_set = {s.lower() for s in skills}
-            results = [
-                j for j in results if any(s.lower() in skill_set for s in j.skills)
-            ]
+            results = [j for j in results if any(s.lower() in skill_set for s in j.skills)]
         if query:
             q = query.lower()
-            results = [
-                j
-                for j in results
-                if q in j.title.lower() or q in j.description.lower()
-            ]
+            results = [j for j in results if q in j.title.lower() or q in j.description.lower()]
         # Attach client profiles
         for j in results:
             if j.client_id in self.clients:
                 j.client = self.clients[j.client_id]
         return results[offset : offset + limit]
 
-    def evaluate_proposal(
-        self, proposal: ProposalSubmission
-    ) -> ClientEvaluationResult:
+    def evaluate_proposal(self, proposal: ProposalSubmission) -> ClientEvaluationResult:
         """Deterministic simulated client evaluation of a proposal submission."""
         job = self.jobs.get(proposal.job_id)
         if not job:
@@ -121,7 +111,9 @@ class GigSimEngine:
             ratio = proposal.bid_amount_usd / job.budget_usd
             if ratio > 1.25:
                 score -= 0.25
-                reasons.append(f"Bid exceeds client budget (${proposal.bid_amount_usd} vs ${job.budget_usd}).")
+                reasons.append(
+                    f"Bid exceeds client budget (${proposal.bid_amount_usd} vs ${job.budget_usd})."
+                )
             elif 0.8 <= ratio <= 1.05:
                 score += 0.15
                 reasons.append("Bid aligns closely with client target budget.")
@@ -132,19 +124,22 @@ class GigSimEngine:
         # Check skill mentions
         req_skills = job.skills
         if req_skills:
-            matched_skills = [
-                s for s in req_skills if s.lower() in lower_cover
-            ]
+            matched_skills = [s for s in req_skills if s.lower() in lower_cover]
             coverage = len(matched_skills) / len(req_skills)
             score += coverage * 0.30
             if coverage >= 0.7:
-                reasons.append(f"Strong skill alignment ({len(matched_skills)}/{len(req_skills)} skills addressed).")
+                reasons.append(
+                    f"Strong skill alignment ({len(matched_skills)}/{len(req_skills)} skills addressed)."
+                )
             else:
-                reasons.append(f"Weak skill alignment ({len(matched_skills)}/{len(req_skills)} skills addressed).")
+                reasons.append(
+                    f"Weak skill alignment ({len(matched_skills)}/{len(req_skills)} skills addressed)."
+                )
 
         # Check for evidence markers (metrics, numbers, percentages, architectures)
         has_evidence_markers = any(
-            char.isdigit() or sym in lower_cover for sym in ["%", "$", "latency", "benchmark", "accuracy", "roi"]
+            char.isdigit() or sym in lower_cover
+            for sym in ["%", "$", "latency", "benchmark", "accuracy", "roi"]
             for char in lower_cover
         )
         if has_evidence_markers:

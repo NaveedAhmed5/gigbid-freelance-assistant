@@ -47,7 +47,7 @@ def simulate_task_execution(paradigm: str, task_idx: int) -> Dict[str, Any]:
         # Less resilient when inputs don't conform to rigid all-in-one schema
         had_failure = random.random() < 0.20
         recovered = False  # coarse tool cannot self-heal or inspect intermediate state
-        success = (not had_failure)
+        success = not had_failure
         recovery_rate = 0.0
 
     else:  # task_optimized (compound context-aware tools)
@@ -118,22 +118,35 @@ def main():
     csv_path = RESULTS_DIR / "rd_question_a.csv"
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["paradigm", "success_rate", "avg_steps", "avg_tokens", "avg_latency_ms", "error_recovery_rate"])
+        writer.writerow(
+            [
+                "paradigm",
+                "success_rate",
+                "avg_steps",
+                "avg_tokens",
+                "avg_latency_ms",
+                "error_recovery_rate",
+            ]
+        )
         for p, stats in aggregates.items():
-            writer.writerow([
-                p,
-                stats["success_rate"],
-                stats["avg_steps"],
-                stats["avg_tokens"],
-                stats["avg_latency_ms"],
-                stats["error_recovery_rate"],
-            ])
+            writer.writerow(
+                [
+                    p,
+                    stats["success_rate"],
+                    stats["avg_steps"],
+                    stats["avg_tokens"],
+                    stats["avg_latency_ms"],
+                    stats["error_recovery_rate"],
+                ]
+            )
 
     print("R&D Question A evaluation finished successfully!")
     print(f"Results saved to:\n- {json_path}\n- {csv_path}")
     print("\nSummary Results:")
     for p, stats in aggregates.items():
-        print(f"  [{p.upper()}]: Success Rate={stats['success_rate']*100:.1f}%, Tokens={stats['avg_tokens']}, Latency={stats['avg_latency_ms']}ms, Recovery={stats['error_recovery_rate']*100:.1f}%")
+        print(
+            f"  [{p.upper()}]: Success Rate={stats['success_rate'] * 100:.1f}%, Tokens={stats['avg_tokens']}, Latency={stats['avg_latency_ms']}ms, Recovery={stats['error_recovery_rate'] * 100:.1f}%"
+        )
 
 
 if __name__ == "__main__":

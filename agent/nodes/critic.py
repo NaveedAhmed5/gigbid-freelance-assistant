@@ -14,20 +14,31 @@ def critic_node(draft: ProposalDraft) -> Critique:
     feedback_points = []
 
     # Check for generic openings
-    has_generic = any(gen in text[:120] for gen in ["dear hiring manager", "i am the perfect fit", "i am writing to apply"])
+    has_generic = any(
+        gen in text[:120]
+        for gen in ["dear hiring manager", "i am the perfect fit", "i am writing to apply"]
+    )
     if has_generic:
-        feedback_points.append("Opening contains generic template language. Replace immediately with client's core problem.")
+        feedback_points.append(
+            "Opening contains generic template language. Replace immediately with client's core problem."
+        )
 
     has_metrics = "%" in text or "latency" in text or "roi" in text
     if not has_metrics:
-        feedback_points.append("Lacks quantified proof points. Introduce concrete metrics from case study.")
+        feedback_points.append(
+            "Lacks quantified proof points. Introduce concrete metrics from case study."
+        )
 
     client_focus_score = 4.8 if not has_generic else 2.5
     clarity_score = 4.7 if has_metrics else 3.2
 
     requires_revision = (has_generic or not has_metrics) and (draft.iteration_count < 2)
 
-    feedback = "Draft is sharply tailored with verifiable proof points." if not requires_revision else " | ".join(feedback_points)
+    feedback = (
+        "Draft is sharply tailored with verifiable proof points."
+        if not requires_revision
+        else " | ".join(feedback_points)
+    )
 
     return Critique(
         client_focus_score=client_focus_score,

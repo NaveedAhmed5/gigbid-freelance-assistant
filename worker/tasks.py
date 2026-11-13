@@ -12,7 +12,9 @@ class BackgroundWorker:
         self.processed_job_ids: set = set()
         self.api_state = get_api_state()
 
-    def scout_and_ingest_new_jobs(self, limit: int = 10, persona: str = "ai_ml_engineer") -> List[Dict[str, Any]]:
+    def scout_and_ingest_new_jobs(
+        self, limit: int = 10, persona: str = "ai_ml_engineer"
+    ) -> List[Dict[str, Any]]:
         """Scout marketplace for unseen jobs and trigger autonomous analysis."""
         client = get_mcp_client()
         jobs = client.call_tool("scout", "search_jobs", {"limit": limit})

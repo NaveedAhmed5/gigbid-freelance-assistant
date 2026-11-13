@@ -12,6 +12,8 @@ class VariantV6Contextual:
 
     def retrieve(self, query: str, k: int = 5) -> List[Tuple[DocumentChunk, float]]:
         # Contextualized query expansion prepending candidate domain priors
-        contextual_query = f"Domain Context: Enterprise freelance technical project. Requirements: {query}"
+        contextual_query = (
+            f"Domain Context: Enterprise freelance technical project. Requirements: {query}"
+        )
         results = self.dense_index.search(contextual_query, k=k)
         return [(c, round(score * 1.1, 4)) for c, score in results]

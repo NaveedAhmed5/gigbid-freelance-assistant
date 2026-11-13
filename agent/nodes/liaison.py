@@ -6,7 +6,11 @@ from agent.mcp_client import get_mcp_client
 from agent.prompts import load_prompt
 
 
-def liaison_node(incoming_message: str, job_title: str = "Enterprise Architecture", persona: str = "ai_ml_engineer") -> LiaisonDraft:
+def liaison_node(
+    incoming_message: str,
+    job_title: str = "Enterprise Architecture",
+    persona: str = "ai_ml_engineer",
+) -> LiaisonDraft:
     config = load_agent_config()
     config.resolve_model_for_node("liaison")
     load_prompt("client_liaison.md")
@@ -14,7 +18,9 @@ def liaison_node(incoming_message: str, job_title: str = "Enterprise Architectur
     mcp = get_mcp_client()
 
     # Call allowed MCP tool get_free_calendar_slots
-    free_slots = mcp.call_tool("liaison", "get_free_calendar_slots", {"days_ahead": 3, "duration_minutes": 30})
+    free_slots = mcp.call_tool(
+        "liaison", "get_free_calendar_slots", {"days_ahead": 3, "duration_minutes": 30}
+    )
 
     lower_msg = incoming_message.lower()
     proposed_hold_ids = []
@@ -40,7 +46,9 @@ def liaison_node(incoming_message: str, job_title: str = "Enterprise Architectur
                 f"I have tentatively held {first_slot['start_time']} UTC. Does that time work for your team?"
             )
         else:
-            response_text = "I would be delighted to connect. What times this week work best on your calendar?"
+            response_text = (
+                "I would be delighted to connect. What times this week work best on your calendar?"
+            )
     elif "rate" in lower_msg or "budget" in lower_msg:
         intent = "rate_negotiation"
         response_text = (

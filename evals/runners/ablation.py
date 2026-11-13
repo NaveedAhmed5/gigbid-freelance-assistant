@@ -85,29 +85,33 @@ def main():
     csv_path = RESULTS_DIR / "ablation_results.csv"
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow([
-            "configuration",
-            "description",
-            "recall_at_5",
-            "judge_score",
-            "unsupported_claims_per_proposal",
-            "gigsim_reply_rate",
-            "gigsim_hire_rate",
-            "avg_tokens",
-            "latency_sec",
-        ])
+        writer.writerow(
+            [
+                "configuration",
+                "description",
+                "recall_at_5",
+                "judge_score",
+                "unsupported_claims_per_proposal",
+                "gigsim_reply_rate",
+                "gigsim_hire_rate",
+                "avg_tokens",
+                "latency_sec",
+            ]
+        )
         for key, row in ABLATION_CONFIGS.items():
-            writer.writerow([
-                key,
-                row["description"],
-                row["recall_at_5"],
-                row["judge_score"],
-                row["unsupported_claims_per_proposal"],
-                row["gigsim_reply_rate"],
-                row["gigsim_hire_rate"],
-                row["avg_tokens"],
-                row["latency_sec"],
-            ])
+            writer.writerow(
+                [
+                    key,
+                    row["description"],
+                    row["recall_at_5"],
+                    row["judge_score"],
+                    row["unsupported_claims_per_proposal"],
+                    row["gigsim_reply_rate"],
+                    row["gigsim_hire_rate"],
+                    row["avg_tokens"],
+                    row["latency_sec"],
+                ]
+            )
 
     print("Ablation study completed!")
     print(f"Results saved to:\n- {json_path}\n- {csv_path}")

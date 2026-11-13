@@ -62,7 +62,9 @@ class AgentMemoryStore:
         self._save()
         return decision.promoted_key
 
-    def retrieve_memory_context(self, industry: Optional[str] = None, skills: Optional[List[str]] = None) -> str:
+    def retrieve_memory_context(
+        self, industry: Optional[str] = None, skills: Optional[List[str]] = None
+    ) -> str:
         """Retrieve relevant style and outcome memories formatted as context for prompt injection."""
         lines = []
 

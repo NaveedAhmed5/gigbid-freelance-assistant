@@ -22,23 +22,27 @@ async def event_generator(run_id: str) -> AsyncGenerator[str, None]:
 
     # Stream out existing recorded trace steps
     for step in run.get("trace_steps", []):
-        yield json.dumps({
-            "event": "node_execution",
-            "run_id": run_id,
-            "node": step["node_name"],
-            "action": step["action_type"],
-            "tokens": step["tokens_consumed"],
-            "latency_ms": step["latency_ms"],
-            "summary": step["output_summary"],
-        })
+        yield json.dumps(
+            {
+                "event": "node_execution",
+                "run_id": run_id,
+                "node": step["node_name"],
+                "action": step["action_type"],
+                "tokens": step["tokens_consumed"],
+                "latency_ms": step["latency_ms"],
+                "summary": step["output_summary"],
+            }
+        )
         await asyncio.sleep(0.05)
 
     # Final event
-    yield json.dumps({
-        "event": "run_completed",
-        "run_id": run_id,
-        "status": run.get("status", "COMPLETED"),
-    })
+    yield json.dumps(
+        {
+            "event": "run_completed",
+            "run_id": run_id,
+            "status": run.get("status", "COMPLETED"),
+        }
+    )
 
 
 @router.get("/{run_id}")

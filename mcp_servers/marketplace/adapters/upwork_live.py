@@ -56,24 +56,32 @@ class UpworkLiveAdapter(MarketplacePort):
         try:
             resp = self.client.post(
                 self.endpoint_url,
-                json={"method": "tools/call", "params": {"name": "search_jobs", "arguments": {"query": query, "limit": limit}}},
+                json={
+                    "method": "tools/call",
+                    "params": {
+                        "name": "search_jobs",
+                        "arguments": {"query": query, "limit": limit},
+                    },
+                },
                 headers=self._get_auth_headers(),
             )
             if resp.status_code == 200:
                 return resp.json().get("result", [])
         except Exception:
             pass
-        return [{
-            "id": "live_upwork_job_001",
-            "title": f"Live Upwork Project: {query or 'Engineering Specialist'}",
-            "description": "Enterprise cloud infrastructure engineering role posted on Upwork Live.",
-            "category": category or "AI/ML",
-            "skills": ["Python", "FastAPI", "Docker"],
-            "job_type": "fixed_price",
-            "budget_usd": 4000.0,
-            "posted_at": "2026-11-13T12:00:00Z",
-            "connects_required": 16,
-        }]
+        return [
+            {
+                "id": "live_upwork_job_001",
+                "title": f"Live Upwork Project: {query or 'Engineering Specialist'}",
+                "description": "Enterprise cloud infrastructure engineering role posted on Upwork Live.",
+                "category": category or "AI/ML",
+                "skills": ["Python", "FastAPI", "Docker"],
+                "job_type": "fixed_price",
+                "budget_usd": 4000.0,
+                "posted_at": "2026-11-13T12:00:00Z",
+                "connects_required": 16,
+            }
+        ]
 
     def get_job(self, job_id: str) -> Dict[str, Any]:
         return {
@@ -139,7 +147,9 @@ class UpworkLiveAdapter(MarketplacePort):
                 estimated_duration=estimated_duration,
                 screening_answers=screening_answers,
             )
-            draft["notice"] = "UpworkLiveAdapter: Enforced draft-only safety. Live submission converted to safe draft."
+            draft["notice"] = (
+                "UpworkLiveAdapter: Enforced draft-only safety. Live submission converted to safe draft."
+            )
             return draft
 
         return {

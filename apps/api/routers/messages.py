@@ -25,7 +25,9 @@ def list_threads(current_user: dict = Depends(get_current_user)) -> List[Dict[st
 
 
 @router.get("/{thread_id}")
-def get_thread_messages(thread_id: str, current_user: dict = Depends(get_current_user)) -> List[Dict[str, Any]]:
+def get_thread_messages(
+    thread_id: str, current_user: dict = Depends(get_current_user)
+) -> List[Dict[str, Any]]:
     return [
         {
             "id": "msg_001",
@@ -37,7 +39,9 @@ def get_thread_messages(thread_id: str, current_user: dict = Depends(get_current
 
 
 @router.post("/send")
-def send_message(req: MessageSendRequest, current_user: dict = Depends(get_current_user)) -> Dict[str, Any]:
+def send_message(
+    req: MessageSendRequest, current_user: dict = Depends(get_current_user)
+) -> Dict[str, Any]:
     state = get_api_state()
     msg_record = {
         "thread_id": req.thread_id,

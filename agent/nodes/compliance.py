@@ -14,7 +14,15 @@ def compliance_node(draft: ProposalDraft) -> ComplianceVerdict:
     violations = []
 
     # 1. Check off-platform contact
-    banned_contacts = ["telegram", "whatsapp", "@gmail.com", "@yahoo.com", "discord", "skype", "calendly.com"]
+    banned_contacts = [
+        "telegram",
+        "whatsapp",
+        "@gmail.com",
+        "@yahoo.com",
+        "discord",
+        "skype",
+        "calendly.com",
+    ]
     for bc in banned_contacts:
         if bc in text:
             violations.append(f"Contains pre-contract external contact information: '{bc}'")
@@ -42,7 +50,12 @@ def compliance_node(draft: ProposalDraft) -> ComplianceVerdict:
         is_compliant=is_compliant,
         violations=violations,
         nov_2_policy_verified=True,
-        terms_checked=["contact_pre_contract", "off_platform_payment", "truthful_advertising", "no_free_work"],
+        terms_checked=[
+            "contact_pre_contract",
+            "off_platform_payment",
+            "truthful_advertising",
+            "no_free_work",
+        ],
         can_submit=can_submit,
         summary=summary,
     )

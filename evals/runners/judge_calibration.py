@@ -19,19 +19,44 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 random.seed(42)
 
 # 30 Human labeled proposal evaluation cases
-HUMAN_GOLD_CASES = [
-    # 1-10: Excellent proposals
-    {"id": f"calib_{i:02d}", "category": "EXCELLENT", "gold_score": 4.8, "has_proof": True, "has_generic": False, "compliant": True}
-    for i in range(1, 11)
-] + [
-    # 11-20: Good / Adequate proposals
-    {"id": f"calib_{i:02d}", "category": "GOOD", "gold_score": 3.8, "has_proof": False, "has_generic": False, "compliant": True}
-    for i in range(11, 21)
-] + [
-    # 21-30: Poor proposals (generic openings or policy violations)
-    {"id": f"calib_{i:02d}", "category": "POOR", "gold_score": 2.1, "has_proof": False, "has_generic": True, "compliant": False}
-    for i in range(21, 31)
-]
+HUMAN_GOLD_CASES = (
+    [
+        # 1-10: Excellent proposals
+        {
+            "id": f"calib_{i:02d}",
+            "category": "EXCELLENT",
+            "gold_score": 4.8,
+            "has_proof": True,
+            "has_generic": False,
+            "compliant": True,
+        }
+        for i in range(1, 11)
+    ]
+    + [
+        # 11-20: Good / Adequate proposals
+        {
+            "id": f"calib_{i:02d}",
+            "category": "GOOD",
+            "gold_score": 3.8,
+            "has_proof": False,
+            "has_generic": False,
+            "compliant": True,
+        }
+        for i in range(11, 21)
+    ]
+    + [
+        # 21-30: Poor proposals (generic openings or policy violations)
+        {
+            "id": f"calib_{i:02d}",
+            "category": "POOR",
+            "gold_score": 2.1,
+            "has_proof": False,
+            "has_generic": True,
+            "compliant": False,
+        }
+        for i in range(21, 31)
+    ]
+)
 
 
 def simulate_llm_judge(case: Dict[str, Any], rubric_prompt: str) -> Dict[str, Any]:
@@ -77,17 +102,21 @@ def main():
         human_labels.append(case["category"])
         judge_labels.append(eval_out["predicted_category"])
 
-        case_records.append({
-            "case_id": case["id"],
-            "human_category": case["category"],
-            "human_score": case["gold_score"],
-            "judge_predicted_category": eval_out["predicted_category"],
-            "judge_score": eval_out["judge_score"],
-        })
+        case_records.append(
+            {
+                "case_id": case["id"],
+                "human_category": case["category"],
+                "human_score": case["gold_score"],
+                "judge_predicted_category": eval_out["predicted_category"],
+                "judge_score": eval_out["judge_score"],
+            }
+        )
 
     # Compute Cohen's Kappa
     kappa = cohen_kappa_score(human_labels, judge_labels)
-    agreement_accuracy = sum(1 for h, j in zip(human_labels, judge_labels) if h == j) / len(human_labels)
+    agreement_accuracy = sum(1 for h, j in zip(human_labels, judge_labels) if h == j) / len(
+        human_labels
+    )
 
     result_payload = {
         "benchmark": "LLM Judge Calibration",
@@ -100,7 +129,9 @@ def main():
 
     out_file = RESULTS_DIR / "judge_calibration.json"
     out_file.write_text(json.dumps(result_payload, indent=2), encoding="utf-8")
-    print(f"Calibration completed! Cohen's Kappa: {kappa:.4f} (Accuracy: {agreement_accuracy*100:.1f}%)")
+    print(
+        f"Calibration completed! Cohen's Kappa: {kappa:.4f} (Accuracy: {agreement_accuracy * 100:.1f}%)"
+    )
     print(f"Results saved to: {out_file}")
 
 

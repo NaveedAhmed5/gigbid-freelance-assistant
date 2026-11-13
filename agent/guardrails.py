@@ -1,12 +1,16 @@
 """GigBid Safety Guardrails: PII Redaction and Prompt Injection Defense."""
 
 import re
-from typing import Any, Dict, List, Tuple
+from typing import List, Tuple
 
 EMAIL_REGEX = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b")
 PHONE_REGEX = re.compile(r"\b(?:\+?\d{1,3}[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}\b")
-CRYPTO_REGEX = re.compile(r"\b(?:0x[a-fA-F0-9]{40}|[13][a-km-zA-HJ-NP-Z1-9]{25,34}|T[A-Za-z1-9]{33})\b")
-PAYMENT_ID_REGEX = re.compile(r"\b(?:paypal\.me\/[A-Za-z0-9_-]+|\$cashapp\/[A-Za-z0-9_-]+)\b", re.IGNORECASE)
+CRYPTO_REGEX = re.compile(
+    r"\b(?:0x[a-fA-F0-9]{40}|[13][a-km-zA-HJ-NP-Z1-9]{25,34}|T[A-Za-z1-9]{33})\b"
+)
+PAYMENT_ID_REGEX = re.compile(
+    r"\b(?:paypal\.me\/[A-Za-z0-9_-]+|\$cashapp\/[A-Za-z0-9_-]+)\b", re.IGNORECASE
+)
 
 INJECTION_PATTERNS = [
     r"ignore\s+(all\s+)?prior\s+instructions",
@@ -29,7 +33,9 @@ def redact_pii(text: str) -> str:
     return masked
 
 
-def sanitize_untrusted_input(raw_input: str, source_tag: str = "untrusted_marketplace_input") -> str:
+def sanitize_untrusted_input(
+    raw_input: str, source_tag: str = "untrusted_marketplace_input"
+) -> str:
     """Encapsulate untrusted external text in XML delimiter blocks with instruction barriers."""
     cleaned = redact_pii(raw_input)
     return (

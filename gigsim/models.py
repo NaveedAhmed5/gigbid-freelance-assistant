@@ -64,9 +64,7 @@ class ProposalSubmission(BaseModel):
     estimated_duration: str
     screening_answers: Dict[str, str] = Field(default_factory=dict)
     attachments: List[str] = Field(default_factory=list)
-    submitted_at: str = Field(
-        default_factory=lambda: datetime.now(timezone.utc).isoformat()
-    )
+    submitted_at: str = Field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
     status: str = "SUBMITTED"  # SUBMITTED, VIEWED, REPLIED, INTERVIEW, HIRED, REJECTED
     client_feedback: Optional[str] = None
     connects_spent: int = 8
@@ -78,18 +76,14 @@ class Message(BaseModel):
     sender_id: str  # freelancer_id or client_id
     recipient_id: str
     text: str
-    sent_at: str = Field(
-        default_factory=lambda: datetime.now(timezone.utc).isoformat()
-    )
+    sent_at: str = Field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
     is_read: bool = False
 
 
 class ConnectsBalance(BaseModel):
     freelancer_id: str
     balance: int = 120
-    last_updated: str = Field(
-        default_factory=lambda: datetime.now(timezone.utc).isoformat()
-    )
+    last_updated: str = Field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
 
 class ClientEvaluationResult(BaseModel):

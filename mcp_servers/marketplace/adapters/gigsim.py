@@ -14,7 +14,9 @@ class GigSimAdapter(MarketplacePort):
     def search_jobs(
         self, query: Optional[str] = None, category: Optional[str] = None, limit: int = 20
     ) -> List[Dict[str, Any]]:
-        return self._server.call_tool("search_jobs", {"query": query, "category": category, "limit": limit})
+        return self._server.call_tool(
+            "search_jobs", {"query": query, "category": category, "limit": limit}
+        )
 
     def get_job(self, job_id: str) -> Dict[str, Any]:
         return self._server.call_tool("get_job", {"job_id": job_id})

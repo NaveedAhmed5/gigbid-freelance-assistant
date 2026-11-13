@@ -9,14 +9,19 @@ from agent.prompts import load_prompt
 
 
 def pricing_node(
-    job_spec: JobSpec, fit_report: FitReport, risk_report: RiskReport, persona: str = "ai_ml_engineer"
+    job_spec: JobSpec,
+    fit_report: FitReport,
+    risk_report: RiskReport,
+    persona: str = "ai_ml_engineer",
 ) -> Tuple[BidDecision, PriceQuote]:
     config = load_agent_config()
     config.resolve_model_for_node("pricing")
     load_prompt("pricing_strategist.md")
 
     mcp = get_mcp_client()
-    balance_info = mcp.call_tool("pricing", "get_connects_balance", {"freelancer_id": "freelancer_1"})
+    balance_info = mcp.call_tool(
+        "pricing", "get_connects_balance", {"freelancer_id": "freelancer_1"}
+    )
     balance_info.get("balance", 120)
 
     # 1. Gate: Decide BID vs SKIP
@@ -40,7 +45,7 @@ def pricing_node(
     if fit_report.coverage_score < 0.40:
         bid_decision = BidDecision(
             decision="SKIP",
-            rationale=f"Skill coverage too low ({int(fit_report.coverage_score*100)}%). Connects preserved.",
+            rationale=f"Skill coverage too low ({int(fit_report.coverage_score * 100)}%). Connects preserved.",
             priority_score=0.2,
             rejection_reasons=["Insufficient technical alignment with core persona competencies."],
         )

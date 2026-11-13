@@ -24,7 +24,9 @@ security = HTTPBearer(auto_error=False)
 PRELOADED_REVIEWER = {
     "user_id": "usr_reviewer_01",
     "email": os.getenv("REVIEWER_EMAIL", "reviewer@gigbid.ai"),
-    "password_hash": hashlib.sha256(os.getenv("REVIEWER_PASSWORD", "reviewer-demo-pass").encode("utf-8")).hexdigest(),
+    "password_hash": hashlib.sha256(
+        os.getenv("REVIEWER_PASSWORD", "reviewer-demo-pass").encode("utf-8")
+    ).hexdigest(),
     "role": "reviewer",
     "tenant_id": "tenant_default",
     "active_persona": "ai_ml_engineer",
@@ -51,7 +53,9 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
 
 def create_access_token(data: Dict[str, Any], expires_delta: Optional[timedelta] = None) -> str:
     to_encode = data.copy()
-    expire = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))
+    expire = datetime.now(timezone.utc) + (
+        expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    )
     to_encode.update({"exp": int(expire.timestamp())})
     return jwt.encode(to_encode, JWT_SECRET_KEY, algorithm=JWT_ALGORITHM)
 
@@ -66,7 +70,9 @@ def decode_access_token(token: str) -> Dict[str, Any]:
         )
 
 
-def get_current_user(credentials: Optional[HTTPAuthorizationCredentials] = Depends(security)) -> Dict[str, Any]:
+def get_current_user(
+    credentials: Optional[HTTPAuthorizationCredentials] = Depends(security),
+) -> Dict[str, Any]:
     if not credentials:
         # Fallback to demo reviewer for frictionless local UI & test runs
         return PRELOADED_REVIEWER

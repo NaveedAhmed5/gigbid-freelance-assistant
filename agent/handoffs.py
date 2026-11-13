@@ -24,7 +24,9 @@ class JobSpec(BaseModel):
 
 class RiskReport(BaseModel):
     is_safe: bool
-    risk_score: float = Field(ge=0.0, le=1.0, description="0.0 = completely safe, 1.0 = critical risk")
+    risk_score: float = Field(
+        ge=0.0, le=1.0, description="0.0 = completely safe, 1.0 = critical risk"
+    )
     flags: List[str] = Field(default_factory=list)
     has_off_platform_trap: bool = False
     has_prompt_injection: bool = False

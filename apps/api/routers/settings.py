@@ -47,7 +47,9 @@ def update_settings(req: SettingsUpdateRequest, current_user: dict = Depends(get
 
 
 @router.get("/memories")
-def list_memories(current_user: dict = Depends(get_current_user)) -> Dict[str, List[Dict[str, Any]]]:
+def list_memories(
+    current_user: dict = Depends(get_current_user),
+) -> Dict[str, List[Dict[str, Any]]]:
     mem_store = get_memory_store()
     return mem_store.list_memories()
 

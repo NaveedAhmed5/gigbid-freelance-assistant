@@ -34,7 +34,9 @@ def update_proposal_draft(
 ) -> Dict[str, Any]:
     state = get_api_state()
     if job_id not in state.pending_approvals:
-        raise HTTPException(status_code=404, detail="No active editable proposal found for this job ID.")
+        raise HTTPException(
+            status_code=404, detail="No active editable proposal found for this job ID."
+        )
     approval = state.pending_approvals[job_id]
     if approval.get("proposal_draft"):
         approval["proposal_draft"]["cover_letter"] = update.cover_letter

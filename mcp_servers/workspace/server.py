@@ -57,7 +57,9 @@ class WorkspaceMCPServer(BaseMCPServer):
             description="Place a tentative hold on the candidate's calendar for a proposed client interview.",
             input_schema=TentativeHoldInput.model_json_schema(),
             handler=self.tool_create_tentative_interview_hold,
-            annotations=MCPToolAnnotation(readOnlyHint=False, destructiveHint=False, idempotentHint=True),
+            annotations=MCPToolAnnotation(
+                readOnlyHint=False, destructiveHint=False, idempotentHint=True
+            ),
         )
 
         self.register_tool(
@@ -65,10 +67,14 @@ class WorkspaceMCPServer(BaseMCPServer):
             description="Create an email draft in the candidate's workspace without sending.",
             input_schema=EmailDraftInput.model_json_schema(),
             handler=self.tool_create_email_draft,
-            annotations=MCPToolAnnotation(readOnlyHint=False, destructiveHint=False, idempotentHint=True),
+            annotations=MCPToolAnnotation(
+                readOnlyHint=False, destructiveHint=False, idempotentHint=True
+            ),
         )
 
-    def tool_get_free_calendar_slots(self, days_ahead: int = 5, duration_minutes: int = 30) -> List[Dict[str, Any]]:
+    def tool_get_free_calendar_slots(
+        self, days_ahead: int = 5, duration_minutes: int = 30
+    ) -> List[Dict[str, Any]]:
         now = datetime.now(timezone.utc)
         slots = []
         for d in range(1, days_ahead + 1):
@@ -79,12 +85,14 @@ class WorkspaceMCPServer(BaseMCPServer):
                     end = start + timedelta(minutes=duration_minutes)
                     slot_id = f"slot_{start.strftime('%Y%m%d_%H%M')}"
                     if slot_id not in self.holds:
-                        slots.append({
-                            "slot_id": slot_id,
-                            "start_time": start.isoformat(),
-                            "end_time": end.isoformat(),
-                            "timezone": "UTC",
-                        })
+                        slots.append(
+                            {
+                                "slot_id": slot_id,
+                                "start_time": start.isoformat(),
+                                "end_time": end.isoformat(),
+                                "timezone": "UTC",
+                            }
+                        )
         return slots[:6]
 
     def tool_create_tentative_interview_hold(self, **kwargs) -> Dict[str, Any]:

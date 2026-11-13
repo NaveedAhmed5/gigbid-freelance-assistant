@@ -44,7 +44,9 @@ class SkillKnowledgeGraph:
                 self.graph.add_node(out_node, type="outcome", name=outcome)
                 self.graph.add_edge(doc_node, out_node, relation="achieved_outcome")
 
-    def traverse_related_evidence(self, query_skills: List[str], industry: Optional[str] = None, k: int = 5) -> List[Tuple[DocumentChunk, float]]:
+    def traverse_related_evidence(
+        self, query_skills: List[str], industry: Optional[str] = None, k: int = 5
+    ) -> List[Tuple[DocumentChunk, float]]:
         """Multi-hop traversal: (skills, industry) -> doc nodes -> ranked by graph degree/connectivity."""
         node_scores: Dict[str, float] = {}
 

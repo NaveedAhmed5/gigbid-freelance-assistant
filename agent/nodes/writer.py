@@ -25,11 +25,17 @@ def writer_node(
     primary_cs = None
     if fit_report.primary_case_study_id:
         try:
-            primary_cs = mcp.call_tool("writer", "get_case_study", {"id": fit_report.primary_case_study_id})
+            primary_cs = mcp.call_tool(
+                "writer", "get_case_study", {"id": fit_report.primary_case_study_id}
+            )
         except Exception:
             pass
 
-    cs_title = primary_cs.get("title", "High-Throughput Enterprise Architecture") if primary_cs else "Enterprise Architecture"
+    cs_title = (
+        primary_cs.get("title", "High-Throughput Enterprise Architecture")
+        if primary_cs
+        else "Enterprise Architecture"
+    )
     cs_metric = primary_cs.get("metric_improvement_pct", 35.0) if primary_cs else 35.0
 
     # Compose non-generic, high-converting opening hook
@@ -55,7 +61,9 @@ def writer_node(
 
     screening_answers = {}
     for q in job_spec.screening_questions:
-        screening_answers[q] = f"We have 8+ years experience with this technology in production, achieving {cs_metric}% measurable gains."
+        screening_answers[q] = (
+            f"We have 8+ years experience with this technology in production, achieving {cs_metric}% measurable gains."
+        )
 
     return ProposalDraft(
         cover_letter=cover_letter,

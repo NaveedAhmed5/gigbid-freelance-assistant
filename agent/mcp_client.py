@@ -74,7 +74,12 @@ class MCPClient:
 
         if self.degraded_mode or self.simulate_network_failure:
             # Queue work and return degraded placeholder
-            queue_item = {"agent": agent_role, "tool": tool_name, "arguments": arguments, "timestamp": time.time()}
+            queue_item = {
+                "agent": agent_role,
+                "tool": tool_name,
+                "arguments": arguments,
+                "timestamp": time.time(),
+            }
             self.queued_requests.append(queue_item)
             return {
                 "degraded_mode": True,
@@ -98,7 +103,12 @@ class MCPClient:
 
         # If retries exhausted, switch to Degraded Mode
         self.degraded_mode = True
-        queue_item = {"agent": agent_role, "tool": tool_name, "arguments": arguments, "error": str(last_error)}
+        queue_item = {
+            "agent": agent_role,
+            "tool": tool_name,
+            "arguments": arguments,
+            "error": str(last_error),
+        }
         self.queued_requests.append(queue_item)
         return {
             "degraded_mode": True,

@@ -26,14 +26,27 @@ def risk_node(job_posting: Dict[str, Any]) -> RiskReport:
     is_unpaid = False
 
     # Scam & Off-Platform checks
-    off_platform_keywords = ["telegram", "whatsapp", "crypto", "usdt", "direct wire", "paypal outside"]
+    off_platform_keywords = [
+        "telegram",
+        "whatsapp",
+        "crypto",
+        "usdt",
+        "direct wire",
+        "paypal outside",
+    ]
     for kw in off_platform_keywords:
         if kw in desc:
             has_off_platform = True
             flags.append(f"Off-platform contact or payment solicitation: '{kw}'")
 
     # Prompt injection patterns
-    injection_keywords = ["system directive", "ignore all previous", "override:", "human reviewer note", "disregard prior"]
+    injection_keywords = [
+        "system directive",
+        "ignore all previous",
+        "override:",
+        "human reviewer note",
+        "disregard prior",
+    ]
     for kw in injection_keywords:
         if kw in desc:
             has_prompt_injection = True
@@ -44,10 +57,16 @@ def risk_node(job_posting: Dict[str, Any]) -> RiskReport:
         is_unpaid = True
         flags.append("Demands free test assignment or unpaid trial.")
 
-    is_safe = not (has_off_platform or has_prompt_injection or is_unpaid or job_posting.get("is_scam", False))
+    is_safe = not (
+        has_off_platform or has_prompt_injection or is_unpaid or job_posting.get("is_scam", False)
+    )
     risk_score = 0.85 if not is_safe else 0.05
 
-    summary = "Job verified safe and fully compliant with marketplace policies." if is_safe else f"High risk detected: {'; '.join(flags)}"
+    summary = (
+        "Job verified safe and fully compliant with marketplace policies."
+        if is_safe
+        else f"High risk detected: {'; '.join(flags)}"
+    )
 
     return RiskReport(
         is_safe=is_safe,

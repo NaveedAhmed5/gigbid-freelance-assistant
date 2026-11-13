@@ -51,10 +51,12 @@ def verify_claims(proposal_text: str, evidence_items: List[Dict[str, Any]]) -> V
     _ = load_claim_verifier_prompt()
 
     # Aggregate verified evidence tokens and corpus
-    evidence_corpus = " ".join([
-        f"{e.get('title', '')} {e.get('summary', '')} {' '.join(e.get('skills', []))} {e.get('content', '')}"
-        for e in evidence_items
-    ]).lower()
+    evidence_corpus = " ".join(
+        [
+            f"{e.get('title', '')} {e.get('summary', '')} {' '.join(e.get('skills', []))} {e.get('content', '')}"
+            for e in evidence_items
+        ]
+    ).lower()
 
     raw_claims = split_into_atomic_claims(proposal_text)
     evaluated_claims: List[AtomicClaim] = []

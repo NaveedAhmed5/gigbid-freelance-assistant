@@ -12,7 +12,9 @@ from pydantic import BaseModel, Field
 from mcp_servers.protocol import BaseMCPServer, MCPToolAnnotation
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
-AUDIT_LOG_FILE = Path(__file__).resolve().parents[2] / "data" / "processed" / "marketplace_audit.log"
+AUDIT_LOG_FILE = (
+    Path(__file__).resolve().parents[2] / "data" / "processed" / "marketplace_audit.log"
+)
 
 
 class SubmitProposalInput(BaseModel):
@@ -22,8 +24,13 @@ class SubmitProposalInput(BaseModel):
     bid_amount_usd: float
     estimated_duration: str
     screening_answers: Dict[str, str] = Field(default_factory=dict)
-    idempotency_key: str = Field(description="Unique key to prevent duplicate submissions and double-spending connects.")
-    dry_run: bool = Field(default=False, description="If true, simulates validation without committing connects or submission.")
+    idempotency_key: str = Field(
+        description="Unique key to prevent duplicate submissions and double-spending connects."
+    )
+    dry_run: bool = Field(
+        default=False,
+        description="If true, simulates validation without committing connects or submission.",
+    )
     trace_id: Optional[str] = None
 
 
@@ -73,10 +80,14 @@ class MarketplaceMCPServer(BaseMCPServer):
         valid_history = [t for t in history if t > window_start]
         self.rate_limiter_store[user_id] = valid_history
         if len(valid_history) >= self.rate_limit_max_requests:
-            raise PermissionError(f"Rate limit exceeded for user '{user_id}'. Max {self.rate_limit_max_requests} req/min.")
+            raise PermissionError(
+                f"Rate limit exceeded for user '{user_id}'. Max {self.rate_limit_max_requests} req/min."
+            )
         self.rate_limiter_store[user_id].append(now)
 
-    def _write_audit_log(self, user: str, tool: str, arguments: Dict[str, Any], result: Any, trace_id: Optional[str]):
+    def _write_audit_log(
+        self, user: str, tool: str, arguments: Dict[str, Any], result: Any, trace_id: Optional[str]
+    ):
         AUDIT_LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
         log_entry = {
             "timestamp": datetime.now(timezone.utc).isoformat(),
@@ -163,7 +174,9 @@ class MarketplaceMCPServer(BaseMCPServer):
             description="Save or update a proposal draft without deducting connects.",
             input_schema=ProposalDraftInput.model_json_schema(),
             handler=self.tool_create_proposal_draft,
-            annotations=MCPToolAnnotation(readOnlyHint=False, destructiveHint=False, idempotentHint=True),
+            annotations=MCPToolAnnotation(
+                readOnlyHint=False, destructiveHint=False, idempotentHint=True
+            ),
         )
 
         # 7. submit_proposal (destructive write: spends connects)
@@ -172,7 +185,9 @@ class MarketplaceMCPServer(BaseMCPServer):
             description="Submit a live proposal to a client. Deducts connects. Requires idempotency_key.",
             input_schema=SubmitProposalInput.model_json_schema(),
             handler=self.tool_submit_proposal,
-            annotations=MCPToolAnnotation(readOnlyHint=False, destructiveHint=True, idempotentHint=True),
+            annotations=MCPToolAnnotation(
+                readOnlyHint=False, destructiveHint=True, idempotentHint=True
+            ),
         )
 
         # 8. send_message (write)
@@ -181,17 +196,25 @@ class MarketplaceMCPServer(BaseMCPServer):
             description="Send a message to a client within an active thread.",
             input_schema=SendMessageInput.model_json_schema(),
             handler=self.tool_send_message,
-            annotations=MCPToolAnnotation(readOnlyHint=False, destructiveHint=False, idempotentHint=True),
+            annotations=MCPToolAnnotation(
+                readOnlyHint=False, destructiveHint=False, idempotentHint=True
+            ),
         )
 
     # Tool Handlers
-    def tool_search_jobs(self, query: Optional[str] = None, category: Optional[str] = None, limit: int = 20) -> List[Dict[str, Any]]:
+    def tool_search_jobs(
+        self, query: Optional[str] = None, category: Optional[str] = None, limit: int = 20
+    ) -> List[Dict[str, Any]]:
         jobs = list(self.active_jobs_cache.values())
         if category:
             jobs = [j for j in jobs if j.get("category", "").lower() == category.lower()]
         if query:
             q = query.lower()
-            jobs = [j for j in jobs if q in j.get("title", "").lower() or q in j.get("description", "").lower()]
+            jobs = [
+                j
+                for j in jobs
+                if q in j.get("title", "").lower() or q in j.get("description", "").lower()
+            ]
         return jobs[:limit]
 
     def tool_get_job(self, job_id: str) -> Dict[str, Any]:
@@ -258,7 +281,13 @@ class MarketplaceMCPServer(BaseMCPServer):
                 "idempotency_key": input_data.idempotency_key,
                 "message": "Proposal passed dry-run validation. No connects spent.",
             }
-            self._write_audit_log(input_data.freelancer_id, "submit_proposal[dry_run]", input_data.model_dump(), preview_result, input_data.trace_id)
+            self._write_audit_log(
+                input_data.freelancer_id,
+                "submit_proposal[dry_run]",
+                input_data.model_dump(),
+                preview_result,
+                input_data.trace_id,
+            )
             return preview_result
 
         # Commit submission
@@ -277,7 +306,13 @@ class MarketplaceMCPServer(BaseMCPServer):
 
         # Store for idempotency
         self.idempotency_store[input_data.idempotency_key] = submission_result
-        self._write_audit_log(input_data.freelancer_id, "submit_proposal", input_data.model_dump(), submission_result, input_data.trace_id)
+        self._write_audit_log(
+            input_data.freelancer_id,
+            "submit_proposal",
+            input_data.model_dump(),
+            submission_result,
+            input_data.trace_id,
+        )
         return submission_result
 
     def tool_send_message(self, **kwargs) -> Dict[str, Any]:
@@ -310,7 +345,9 @@ class MarketplaceMCPServer(BaseMCPServer):
         }
         if input_data.idempotency_key:
             self.idempotency_store[input_data.idempotency_key] = res
-        self._write_audit_log(input_data.sender_id, "send_message", input_data.model_dump(), res, input_data.trace_id)
+        self._write_audit_log(
+            input_data.sender_id, "send_message", input_data.model_dump(), res, input_data.trace_id
+        )
         return res
 
 

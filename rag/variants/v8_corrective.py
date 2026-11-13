@@ -16,9 +16,7 @@ class VariantV8Corrective:
 
         # Grade retrieval confidence
         avg_score = (
-            sum(s for _, s in initial_results) / len(initial_results)
-            if initial_results
-            else 0.0
+            sum(s for _, s in initial_results) / len(initial_results) if initial_results else 0.0
         )
 
         if avg_score >= self.threshold:

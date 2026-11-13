@@ -24,7 +24,9 @@ def test_agent_tool_allowlists_enforcement():
         client.call_tool("scout", "submit_proposal", {"job_id": "123"})
 
     # 4. Fit Matcher can call portfolio search_evidence
-    res_evidence = client.call_tool("matcher", "search_evidence", {"requirement": "PyTorch", "k": 1})
+    res_evidence = client.call_tool(
+        "matcher", "search_evidence", {"requirement": "PyTorch", "k": 1}
+    )
     assert len(res_evidence) <= 1
 
 

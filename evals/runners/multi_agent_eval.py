@@ -135,35 +135,41 @@ def main():
     csv_path = RESULTS_DIR / "rd_question_c.csv"
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow([
-            "architecture",
-            "name",
-            "compliance_rate",
-            "reply_rate",
-            "hire_rate",
-            "avg_tokens",
-            "avg_latency_s",
-            "step_budget_violations",
-            "crash_recovery_rate",
-        ])
+        writer.writerow(
+            [
+                "architecture",
+                "name",
+                "compliance_rate",
+                "reply_rate",
+                "hire_rate",
+                "avg_tokens",
+                "avg_latency_s",
+                "step_budget_violations",
+                "crash_recovery_rate",
+            ]
+        )
         for arch, row in aggregates.items():
-            writer.writerow([
-                arch,
-                row["name"],
-                row["compliance_rate"],
-                row["reply_rate"],
-                row["hire_rate"],
-                row["avg_tokens"],
-                row["avg_latency_s"],
-                row["step_budget_violations"],
-                row["crash_recovery_rate"],
-            ])
+            writer.writerow(
+                [
+                    arch,
+                    row["name"],
+                    row["compliance_rate"],
+                    row["reply_rate"],
+                    row["hire_rate"],
+                    row["avg_tokens"],
+                    row["avg_latency_s"],
+                    row["step_budget_violations"],
+                    row["crash_recovery_rate"],
+                ]
+            )
 
     print("R&D Question C benchmark completed successfully!")
     print(f"Results saved to:\n- {json_path}\n- {csv_path}")
     print("\nSummary Results:")
     for arch, row in aggregates.items():
-        print(f"  [{row['name']}]: Compliance={row['compliance_rate']*100:.1f}%, Reply={row['reply_rate']*100:.1f}%, Hire={row['hire_rate']*100:.1f}%, Tokens={row['avg_tokens']}, Latency={row['avg_latency_s']}s")
+        print(
+            f"  [{row['name']}]: Compliance={row['compliance_rate'] * 100:.1f}%, Reply={row['reply_rate'] * 100:.1f}%, Hire={row['hire_rate'] * 100:.1f}%, Tokens={row['avg_tokens']}, Latency={row['avg_latency_s']}s"
+        )
 
 
 if __name__ == "__main__":

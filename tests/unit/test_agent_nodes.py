@@ -88,7 +88,9 @@ def test_agent_nodes_end_to_end_handoffs():
     assert verdict.can_submit is True
 
     # 10. Liaison -> LiaisonDraft
-    liaison_draft = liaison_node("Can we hop on a call tomorrow to discuss this?", job_title=spec.title)
+    liaison_draft = liaison_node(
+        "Can we hop on a call tomorrow to discuss this?", job_title=spec.title
+    )
     assert isinstance(liaison_draft, LiaisonDraft)
     assert liaison_draft.inferred_intent == "interview_invite"
     assert len(liaison_draft.calendar_hold_slot_ids) > 0

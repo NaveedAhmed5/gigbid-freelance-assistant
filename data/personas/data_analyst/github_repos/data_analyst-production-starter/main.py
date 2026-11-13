@@ -8,5 +8,5 @@ def process_pipeline(batch: list) -> dict:
     return {
         "processed_count": len(valid_items),
         "duration_ms": round((time.time() - start_time) * 1000, 2),
-        "status": "success"
+        "status": "success",
     }

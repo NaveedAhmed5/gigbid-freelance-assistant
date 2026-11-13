@@ -24,7 +24,11 @@ def list_jobs(
         jobs = [j for j in jobs if j.get("category", "").lower() == category.lower()]
     if q:
         term = q.lower()
-        jobs = [j for j in jobs if term in j.get("title", "").lower() or term in j.get("description", "").lower()]
+        jobs = [
+            j
+            for j in jobs
+            if term in j.get("title", "").lower() or term in j.get("description", "").lower()
+        ]
     return jobs[:limit]
 
 

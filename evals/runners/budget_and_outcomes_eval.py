@@ -12,10 +12,11 @@ Outputs:
 """
 
 import json
-from pathlib import Path
 import random
 import sys
-from typing import Any, Dict, List
+from pathlib import Path
+from typing import List
+
 import numpy as np
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
@@ -49,7 +50,9 @@ def main():
     for i in range(1, NUM_JOBS + 1):
         # StateGraph deterministic token consumption distribution
         tokens = int(random.gauss(13500, 1200))
-        steps = random.choice([7, 8, 8, 9, 9, 10])  # Parallel fan-out + writer + verifier + critic + compliance + gate
+        steps = random.choice(
+            [7, 8, 8, 9, 9, 10]
+        )  # Parallel fan-out + writer + verifier + critic + compliance + gate
         latency = round(random.gauss(4.2, 0.6), 2)
         # Open profile cost is negligible, paid profile ~ $0.016
         cost = round((tokens / 1000) * 0.0012, 4)
@@ -110,7 +113,9 @@ def main():
 
     out_file = RESULTS_DIR / "budget_and_outcomes.json"
     out_file.write_text(json.dumps(summary, indent=2), encoding="utf-8")
-    print(f"Budget & outcomes benchmark completed! Reply Rate: {summary['marketplace_outcomes']['reply_rate']*100:.1f}%, Hire Rate: {summary['marketplace_outcomes']['hire_rate']*100:.1f}%")
+    print(
+        f"Budget & outcomes benchmark completed! Reply Rate: {summary['marketplace_outcomes']['reply_rate'] * 100:.1f}%, Hire Rate: {summary['marketplace_outcomes']['hire_rate'] * 100:.1f}%"
+    )
     print(f"Results saved to: {out_file}")
 
 

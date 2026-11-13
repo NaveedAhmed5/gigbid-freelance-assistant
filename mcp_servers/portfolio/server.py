@@ -25,7 +25,10 @@ def create_portfolio_mcp_server() -> BaseMCPServer:
             "properties": {
                 "requirement": {"type": "string", "description": "Client requirement or keyword"},
                 "k": {"type": "integer", "default": 3, "description": "Number of results"},
-                "filters": {"type": "object", "description": "Optional filters such as persona or industry"},
+                "filters": {
+                    "type": "object",
+                    "description": "Optional filters such as persona or industry",
+                },
             },
             "required": ["requirement"],
         },
@@ -38,7 +41,12 @@ def create_portfolio_mcp_server() -> BaseMCPServer:
         description="Retrieve full case study text, architectural solution, and outcome metrics by ID.",
         input_schema={
             "type": "object",
-            "properties": {"id": {"type": "string", "description": "Case study ID (e.g., cs_ai_ml_engineer_01)"}},
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "Case study ID (e.g., cs_ai_ml_engineer_01)",
+                }
+            },
             "required": ["id"],
         },
         handler=get_case_study,
@@ -77,7 +85,9 @@ def create_portfolio_mcp_server() -> BaseMCPServer:
         name="Answer a screening question from my portfolio",
         description="Generates grounded answers to job screening questions using verified case studies.",
         arguments=[
-            MCPPromptArgument(name="question", description="The job screening question", required=True),
+            MCPPromptArgument(
+                name="question", description="The job screening question", required=True
+            ),
             MCPPromptArgument(name="persona", description="The target persona key", required=False),
         ],
         handler=prompt_answer_screening_question,
@@ -87,7 +97,11 @@ def create_portfolio_mcp_server() -> BaseMCPServer:
         name="Summarize relevant portfolio evidence",
         description="Summarizes verified technical evidence matching a specific skill or requirement.",
         arguments=[
-            MCPPromptArgument(name="skill_or_requirement", description="Skill or requirement to match", required=True),
+            MCPPromptArgument(
+                name="skill_or_requirement",
+                description="Skill or requirement to match",
+                required=True,
+            ),
             MCPPromptArgument(name="persona", description="The target persona key", required=False),
         ],
         handler=prompt_summarize_portfolio_evidence,

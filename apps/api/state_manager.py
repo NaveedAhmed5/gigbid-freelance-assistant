@@ -92,17 +92,31 @@ class APIStateManager:
             self.pending_approvals[job_id] = {
                 "job_id": job_id,
                 "thread_id": thread_id,
-                "proposal_draft": vals["proposal_draft"].model_dump() if vals.get("proposal_draft") else None,
-                "price_quote": vals["price_quote"].model_dump() if vals.get("price_quote") else None,
+                "proposal_draft": vals["proposal_draft"].model_dump()
+                if vals.get("proposal_draft")
+                else None,
+                "price_quote": vals["price_quote"].model_dump()
+                if vals.get("price_quote")
+                else None,
                 "fit_report": vals["fit_report"].model_dump() if vals.get("fit_report") else None,
-                "risk_report": vals["risk_report"].model_dump() if vals.get("risk_report") else None,
-                "compliance_verdict": vals["compliance_verdict"].model_dump() if vals.get("compliance_verdict") else None,
+                "risk_report": vals["risk_report"].model_dump()
+                if vals.get("risk_report")
+                else None,
+                "compliance_verdict": vals["compliance_verdict"].model_dump()
+                if vals.get("compliance_verdict")
+                else None,
                 "status": "PENDING",
             }
 
         return run_record
 
-    def resume_approval(self, job_id: str, action: str, edited_text: Optional[str] = None, feedback: Optional[str] = None) -> Dict[str, Any]:
+    def resume_approval(
+        self,
+        job_id: str,
+        action: str,
+        edited_text: Optional[str] = None,
+        feedback: Optional[str] = None,
+    ) -> Dict[str, Any]:
         """Resume paused LangGraph thread with human approval, edit, or rejection."""
         approval = self.pending_approvals.get(job_id)
         if not approval:
@@ -111,7 +125,7 @@ class APIStateManager:
         thread_id = approval["thread_id"]
         config = {"configurable": {"thread_id": thread_id}}
 
-        is_approved = (action == "approve")
+        is_approved = action == "approve"
 
         # Resume execution
         for _ in self.bid_graph.stream(None, config):

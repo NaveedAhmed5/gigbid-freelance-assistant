@@ -40,7 +40,7 @@ def matcher_node(job_spec: JobSpec, persona: str = "ai_ml_engineer") -> FitRepor
     ]
 
     fit_summary = (
-        f"Strong candidate alignment ({int(coverage_score*100)}% skill coverage). "
+        f"Strong candidate alignment ({int(coverage_score * 100)}% skill coverage). "
         f"Verified in {len(evidence_results)} matching case studies."
     )
 
