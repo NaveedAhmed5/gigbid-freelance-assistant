@@ -1,0 +1,219 @@
+{
+  "benchmark": "LLM Judge Calibration",
+  "sample_size": 30,
+  "cohens_kappa": 0.9032,
+  "raw_agreement_accuracy": 0.9333,
+  "calibration_status": "CALIBRATED_STRONG_AGREEMENT",
+  "cases": [
+    {
+      "case_id": "calib_01",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.74
+    },
+    {
+      "case_id": "calib_02",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.56
+    },
+    {
+      "case_id": "calib_03",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.63
+    },
+    {
+      "case_id": "calib_04",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.62
+    },
+    {
+      "case_id": "calib_05",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.77
+    },
+    {
+      "case_id": "calib_06",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.75
+    },
+    {
+      "case_id": "calib_07",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.82
+    },
+    {
+      "case_id": "calib_08",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.58
+    },
+    {
+      "case_id": "calib_09",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.68
+    },
+    {
+      "case_id": "calib_10",
+      "human_category": "EXCELLENT",
+      "human_score": 4.8,
+      "judge_predicted_category": "EXCELLENT",
+      "judge_score": 4.56
+    },
+    {
+      "case_id": "calib_11",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "GOOD",
+      "judge_score": 3.42
+    },
+    {
+      "case_id": "calib_12",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "GOOD",
+      "judge_score": 3.5
+    },
+    {
+      "case_id": "calib_13",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "ADEQUATE",
+      "judge_score": 3.36
+    },
+    {
+      "case_id": "calib_14",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "GOOD",
+      "judge_score": 3.41
+    },
+    {
+      "case_id": "calib_15",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "GOOD",
+      "judge_score": 3.54
+    },
+    {
+      "case_id": "calib_16",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "GOOD",
+      "judge_score": 3.51
+    },
+    {
+      "case_id": "calib_17",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "GOOD",
+      "judge_score": 3.42
+    },
+    {
+      "case_id": "calib_18",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "GOOD",
+      "judge_score": 3.53
+    },
+    {
+      "case_id": "calib_19",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "GOOD",
+      "judge_score": 3.59
+    },
+    {
+      "case_id": "calib_20",
+      "human_category": "GOOD",
+      "human_score": 3.8,
+      "judge_predicted_category": "ADEQUATE",
+      "judge_score": 3.35
+    },
+    {
+      "case_id": "calib_21",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_22",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_23",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_24",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_25",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_26",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_27",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_28",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_29",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    },
+    {
+      "case_id": "calib_30",
+      "human_category": "POOR",
+      "human_score": 2.1,
+      "judge_predicted_category": "POOR",
+      "judge_score": 1.0
+    }
+  ]
+}
