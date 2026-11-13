@@ -1,0 +1,4 @@
+paradigm,success_rate,avg_steps,avg_tokens,avg_latency_ms,error_recovery_rate
+fine_grained,0.825,8.2,5209.9,1629.25,0.6
+coarse_grained,0.65,1.0,1699.9,485.05,0.0
+task_optimized,1.0,2.52,2003.2,507.37,0.9

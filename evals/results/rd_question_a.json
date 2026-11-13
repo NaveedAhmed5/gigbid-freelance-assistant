@@ -1,0 +1,1233 @@
+{
+  "benchmark": "R&D Question A: Tool Granularity Evaluation",
+  "description": "Comparison of Fine-Grained vs Coarse-Grained vs Task-Optimized Tooling",
+  "sample_size": 40,
+  "aggregates": {
+    "fine_grained": {
+      "total_tasks": 40,
+      "success_rate": 0.825,
+      "avg_steps": 8.2,
+      "avg_tokens": 5209.9,
+      "avg_latency_ms": 1629.25,
+      "error_recovery_rate": 0.6
+    },
+    "coarse_grained": {
+      "total_tasks": 40,
+      "success_rate": 0.65,
+      "avg_steps": 1.0,
+      "avg_tokens": 1699.9,
+      "avg_latency_ms": 485.05,
+      "error_recovery_rate": 0.0
+    },
+    "task_optimized": {
+      "total_tasks": 40,
+      "success_rate": 1.0,
+      "avg_steps": 2.52,
+      "avg_tokens": 2003.2,
+      "avg_latency_ms": 507.37,
+      "error_recovery_rate": 0.9
+    }
+  },
+  "individual_runs": [
+    {
+      "task_id": "task_01",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 3739,
+      "latency_ms": 1292.6,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_02",
+      "paradigm": "fine_grained",
+      "steps": 8,
+      "tokens": 4850,
+      "latency_ms": 1643.2,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_03",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 5135,
+      "latency_ms": 1571.8,
+      "success": true,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_04",
+      "paradigm": "fine_grained",
+      "steps": 8,
+      "tokens": 6268,
+      "latency_ms": 1995.2,
+      "success": true,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_05",
+      "paradigm": "fine_grained",
+      "steps": 10,
+      "tokens": 4612,
+      "latency_ms": 1507.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_06",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 4172,
+      "latency_ms": 1207.5,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_07",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 5488,
+      "latency_ms": 1727.7,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_08",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 4766,
+      "latency_ms": 1563.1,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_09",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 7188,
+      "latency_ms": 2104.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_10",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 3738,
+      "latency_ms": 1078.0,
+      "success": true,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_11",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 5031,
+      "latency_ms": 1534.1,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_12",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 4651,
+      "latency_ms": 1376.7,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_13",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 5331,
+      "latency_ms": 1535.55,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_14",
+      "paradigm": "fine_grained",
+      "steps": 10,
+      "tokens": 7427,
+      "latency_ms": 2412.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_15",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 4163,
+      "latency_ms": 1357.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_16",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 5104,
+      "latency_ms": 1606.55,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_17",
+      "paradigm": "fine_grained",
+      "steps": 8,
+      "tokens": 5112,
+      "latency_ms": 1641.9,
+      "success": true,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_18",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 6601,
+      "latency_ms": 2016.95,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_19",
+      "paradigm": "fine_grained",
+      "steps": 8,
+      "tokens": 6416,
+      "latency_ms": 1937.6,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_20",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 3357,
+      "latency_ms": 1034.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_21",
+      "paradigm": "fine_grained",
+      "steps": 10,
+      "tokens": 5332,
+      "latency_ms": 1676.7,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_22",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 5444,
+      "latency_ms": 1810.9,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_23",
+      "paradigm": "fine_grained",
+      "steps": 10,
+      "tokens": 6630,
+      "latency_ms": 2150.35,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_24",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 7139,
+      "latency_ms": 2214.4,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_25",
+      "paradigm": "fine_grained",
+      "steps": 10,
+      "tokens": 4685,
+      "latency_ms": 1478.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_26",
+      "paradigm": "fine_grained",
+      "steps": 8,
+      "tokens": 4508,
+      "latency_ms": 1417.95,
+      "success": true,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_27",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 4313,
+      "latency_ms": 1443.0,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_28",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 4983,
+      "latency_ms": 1563.1,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_29",
+      "paradigm": "fine_grained",
+      "steps": 10,
+      "tokens": 7632,
+      "latency_ms": 2371.2,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_30",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 3588,
+      "latency_ms": 1122.0,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_31",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 5143,
+      "latency_ms": 1600.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_32",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 5592,
+      "latency_ms": 1729.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_33",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 6636,
+      "latency_ms": 1992.3,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_34",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 5896,
+      "latency_ms": 1776.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_35",
+      "paradigm": "fine_grained",
+      "steps": 8,
+      "tokens": 3738,
+      "latency_ms": 1217.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_36",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 4077,
+      "latency_ms": 1231.65,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_37",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 4829,
+      "latency_ms": 1398.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_38",
+      "paradigm": "fine_grained",
+      "steps": 9,
+      "tokens": 6092,
+      "latency_ms": 1909.65,
+      "success": true,
+      "had_failure": true,
+      "recovery_rate": 0.6
+    },
+    {
+      "task_id": "task_39",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 5252,
+      "latency_ms": 1796.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_40",
+      "paradigm": "fine_grained",
+      "steps": 7,
+      "tokens": 3740,
+      "latency_ms": 1127.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_01",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1416,
+      "latency_ms": 411.7,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_02",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1742,
+      "latency_ms": 468.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_03",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1964,
+      "latency_ms": 546.65,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_04",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 2140,
+      "latency_ms": 636.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_05",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1251,
+      "latency_ms": 395.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_06",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1576,
+      "latency_ms": 449.65,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_07",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1731,
+      "latency_ms": 491.4,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_08",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1822,
+      "latency_ms": 513.3,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_09",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 2160,
+      "latency_ms": 616.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_10",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1256,
+      "latency_ms": 350.0,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_11",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1565,
+      "latency_ms": 405.95,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_12",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1570,
+      "latency_ms": 482.3,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_13",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1827,
+      "latency_ms": 532.15,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_14",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 2006,
+      "latency_ms": 614.4,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_15",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1346,
+      "latency_ms": 386.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_16",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1609,
+      "latency_ms": 437.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_17",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1622,
+      "latency_ms": 462.8,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_18",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1899,
+      "latency_ms": 539.4,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_19",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 2110,
+      "latency_ms": 633.6,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_20",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1367,
+      "latency_ms": 391.0,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_21",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1498,
+      "latency_ms": 455.4,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_22",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1595,
+      "latency_ms": 474.5,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_23",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1938,
+      "latency_ms": 548.1,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_24",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1993,
+      "latency_ms": 587.2,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_25",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1219,
+      "latency_ms": 378.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_26",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1540,
+      "latency_ms": 409.4,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_27",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1739,
+      "latency_ms": 455.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_28",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 2018,
+      "latency_ms": 529.25,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_29",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 2118,
+      "latency_ms": 608.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_30",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1302,
+      "latency_ms": 353.0,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_31",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1380,
+      "latency_ms": 430.1,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_32",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1820,
+      "latency_ms": 520.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_33",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1896,
+      "latency_ms": 571.3,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_34",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 2240,
+      "latency_ms": 616.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_35",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1324,
+      "latency_ms": 359.0,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_36",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1443,
+      "latency_ms": 405.95,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_37",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1739,
+      "latency_ms": 458.9,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_38",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1760,
+      "latency_ms": 511.85,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_39",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 2124,
+      "latency_ms": 612.8,
+      "success": false,
+      "had_failure": true,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_40",
+      "paradigm": "coarse_grained",
+      "steps": 1,
+      "tokens": 1330,
+      "latency_ms": 355.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 0.0
+    },
+    {
+      "task_id": "task_01",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1543,
+      "latency_ms": 349.6,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_02",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1680,
+      "latency_ms": 399.1,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_03",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1940,
+      "latency_ms": 490.1,
+      "success": true,
+      "had_failure": true,
+      "recovery_rate": 0.9
+    },
+    {
+      "task_id": "task_04",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2841,
+      "latency_ms": 708.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_05",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 1771,
+      "latency_ms": 446.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_06",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2101,
+      "latency_ms": 517.5,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_07",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1549,
+      "latency_ms": 427.7,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_08",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1751,
+      "latency_ms": 484.3,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_09",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2788,
+      "latency_ms": 723.2,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_10",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1284,
+      "latency_ms": 318.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_11",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2145,
+      "latency_ms": 541.65,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_12",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2442,
+      "latency_ms": 566.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_13",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1822,
+      "latency_ms": 445.15,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_14",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 2014,
+      "latency_ms": 508.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_15",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 1762,
+      "latency_ms": 473.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_16",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2114,
+      "latency_ms": 530.15,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_17",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1576,
+      "latency_ms": 442.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_18",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2495,
+      "latency_ms": 623.5,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_19",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 2164,
+      "latency_ms": 505.6,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_20",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 1851,
+      "latency_ms": 475.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_21",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1400,
+      "latency_ms": 349.6,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_22",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1727,
+      "latency_ms": 392.6,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_23",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1885,
+      "latency_ms": 446.6,
+      "success": true,
+      "had_failure": true,
+      "recovery_rate": 0.9
+    },
+    {
+      "task_id": "task_24",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 2049,
+      "latency_ms": 500.8,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_25",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1280,
+      "latency_ms": 349.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_26",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2148,
+      "latency_ms": 548.55,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_27",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1600,
+      "latency_ms": 404.3,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_28",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1790,
+      "latency_ms": 503.15,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_29",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 3009,
+      "latency_ms": 763.2,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_30",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 1750,
+      "latency_ms": 480.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_31",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 1976,
+      "latency_ms": 529.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_32",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2338,
+      "latency_ms": 583.7,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_33",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1808,
+      "latency_ms": 436.45,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_34",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2870,
+      "latency_ms": 715.2,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_35",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 1799,
+      "latency_ms": 471.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_36",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 1974,
+      "latency_ms": 502.55,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_37",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2281,
+      "latency_ms": 607.1,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_38",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 2492,
+      "latency_ms": 632.2,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_39",
+      "paradigm": "task_optimized",
+      "steps": 3,
+      "tokens": 3033,
+      "latency_ms": 768.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    },
+    {
+      "task_id": "task_40",
+      "paradigm": "task_optimized",
+      "steps": 2,
+      "tokens": 1288,
+      "latency_ms": 336.0,
+      "success": true,
+      "had_failure": false,
+      "recovery_rate": 1.0
+    }
+  ]
+}
