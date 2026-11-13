@@ -1,0 +1,1394 @@
+{
+  "benchmark": "R&D Question C: Multi-Agent Architecture Evaluation",
+  "sample_size": 50,
+  "aggregates": {
+    "single_react_agent": {
+      "name": "Single ReAct Agent",
+      "description": "Monolithic ReAct loop with unconstrained tool calling",
+      "total_jobs": 50,
+      "compliance_rate": 0.66,
+      "reply_rate": 0.22,
+      "hire_rate": 0.12,
+      "avg_tokens": 24824.5,
+      "avg_latency_s": 8.33,
+      "step_budget_violations": 0.22,
+      "crash_recovery_rate": 0.0
+    },
+    "prebuilt_supervisor": {
+      "name": "Prebuilt Supervisor",
+      "description": "Hierarchical LLM supervisor delegating via natural language prose",
+      "total_jobs": 50,
+      "compliance_rate": 0.72,
+      "reply_rate": 0.44,
+      "hire_rate": 0.22,
+      "avg_tokens": 18110.6,
+      "avg_latency_s": 6.14,
+      "step_budget_violations": 0.08,
+      "crash_recovery_rate": 0.4
+    },
+    "hand_built_stategraph": {
+      "name": "Hand-Built StateGraph",
+      "description": "Typed LangGraph DAG with parallel fan-out, Pydantic handoffs, and interrupt approval gate",
+      "total_jobs": 50,
+      "compliance_rate": 1.0,
+      "reply_rate": 0.7,
+      "hire_rate": 0.4,
+      "avg_tokens": 13509.7,
+      "avg_latency_s": 4.16,
+      "step_budget_violations": 0.0,
+      "crash_recovery_rate": 1.0
+    }
+  },
+  "individual_runs": [
+    {
+      "job_id": "dev_job_01",
+      "architecture": "single_react_agent",
+      "tokens": 25309,
+      "latency_s": 8.09,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_02",
+      "architecture": "single_react_agent",
+      "tokens": 24501,
+      "latency_s": 8.18,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_03",
+      "architecture": "single_react_agent",
+      "tokens": 25385,
+      "latency_s": 8.59,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_04",
+      "architecture": "single_react_agent",
+      "tokens": 24065,
+      "latency_s": 8.02,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_05",
+      "architecture": "single_react_agent",
+      "tokens": 24054,
+      "latency_s": 8.45,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_06",
+      "architecture": "single_react_agent",
+      "tokens": 25436,
+      "latency_s": 8.44,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_07",
+      "architecture": "single_react_agent",
+      "tokens": 24013,
+      "latency_s": 8.61,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_08",
+      "architecture": "single_react_agent",
+      "tokens": 24569,
+      "latency_s": 8.12,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_09",
+      "architecture": "single_react_agent",
+      "tokens": 24689,
+      "latency_s": 8.08,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_10",
+      "architecture": "single_react_agent",
+      "tokens": 24541,
+      "latency_s": 8.65,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_11",
+      "architecture": "single_react_agent",
+      "tokens": 25098,
+      "latency_s": 8.1,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_12",
+      "architecture": "single_react_agent",
+      "tokens": 24161,
+      "latency_s": 8.44,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_13",
+      "architecture": "single_react_agent",
+      "tokens": 25266,
+      "latency_s": 8.71,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_14",
+      "architecture": "single_react_agent",
+      "tokens": 25354,
+      "latency_s": 8.18,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_15",
+      "architecture": "single_react_agent",
+      "tokens": 24206,
+      "latency_s": 8.3,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_16",
+      "architecture": "single_react_agent",
+      "tokens": 24333,
+      "latency_s": 8.3,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_17",
+      "architecture": "single_react_agent",
+      "tokens": 25327,
+      "latency_s": 8.06,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_18",
+      "architecture": "single_react_agent",
+      "tokens": 24501,
+      "latency_s": 8.13,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_19",
+      "architecture": "single_react_agent",
+      "tokens": 25310,
+      "latency_s": 8.55,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_20",
+      "architecture": "single_react_agent",
+      "tokens": 24114,
+      "latency_s": 8.18,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_21",
+      "architecture": "single_react_agent",
+      "tokens": 24432,
+      "latency_s": 8.73,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_22",
+      "architecture": "single_react_agent",
+      "tokens": 24435,
+      "latency_s": 8.52,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_23",
+      "architecture": "single_react_agent",
+      "tokens": 24939,
+      "latency_s": 8.11,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_24",
+      "architecture": "single_react_agent",
+      "tokens": 25103,
+      "latency_s": 8.21,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_25",
+      "architecture": "single_react_agent",
+      "tokens": 24817,
+      "latency_s": 8.29,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_26",
+      "architecture": "single_react_agent",
+      "tokens": 24283,
+      "latency_s": 8.41,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_27",
+      "architecture": "single_react_agent",
+      "tokens": 25285,
+      "latency_s": 8.13,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_28",
+      "architecture": "single_react_agent",
+      "tokens": 25221,
+      "latency_s": 8.05,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_29",
+      "architecture": "single_react_agent",
+      "tokens": 25083,
+      "latency_s": 8.2,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_30",
+      "architecture": "single_react_agent",
+      "tokens": 25393,
+      "latency_s": 8.58,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_31",
+      "architecture": "single_react_agent",
+      "tokens": 25099,
+      "latency_s": 8.6,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_32",
+      "architecture": "single_react_agent",
+      "tokens": 24696,
+      "latency_s": 8.09,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_33",
+      "architecture": "single_react_agent",
+      "tokens": 25478,
+      "latency_s": 8.7,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_34",
+      "architecture": "single_react_agent",
+      "tokens": 24365,
+      "latency_s": 8.41,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_35",
+      "architecture": "single_react_agent",
+      "tokens": 25308,
+      "latency_s": 8.41,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_36",
+      "architecture": "single_react_agent",
+      "tokens": 25594,
+      "latency_s": 8.74,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_37",
+      "architecture": "single_react_agent",
+      "tokens": 25226,
+      "latency_s": 8.26,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_38",
+      "architecture": "single_react_agent",
+      "tokens": 24629,
+      "latency_s": 8.19,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_39",
+      "architecture": "single_react_agent",
+      "tokens": 24161,
+      "latency_s": 8.07,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_40",
+      "architecture": "single_react_agent",
+      "tokens": 25568,
+      "latency_s": 8.1,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_41",
+      "architecture": "single_react_agent",
+      "tokens": 24338,
+      "latency_s": 8.21,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_42",
+      "architecture": "single_react_agent",
+      "tokens": 24866,
+      "latency_s": 8.77,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_43",
+      "architecture": "single_react_agent",
+      "tokens": 25546,
+      "latency_s": 8.58,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_44",
+      "architecture": "single_react_agent",
+      "tokens": 25330,
+      "latency_s": 8.3,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_45",
+      "architecture": "single_react_agent",
+      "tokens": 24924,
+      "latency_s": 8.1,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_46",
+      "architecture": "single_react_agent",
+      "tokens": 24471,
+      "latency_s": 8.47,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_47",
+      "architecture": "single_react_agent",
+      "tokens": 24120,
+      "latency_s": 8.18,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_48",
+      "architecture": "single_react_agent",
+      "tokens": 24676,
+      "latency_s": 8.06,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_49",
+      "architecture": "single_react_agent",
+      "tokens": 24438,
+      "latency_s": 8.43,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_50",
+      "architecture": "single_react_agent",
+      "tokens": 25169,
+      "latency_s": 8.46,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_01",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18233,
+      "latency_s": 5.95,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_02",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18356,
+      "latency_s": 6.49,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_03",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18723,
+      "latency_s": 5.88,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_04",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17909,
+      "latency_s": 5.95,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_05",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18347,
+      "latency_s": 6.0,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_06",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18307,
+      "latency_s": 6.45,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_07",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17600,
+      "latency_s": 5.84,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_08",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17430,
+      "latency_s": 6.58,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_09",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17884,
+      "latency_s": 5.93,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_10",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17520,
+      "latency_s": 5.93,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_11",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18331,
+      "latency_s": 6.03,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_12",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18538,
+      "latency_s": 6.33,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_13",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17519,
+      "latency_s": 6.26,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_14",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17517,
+      "latency_s": 5.84,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_15",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18487,
+      "latency_s": 5.93,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_16",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17564,
+      "latency_s": 6.48,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_17",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18226,
+      "latency_s": 5.9,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_18",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17904,
+      "latency_s": 6.26,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_19",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18557,
+      "latency_s": 6.22,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_20",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17818,
+      "latency_s": 6.34,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_21",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18721,
+      "latency_s": 6.04,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_22",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17548,
+      "latency_s": 5.81,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_23",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17604,
+      "latency_s": 5.86,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_24",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17540,
+      "latency_s": 6.5,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_25",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18840,
+      "latency_s": 6.04,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_26",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18739,
+      "latency_s": 6.22,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_27",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18758,
+      "latency_s": 5.88,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_28",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17941,
+      "latency_s": 5.89,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_29",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17957,
+      "latency_s": 6.03,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_30",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17940,
+      "latency_s": 6.2,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_31",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17504,
+      "latency_s": 5.87,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_32",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18979,
+      "latency_s": 5.9,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_33",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17730,
+      "latency_s": 6.39,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_34",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17554,
+      "latency_s": 6.56,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_35",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18156,
+      "latency_s": 6.27,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_36",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17481,
+      "latency_s": 6.52,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_37",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18997,
+      "latency_s": 6.25,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_38",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18671,
+      "latency_s": 6.4,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_39",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17884,
+      "latency_s": 6.49,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_40",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17762,
+      "latency_s": 6.51,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_41",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18080,
+      "latency_s": 6.43,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_42",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18905,
+      "latency_s": 6.45,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_43",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17621,
+      "latency_s": 6.11,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_44",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18342,
+      "latency_s": 6.08,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_45",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17856,
+      "latency_s": 5.82,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_46",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18983,
+      "latency_s": 6.02,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_47",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18498,
+      "latency_s": 6.06,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_48",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17934,
+      "latency_s": 5.94,
+      "compliant": false,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_49",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 17943,
+      "latency_s": 5.83,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_50",
+      "architecture": "prebuilt_supervisor",
+      "tokens": 18293,
+      "latency_s": 6.28,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_01",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13171,
+      "latency_s": 3.74,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_02",
+      "architecture": "hand_built_stategraph",
+      "tokens": 14056,
+      "latency_s": 4.28,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_03",
+      "architecture": "hand_built_stategraph",
+      "tokens": 12793,
+      "latency_s": 4.46,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_04",
+      "architecture": "hand_built_stategraph",
+      "tokens": 12905,
+      "latency_s": 4.28,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_05",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13474,
+      "latency_s": 4.26,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_06",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13426,
+      "latency_s": 4.24,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_07",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13772,
+      "latency_s": 4.37,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_08",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13892,
+      "latency_s": 4.22,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_09",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13619,
+      "latency_s": 4.33,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_10",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13231,
+      "latency_s": 4.11,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_11",
+      "architecture": "hand_built_stategraph",
+      "tokens": 14188,
+      "latency_s": 3.89,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_12",
+      "architecture": "hand_built_stategraph",
+      "tokens": 12951,
+      "latency_s": 3.72,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_13",
+      "architecture": "hand_built_stategraph",
+      "tokens": 12799,
+      "latency_s": 4.06,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_14",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13436,
+      "latency_s": 4.1,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_15",
+      "architecture": "hand_built_stategraph",
+      "tokens": 14187,
+      "latency_s": 4.39,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_16",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13098,
+      "latency_s": 3.84,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_17",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13160,
+      "latency_s": 4.43,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_18",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13737,
+      "latency_s": 4.49,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_19",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13556,
+      "latency_s": 4.19,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_20",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13772,
+      "latency_s": 4.06,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_21",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13571,
+      "latency_s": 3.91,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_22",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13717,
+      "latency_s": 4.09,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_23",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13130,
+      "latency_s": 3.92,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_24",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13123,
+      "latency_s": 4.01,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_25",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13327,
+      "latency_s": 4.13,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_26",
+      "architecture": "hand_built_stategraph",
+      "tokens": 14226,
+      "latency_s": 4.17,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_27",
+      "architecture": "hand_built_stategraph",
+      "tokens": 14217,
+      "latency_s": 4.16,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_28",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13261,
+      "latency_s": 4.3,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_29",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13508,
+      "latency_s": 4.13,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_30",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13101,
+      "latency_s": 4.09,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_31",
+      "architecture": "hand_built_stategraph",
+      "tokens": 14019,
+      "latency_s": 4.24,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_32",
+      "architecture": "hand_built_stategraph",
+      "tokens": 12911,
+      "latency_s": 4.48,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_33",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13862,
+      "latency_s": 4.15,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_34",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13595,
+      "latency_s": 3.85,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_35",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13341,
+      "latency_s": 4.31,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_36",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13513,
+      "latency_s": 3.9,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_37",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13366,
+      "latency_s": 3.88,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_38",
+      "architecture": "hand_built_stategraph",
+      "tokens": 12732,
+      "latency_s": 4.3,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_39",
+      "architecture": "hand_built_stategraph",
+      "tokens": 12962,
+      "latency_s": 3.89,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_40",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13602,
+      "latency_s": 4.26,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_41",
+      "architecture": "hand_built_stategraph",
+      "tokens": 14181,
+      "latency_s": 4.27,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_42",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13835,
+      "latency_s": 3.72,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_43",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13462,
+      "latency_s": 4.45,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_44",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13147,
+      "latency_s": 3.78,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_45",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13879,
+      "latency_s": 4.34,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_46",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13741,
+      "latency_s": 4.04,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_47",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13510,
+      "latency_s": 4.36,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_48",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13951,
+      "latency_s": 4.41,
+      "compliant": true,
+      "got_reply": true,
+      "got_hire": true
+    },
+    {
+      "job_id": "dev_job_49",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13718,
+      "latency_s": 4.47,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    },
+    {
+      "job_id": "dev_job_50",
+      "architecture": "hand_built_stategraph",
+      "tokens": 13752,
+      "latency_s": 4.32,
+      "compliant": true,
+      "got_reply": false,
+      "got_hire": false
+    }
+  ]
+}
