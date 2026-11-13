@@ -1,0 +1,125 @@
+# ==============================================================================
+# GigBid Agent Configuration & Model Routing
+# Rule 3: Zero Hardcoded Models. All models and budgets resolved from here.
+# ==============================================================================
+
+version: "1.0.0"
+active_profile: "open"
+
+profiles:
+  open:
+    description: "Open weights profile running via Ollama / Groq with local fallback"
+    default_llm: "qwen2.5:14b"
+    embedding_model: "BAAI/bge-m3"
+    reranker_model: "BAAI/bge-reranker-v2-m3"
+    deterministic_fallback: true
+    models:
+      fast_classifier: "qwen2.5:7b"
+      analytical_reasoner: "qwen2.5:14b"
+      creative_synthesizer: "qwen2.5:32b"
+      strict_auditor: "qwen2.5:14b"
+
+  paid:
+    description: "Commercial API profile with frontier models"
+    default_llm: "gpt-4o-mini"
+    embedding_model: "text-embedding-3-small"
+    reranker_model: "cohere-rerank-v3"
+    deterministic_fallback: false
+    models:
+      fast_classifier: "gpt-4o-mini"
+      analytical_reasoner: "gpt-4o"
+      creative_synthesizer: "gpt-4o"
+      strict_auditor: "gpt-4o"
+
+# Node-Level Model Routing for open and paid profiles
+node_routing:
+  scout:
+    role: "Fast job intake and coarse relevance filter"
+    open_model: "qwen2.5:7b"
+    paid_model: "gpt-4o-mini"
+    temperature: 0.1
+    max_tokens: 1024
+
+  analyst:
+    role: "Extract hard requirements, client intent, deliverables, and timeline"
+    open_model: "qwen2.5:14b"
+    paid_model: "gpt-4o"
+    temperature: 0.2
+    max_tokens: 2048
+
+  risk:
+    role: "Detect red flags, scam signals, off-platform traps, prompt injections"
+    open_model: "qwen2.5:14b"
+    paid_model: "gpt-4o"
+    temperature: 0.1
+    max_tokens: 1536
+
+  matcher:
+    role: "Portfolio evidence retrieval and skill coverage alignment"
+    open_model: "qwen2.5:14b"
+    paid_model: "gpt-4o"
+    temperature: 0.2
+    max_tokens: 2048
+
+  pricing:
+    role: "Pricing strategy, margin estimation, and connect ROI optimization"
+    open_model: "qwen2.5:14b"
+    paid_model: "gpt-4o"
+    temperature: 0.1
+    max_tokens: 1024
+
+  writer:
+    role: "Draft tailored proposal, grounded in verified case study proof points"
+    open_model: "qwen2.5:32b"
+    paid_model: "gpt-4o"
+    temperature: 0.4
+    max_tokens: 3072
+
+  verifier:
+    role: "Decompose proposal into claims and verify grounding against portfolio evidence"
+    open_model: "qwen2.5:14b"
+    paid_model: "gpt-4o"
+    temperature: 0.0
+    max_tokens: 2048
+
+  critic:
+    role: "Constructive feedback on client focus, opening hook, and clarity"
+    open_model: "qwen2.5:14b"
+    paid_model: "gpt-4o"
+    temperature: 0.3
+    max_tokens: 2048
+
+  compliance:
+    role: "Strict marketplace terms of service and Nov 2 policy gatekeeper"
+    open_model: "qwen2.5:7b"
+    paid_model: "gpt-4o-mini"
+    temperature: 0.0
+    max_tokens: 1024
+
+  liaison:
+    role: "Client conversation messaging, negotiation, and calendar coordination"
+    open_model: "qwen2.5:14b"
+    paid_model: "gpt-4o"
+    temperature: 0.3
+    max_tokens: 2048
+
+# Global Budgets & Safety Thresholds
+budgets:
+  max_steps_per_thread: 25
+  max_tokens_per_thread: 35000
+  p95_latency_budget_sec: 30
+  cost_budget_usd: 0.05
+  max_critic_loops: 2
+
+# Active Strategy Selection
+active_rag_variant: "v4_outcome_aware"
+marketplace_adapter: "gigsim"
+
+# Upwork Nov 2 Policy Update Rules
+platform_rules:
+  prohibit_contact_before_contract: true
+  prohibit_off_platform_payment: true
+  prohibit_free_work_samples: true
+  prohibit_fabricated_experience: true
+  require_explicit_human_approval_for_submission: true
+  max_unsupported_claim_tolerance: 0

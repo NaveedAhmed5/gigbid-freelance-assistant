@@ -1,0 +1,43 @@
+services:
+  gigsim:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.gigsim
+    container_name: gigbid-gigsim
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+      - HOST=0.0.0.0
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.api
+    container_name: gigbid-api
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      - GIGSIM_BASE_URL=http://gigsim:8001
+      - DATABASE_URL=sqlite:///./gigbid.db
+      - CHECKPOINT_DB_PATH=./gigbid_checkpoints.db
+      - JWT_SECRET_KEY=dev-secret-key-32-bytes-long-123456
+      - OAUTH_FERNET_KEY=0123456789abcdef0123456789abcdef0123456789a=
+    depends_on:
+      - gigsim
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.web
+    container_name: gigbid-web
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - api
+    restart: unless-stopped
