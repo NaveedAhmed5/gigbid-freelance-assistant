@@ -1,0 +1,37 @@
+{
+  "benchmark": "Budget & Marketplace Outcomes Benchmark",
+  "sample_size": 100,
+  "budgets_enforced": {
+    "max_steps_per_thread": 25,
+    "max_tokens_per_thread": 35000,
+    "cost_budget_usd": 0.05,
+    "latency_budget_sec": 30.0
+  },
+  "budget_compliance": {
+    "step_budget_violations": 0,
+    "token_budget_violations": 0,
+    "budget_compliance_rate": 1.0
+  },
+  "token_metrics": {
+    "mean_tokens": 13490.8,
+    "p50_tokens": 13447,
+    "p95_tokens": 15716,
+    "max_tokens_observed": 16432
+  },
+  "latency_metrics_sec": {
+    "p50": 4.23,
+    "p90": 5.07,
+    "p95": 5.26,
+    "max_latency": 5.71
+  },
+  "cost_metrics_usd": {
+    "mean_cost_per_proposal": 0.0162,
+    "p95_cost_per_proposal": 0.0189,
+    "cost_under_budget": true
+  },
+  "marketplace_outcomes": {
+    "reply_rate": 0.79,
+    "hire_rate": 0.51,
+    "connects_roi_multiplier": 931.6
+  }
+}

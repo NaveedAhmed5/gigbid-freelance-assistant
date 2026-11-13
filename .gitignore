@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Node.js & Next.js
+node_modules/
+*/node_modules/
+.next/
+*/.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
