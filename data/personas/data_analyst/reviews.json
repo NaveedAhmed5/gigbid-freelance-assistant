@@ -1,0 +1,37 @@
+[
+  {
+    "review_id": "rev_data_analyst_1",
+    "client_name": "Enterprise Client A",
+    "rating": 5.0,
+    "comment": "Exceptional technical rigor. Delivered ahead of schedule with flawless code quality.",
+    "date": "2026-02-15"
+  },
+  {
+    "review_id": "rev_data_analyst_2",
+    "client_name": "Enterprise Client B",
+    "rating": 5.0,
+    "comment": "Understood our enterprise requirements immediately. Great communication throughout.",
+    "date": "2026-03-15"
+  },
+  {
+    "review_id": "rev_data_analyst_3",
+    "client_name": "Enterprise Client C",
+    "rating": 4.9,
+    "comment": "Solved an architectural bottleneck our internal team had struggled with for months.",
+    "date": "2026-04-15"
+  },
+  {
+    "review_id": "rev_data_analyst_4",
+    "client_name": "Enterprise Client D",
+    "rating": 5.0,
+    "comment": "Very responsive and professional. The case studies and documentation were top-notch.",
+    "date": "2026-05-15"
+  },
+  {
+    "review_id": "rev_data_analyst_5",
+    "client_name": "Enterprise Client E",
+    "rating": 4.8,
+    "comment": "Great engineering execution and domain expertise in our industry.",
+    "date": "2026-06-15"
+  }
+]

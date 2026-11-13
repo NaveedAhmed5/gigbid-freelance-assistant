@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "prop_data_analyst_001",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "Excel",
+      "PowerBI",
+      "Snowflake"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for High-Throughput Enterprise Ingestion Engine directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with Excel, PowerBI, Snowflake that delivered a 42.0% measurable improvement (Engineered scalable pipeline processing 50M events daily with sub-50ms latency.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_002",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "dbt",
+      "BigQuery",
+      "PowerBI"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with dbt, BigQuery, PowerBI that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_003",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "Excel",
+      "Python",
+      "dbt"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Real-Time Fraud & Anomaly Detection Gateway and wanted to share direct experience using Excel, Python, dbt.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_004",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "A/B Testing",
+      "BigQuery",
+      "Snowflake"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_005",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "PowerBI",
+      "A/B Testing",
+      "Python"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using PowerBI, A/B Testing, Python.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_006",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "BigQuery",
+      "A/B Testing",
+      "Snowflake"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Retail",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Dynamic Pricing & Revenue Optimization Model and wanted to share direct experience using BigQuery, A/B Testing, Snowflake.\n\nI've built similar systems in Retail focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_007",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "dbt"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using SQL, Snowflake, dbt.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_008",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "PowerBI",
+      "Tableau",
+      "Snowflake"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using PowerBI, Tableau, Snowflake.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_009",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "Statistical Modeling",
+      "Tableau",
+      "A/B Testing"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Media",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in Media.\n\nIn that project, we engineered a solution with Statistical Modeling, Tableau, A/B Testing that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_010",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "PowerBI",
+      "Excel",
+      "Python"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_011",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "dbt",
+      "Python",
+      "SQL"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Modal Document Parsing Pipeline directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with dbt, Python, SQL that delivered a 91.0% measurable improvement (Automated extraction and classification of complex financial statements.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_012",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "Snowflake",
+      "PowerBI",
+      "BigQuery"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using Snowflake, PowerBI, BigQuery.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_013",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "PowerBI",
+      "Excel",
+      "A/B Testing"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with PowerBI, Excel, A/B Testing that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_014",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "Excel",
+      "PowerBI",
+      "Statistical Modeling"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding A/B Testing & Experimentation Framework and wanted to share direct experience using Excel, PowerBI, Statistical Modeling.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_015",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "SQL",
+      "BigQuery",
+      "Snowflake"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using SQL, BigQuery, Snowflake.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_016",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "Tableau",
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Retail",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using Tableau, Statistical Modeling, dbt.\n\nI've built similar systems in Retail focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_017",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "Statistical Modeling",
+      "Tableau",
+      "A/B Testing"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for High-Throughput Enterprise Ingestion Engine directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Statistical Modeling, Tableau, A/B Testing that delivered a 42.0% measurable improvement (Engineered scalable pipeline processing 50M events daily with sub-50ms latency.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_018",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "dbt",
+      "Statistical Modeling",
+      "Tableau"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_019",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "Snowflake",
+      "Statistical Modeling",
+      "A/B Testing"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_020",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "dbt",
+      "BigQuery",
+      "A/B Testing"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_021",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "PowerBI",
+      "Tableau",
+      "Excel"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Distributed Cache & Query Acceleration Layer directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with PowerBI, Tableau, Excel that delivered a 65.0% measurable improvement (Optimized database read latency by 65% utilizing multi-tiered Redis caching.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_022",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "dbt",
+      "SQL",
+      "Statistical Modeling"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with dbt, SQL, Statistical Modeling that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_023",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "Snowflake",
+      "A/B Testing",
+      "Python"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Low-Latency Microservice Orchestration Mesh directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with Snowflake, A/B Testing, Python that delivered a 30.0% measurable improvement (Decoupled monolithic backend into resilient event-driven microservices.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_024",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "A/B Testing",
+      "Python",
+      "dbt"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_025",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "Python",
+      "PowerBI",
+      "dbt"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_026",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "Statistical Modeling",
+      "A/B Testing",
+      "PowerBI"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Secure OAuth 2.1 & Tenant Isolation Gateway directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with Statistical Modeling, A/B Testing, PowerBI that delivered a 40.0% measurable improvement (Constructed zero-trust authorization gateway supporting SSO and RBAC.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_027",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "BigQuery",
+      "Python",
+      "Tableau"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_028",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "Statistical Modeling",
+      "Snowflake",
+      "SQL"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_029",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "BigQuery",
+      "SQL",
+      "Excel"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_030",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "A/B Testing",
+      "Snowflake",
+      "Tableau"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding A/B Testing & Experimentation Framework and wanted to share direct experience using A/B Testing, Snowflake, Tableau.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_031",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "BigQuery",
+      "Python",
+      "Snowflake"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Zero-Downtime Database Migration Framework directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with BigQuery, Python, Snowflake that delivered a 100.0% measurable improvement (Migrated 2TB relational database across regions without customer disruption.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_032",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "Tableau",
+      "SQL",
+      "Snowflake"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Adaptive Skill Knowledge Graph directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Tableau, SQL, Snowflake that delivered a 75.0% measurable improvement (Constructed NetworkX knowledge graph mapping semantic dependencies across domains.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_033",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "Python",
+      "Snowflake",
+      "PowerBI"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using Python, Snowflake, PowerBI.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_034",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "PowerBI",
+      "SQL",
+      "dbt"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using PowerBI, SQL, dbt.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_035",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "Statistical Modeling",
+      "PowerBI",
+      "Excel"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_036",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "Statistical Modeling",
+      "SQL",
+      "Python"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Automated Compliance & Redaction Service directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with Statistical Modeling, SQL, Python that delivered a 28.0% measurable improvement (Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_037",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Tableau"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using SQL, dbt, Tableau.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_038",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "PowerBI",
+      "A/B Testing",
+      "BigQuery"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with PowerBI, A/B Testing, BigQuery that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_039",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "Python",
+      "dbt",
+      "Tableau"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using Python, dbt, Tableau.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_040",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "dbt",
+      "Python",
+      "SQL"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_041",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "Tableau",
+      "BigQuery",
+      "Statistical Modeling"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_042",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "Python",
+      "Excel",
+      "Statistical Modeling"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using Python, Excel, Statistical Modeling.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_043",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "Excel",
+      "A/B Testing",
+      "SQL"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_044",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "A/B Testing",
+      "Tableau",
+      "PowerBI"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Media",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Continuous Evaluation & Regression Harness directly mirrors a recent deployment I completed in Media.\n\nIn that project, we engineered a solution with A/B Testing, Tableau, PowerBI that delivered a 45.0% measurable improvement (Created automated benchmark suite running synthetic test cases across builds.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_045",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "dbt",
+      "BigQuery",
+      "SQL"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_046",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "Excel",
+      "Snowflake",
+      "Tableau"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for A/B Testing & Experimentation Framework directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with Excel, Snowflake, Tableau that delivered a 22.0% measurable improvement (Architected Bayesian statistical experimentation engine for conversion testing.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_047",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "Excel",
+      "BigQuery",
+      "PowerBI"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_048",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "Python",
+      "A/B Testing",
+      "Snowflake"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Adaptive Skill Knowledge Graph directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with Python, A/B Testing, Snowflake that delivered a 75.0% measurable improvement (Constructed NetworkX knowledge graph mapping semantic dependencies across domains.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_049",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "Python",
+      "A/B Testing",
+      "SQL"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_050",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "BigQuery",
+      "Statistical Modeling",
+      "SQL"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using BigQuery, Statistical Modeling, SQL.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_051",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "BigQuery",
+      "Snowflake",
+      "dbt"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with BigQuery, Snowflake, dbt that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_052",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "Python"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_053",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "Snowflake",
+      "Tableau",
+      "Python"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_054",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "Excel",
+      "Snowflake",
+      "PowerBI"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_055",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "A/B Testing"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using SQL, Snowflake, A/B Testing.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_056",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "PowerBI",
+      "Statistical Modeling",
+      "A/B Testing"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Retail",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using PowerBI, Statistical Modeling, A/B Testing.\n\nI've built similar systems in Retail focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_057",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "PowerBI",
+      "Excel",
+      "Python"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_058",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "Statistical Modeling",
+      "SQL",
+      "dbt"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using Statistical Modeling, SQL, dbt.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_059",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "Tableau",
+      "SQL",
+      "Excel"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using Tableau, SQL, Excel.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_060",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "dbt"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using SQL, Snowflake, dbt.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_061",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "A/B Testing",
+      "BigQuery",
+      "Statistical Modeling"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_062",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "dbt",
+      "SQL",
+      "Tableau"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_063",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "dbt",
+      "Snowflake",
+      "SQL"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using dbt, Snowflake, SQL.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_064",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "Snowflake",
+      "dbt",
+      "Python"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using Snowflake, dbt, Python.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_065",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "Snowflake",
+      "BigQuery",
+      "A/B Testing"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using Snowflake, BigQuery, A/B Testing.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_066",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "Statistical Modeling",
+      "BigQuery",
+      "Snowflake"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with Statistical Modeling, BigQuery, Snowflake that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_067",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "PowerBI",
+      "Statistical Modeling",
+      "A/B Testing"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Real-Time Fraud & Anomaly Detection Gateway and wanted to share direct experience using PowerBI, Statistical Modeling, A/B Testing.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_068",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "Snowflake",
+      "A/B Testing",
+      "dbt"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_069",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "Python",
+      "BigQuery",
+      "Excel"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Media",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Distributed Cache & Query Acceleration Layer directly mirrors a recent deployment I completed in Media.\n\nIn that project, we engineered a solution with Python, BigQuery, Excel that delivered a 65.0% measurable improvement (Optimized database read latency by 65% utilizing multi-tiered Redis caching.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_070",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "BigQuery",
+      "PowerBI",
+      "dbt"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_071",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "Snowflake",
+      "Python",
+      "A/B Testing"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Retail",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using Snowflake, Python, A/B Testing.\n\nI've built similar systems in Retail focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_072",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "Snowflake",
+      "dbt",
+      "A/B Testing"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using Snowflake, dbt, A/B Testing.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_073",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "Statistical Modeling",
+      "BigQuery",
+      "PowerBI"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with Statistical Modeling, BigQuery, PowerBI that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_074",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "Statistical Modeling",
+      "Snowflake",
+      "Excel"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Media",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Secure OAuth 2.1 & Tenant Isolation Gateway directly mirrors a recent deployment I completed in Media.\n\nIn that project, we engineered a solution with Statistical Modeling, Snowflake, Excel that delivered a 40.0% measurable improvement (Constructed zero-trust authorization gateway supporting SSO and RBAC.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_075",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "BigQuery"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Gaming",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Modal Document Parsing Pipeline directly mirrors a recent deployment I completed in Gaming.\n\nIn that project, we engineered a solution with SQL, Snowflake, BigQuery that delivered a 91.0% measurable improvement (Automated extraction and classification of complex financial statements.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_076",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "dbt",
+      "SQL",
+      "Python"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Retail",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using dbt, SQL, Python.\n\nI've built similar systems in Retail focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_077",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "BigQuery",
+      "Snowflake",
+      "PowerBI"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Cloud Cost & Infrastructure Optimizer and wanted to share direct experience using BigQuery, Snowflake, PowerBI.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_078",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "SQL",
+      "PowerBI",
+      "Statistical Modeling"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for A/B Testing & Experimentation Framework directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with SQL, PowerBI, Statistical Modeling that delivered a 22.0% measurable improvement (Architected Bayesian statistical experimentation engine for conversion testing.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_079",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "SQL",
+      "PowerBI",
+      "Python"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using SQL, PowerBI, Python.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_080",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "Tableau",
+      "Snowflake",
+      "A/B Testing"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_081",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "BigQuery",
+      "SQL",
+      "PowerBI"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Retail",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using BigQuery, SQL, PowerBI.\n\nI've built similar systems in Retail focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_082",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "Statistical Modeling",
+      "Snowflake",
+      "A/B Testing"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_083",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "Statistical Modeling",
+      "Python",
+      "PowerBI"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Real-Time Fraud & Anomaly Detection Gateway and wanted to share direct experience using Statistical Modeling, Python, PowerBI.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_084",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "A/B Testing",
+      "Snowflake",
+      "BigQuery"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_085",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "Snowflake",
+      "dbt",
+      "Tableau"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_086",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "Python",
+      "SQL",
+      "PowerBI"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_087",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "Statistical Modeling",
+      "A/B Testing",
+      "BigQuery"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_088",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "A/B Testing",
+      "Python",
+      "dbt"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using A/B Testing, Python, dbt.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_089",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "dbt",
+      "Statistical Modeling",
+      "Tableau"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Customer Churn & Lifetime Value Predictor and wanted to share direct experience using dbt, Statistical Modeling, Tableau.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_090",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "Excel",
+      "dbt",
+      "Statistical Modeling"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_091",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "Tableau",
+      "Python",
+      "PowerBI"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Retail",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using Tableau, Python, PowerBI.\n\nI've built similar systems in Retail focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_092",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "Python",
+      "Statistical Modeling",
+      "PowerBI"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using Python, Statistical Modeling, PowerBI.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_093",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "Statistical Modeling",
+      "Python",
+      "Snowflake"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Cloud Cost & Infrastructure Optimizer and wanted to share direct experience using Statistical Modeling, Python, Snowflake.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_094",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "Snowflake",
+      "Python",
+      "dbt"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_095",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "dbt",
+      "PowerBI",
+      "A/B Testing"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_096",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "Snowflake",
+      "A/B Testing",
+      "Tableau"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_097",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "Python",
+      "Tableau",
+      "PowerBI"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_098",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "Tableau",
+      "Statistical Modeling",
+      "SQL"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_099",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "Snowflake",
+      "A/B Testing",
+      "Excel"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_100",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "Statistical Modeling",
+      "A/B Testing",
+      "PowerBI"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Automated Compliance & Redaction Service and wanted to share direct experience using Statistical Modeling, A/B Testing, PowerBI.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_101",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "Excel",
+      "Python",
+      "A/B Testing"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_102",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "dbt",
+      "BigQuery",
+      "Statistical Modeling"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with dbt, BigQuery, Statistical Modeling that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_103",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "A/B Testing",
+      "BigQuery",
+      "Excel"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Low-Latency Microservice Orchestration Mesh directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with A/B Testing, BigQuery, Excel that delivered a 30.0% measurable improvement (Decoupled monolithic backend into resilient event-driven microservices.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_104",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "Excel",
+      "Python",
+      "PowerBI"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_105",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "Snowflake",
+      "Python",
+      "Statistical Modeling"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Gaming",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in Gaming.\n\nIn that project, we engineered a solution with Snowflake, Python, Statistical Modeling that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_106",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "Statistical Modeling",
+      "A/B Testing",
+      "Snowflake"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Secure OAuth 2.1 & Tenant Isolation Gateway directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with Statistical Modeling, A/B Testing, Snowflake that delivered a 40.0% measurable improvement (Constructed zero-trust authorization gateway supporting SSO and RBAC.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_107",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "PowerBI",
+      "A/B Testing",
+      "Excel"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Modal Document Parsing Pipeline directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with PowerBI, A/B Testing, Excel that delivered a 91.0% measurable improvement (Automated extraction and classification of complex financial statements.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_108",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "PowerBI",
+      "BigQuery",
+      "SQL"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_109",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "Python",
+      "A/B Testing",
+      "PowerBI"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Cloud Cost & Infrastructure Optimizer and wanted to share direct experience using Python, A/B Testing, PowerBI.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_110",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "dbt",
+      "PowerBI",
+      "A/B Testing"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_111",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "Snowflake",
+      "Tableau",
+      "Excel"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_112",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "A/B Testing",
+      "dbt",
+      "Python"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_113",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "dbt",
+      "Tableau",
+      "Excel"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using dbt, Tableau, Excel.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_114",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "PowerBI",
+      "dbt",
+      "Python"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_115",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "A/B Testing",
+      "PowerBI",
+      "Excel"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Gaming",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in Gaming.\n\nIn that project, we engineered a solution with A/B Testing, PowerBI, Excel that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_116",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "PowerBI",
+      "Snowflake",
+      "SQL"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_117",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "SQL",
+      "Python",
+      "Excel"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using SQL, Python, Excel.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_118",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "Excel",
+      "dbt",
+      "Tableau"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with Excel, dbt, Tableau that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_119",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "Excel",
+      "BigQuery",
+      "SQL"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using Excel, BigQuery, SQL.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_120",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "Statistical Modeling",
+      "A/B Testing",
+      "dbt"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using Statistical Modeling, A/B Testing, dbt.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_121",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "dbt",
+      "Statistical Modeling",
+      "Tableau"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with dbt, Statistical Modeling, Tableau that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_122",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "BigQuery",
+      "dbt",
+      "Statistical Modeling"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Secure OAuth 2.1 & Tenant Isolation Gateway directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with BigQuery, dbt, Statistical Modeling that delivered a 40.0% measurable improvement (Constructed zero-trust authorization gateway supporting SSO and RBAC.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_123",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "Python",
+      "SQL",
+      "PowerBI"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_124",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "Statistical Modeling",
+      "BigQuery",
+      "Excel"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using Statistical Modeling, BigQuery, Excel.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_125",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "Statistical Modeling",
+      "Tableau",
+      "Snowflake"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Gaming",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in Gaming.\n\nIn that project, we engineered a solution with Statistical Modeling, Tableau, Snowflake that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_126",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "Excel",
+      "PowerBI",
+      "Snowflake"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_127",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "Snowflake",
+      "Excel",
+      "BigQuery"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_128",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "PowerBI",
+      "Snowflake",
+      "Python"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using PowerBI, Snowflake, Python.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_129",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "Snowflake",
+      "Tableau",
+      "Statistical Modeling"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Media",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_130",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "Python",
+      "dbt",
+      "Statistical Modeling"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Gaming",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in Gaming.\n\nIn that project, we engineered a solution with Python, dbt, Statistical Modeling that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_131",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "Tableau",
+      "PowerBI",
+      "Python"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_132",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "SQL",
+      "dbt",
+      "BigQuery"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_133",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "Excel",
+      "BigQuery",
+      "Tableau"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Supply Chain",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using Excel, BigQuery, Tableau.\n\nI've built similar systems in Supply Chain focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_134",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "PowerBI",
+      "Snowflake",
+      "A/B Testing"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Media",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in Media.\n\nIn that project, we engineered a solution with PowerBI, Snowflake, A/B Testing that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_135",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_data_analyst_07",
+    "skills": [
+      "Tableau",
+      "PowerBI",
+      "Statistical Modeling"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_136",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_data_analyst_08",
+    "skills": [
+      "A/B Testing",
+      "Statistical Modeling",
+      "Excel"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Interactive Real-Time Analytics Dashboard directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with A/B Testing, Statistical Modeling, Excel that delivered a 80.0% measurable improvement (Delivered responsive web analytics platform handling 100k concurrent active sessions.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_137",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_data_analyst_09",
+    "skills": [
+      "dbt",
+      "Statistical Modeling",
+      "SQL"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_138",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_data_analyst_10",
+    "skills": [
+      "Python",
+      "BigQuery",
+      "Statistical Modeling"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_139",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_data_analyst_11",
+    "skills": [
+      "Tableau",
+      "Excel",
+      "Snowflake"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using Tableau, Excel, Snowflake.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_140",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_data_analyst_12",
+    "skills": [
+      "SQL",
+      "Excel",
+      "dbt"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Gaming",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using SQL, Excel, dbt.\n\nI've built similar systems in Gaming focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_141",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_data_analyst_13",
+    "skills": [
+      "Statistical Modeling",
+      "Excel",
+      "dbt"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Retail",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in Retail.\n\nIn that project, we engineered a solution with Statistical Modeling, Excel, dbt that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_142",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_data_analyst_14",
+    "skills": [
+      "A/B Testing",
+      "SQL",
+      "Python"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_143",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_data_analyst_15",
+    "skills": [
+      "BigQuery",
+      "PowerBI",
+      "dbt"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Supply Chain",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Zero-Downtime Database Migration Framework directly mirrors a recent deployment I completed in Supply Chain.\n\nIn that project, we engineered a solution with BigQuery, PowerBI, dbt that delivered a 100.0% measurable improvement (Migrated 2TB relational database across regions without customer disruption.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_144",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_data_analyst_16",
+    "skills": [
+      "Snowflake",
+      "BigQuery",
+      "Excel"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using Snowflake, BigQuery, Excel.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_145",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_data_analyst_01",
+    "skills": [
+      "SQL",
+      "BigQuery",
+      "Excel"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Gaming",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_146",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_data_analyst_02",
+    "skills": [
+      "Excel",
+      "A/B Testing",
+      "Tableau"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Retail",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_147",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_data_analyst_03",
+    "skills": [
+      "Snowflake",
+      "A/B Testing",
+      "dbt"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_148",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_data_analyst_04",
+    "skills": [
+      "Python",
+      "BigQuery",
+      "Statistical Modeling"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Supply Chain",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1700.0
+  },
+  {
+    "id": "prop_data_analyst_149",
+    "persona": "data_analyst",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_data_analyst_05",
+    "skills": [
+      "A/B Testing",
+      "dbt",
+      "Python"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Media",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using A/B Testing, dbt, Python.\n\nI've built similar systems in Media focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 85.0
+  },
+  {
+    "id": "prop_data_analyst_150",
+    "persona": "data_analyst",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_data_analyst_06",
+    "skills": [
+      "PowerBI",
+      "Python",
+      "BigQuery"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Gaming",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in Gaming.\n\nIn that project, we engineered a solution with PowerBI, Python, BigQuery that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1700.0
+  }
+]

@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "prop_fullstack_web_dev_001",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "Redis",
+      "TypeScript",
+      "Next.js"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for High-Throughput Enterprise Ingestion Engine directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Redis, TypeScript, Next.js that delivered a 42.0% measurable improvement (Engineered scalable pipeline processing 50M events daily with sub-50ms latency.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_002",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "Docker",
+      "AWS",
+      "Redis"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_003",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "PostgreSQL",
+      "Next.js",
+      "GraphQL"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_004",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "Docker",
+      "React",
+      "Redis"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_005",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "TailwindCSS",
+      "GraphQL",
+      "Redis"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using TailwindCSS, GraphQL, Redis.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_006",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "TailwindCSS",
+      "React",
+      "Next.js"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_007",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "TailwindCSS",
+      "GraphQL",
+      "Docker"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_008",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "PostgreSQL",
+      "GraphQL",
+      "TypeScript"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_009",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "Docker",
+      "React",
+      "TailwindCSS"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Customer Churn & Lifetime Value Predictor and wanted to share direct experience using Docker, React, TailwindCSS.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_010",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "PostgreSQL",
+      "TailwindCSS",
+      "React"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_011",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "GraphQL",
+      "AWS",
+      "TypeScript"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using GraphQL, AWS, TypeScript.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_012",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "AWS",
+      "Docker",
+      "GraphQL"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using AWS, Docker, GraphQL.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_013",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "TailwindCSS"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "EdTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in EdTech.\n\nIn that project, we engineered a solution with TypeScript, Node.js, TailwindCSS that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_014",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "Redis",
+      "Docker",
+      "AWS"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_015",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_016",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "AWS",
+      "Next.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_017",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "Docker",
+      "Redis",
+      "React"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_018",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "Next.js"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using TypeScript, Node.js, Next.js.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_019",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "PostgreSQL",
+      "AWS",
+      "TypeScript"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_020",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "AWS",
+      "GraphQL",
+      "React"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Logistics",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Automated Compliance & Redaction Service directly mirrors a recent deployment I completed in Logistics.\n\nIn that project, we engineered a solution with AWS, GraphQL, React that delivered a 28.0% measurable improvement (Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_021",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "Node.js",
+      "React",
+      "Docker"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Distributed Cache & Query Acceleration Layer directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Node.js, React, Docker that delivered a 65.0% measurable improvement (Optimized database read latency by 65% utilizing multi-tiered Redis caching.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_022",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "React",
+      "Next.js",
+      "Docker"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_023",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "PostgreSQL",
+      "AWS",
+      "Redis"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_024",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "GraphQL",
+      "Docker",
+      "AWS"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_025",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "Node.js",
+      "Docker",
+      "Next.js"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_026",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "GraphQL",
+      "Node.js",
+      "Next.js"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using GraphQL, Node.js, Next.js.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_027",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "React",
+      "PostgreSQL",
+      "GraphQL"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using React, PostgreSQL, GraphQL.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_028",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "TailwindCSS",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_029",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_030",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "Redis",
+      "Docker",
+      "Next.js"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_031",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "Docker",
+      "AWS",
+      "Redis"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_032",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "TailwindCSS",
+      "Redis",
+      "GraphQL"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_033",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "Docker",
+      "TailwindCSS",
+      "Node.js"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "EdTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for High-Throughput Enterprise Ingestion Engine directly mirrors a recent deployment I completed in EdTech.\n\nIn that project, we engineered a solution with Docker, TailwindCSS, Node.js that delivered a 42.0% measurable improvement (Engineered scalable pipeline processing 50M events daily with sub-50ms latency.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_034",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "Node.js",
+      "GraphQL",
+      "Redis"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_035",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "GraphQL",
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Real-Time Fraud & Anomaly Detection Gateway and wanted to share direct experience using GraphQL, TypeScript, TailwindCSS.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_036",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "Docker",
+      "GraphQL",
+      "AWS"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Automated Compliance & Redaction Service directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Docker, GraphQL, AWS that delivered a 28.0% measurable improvement (Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_037",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "Next.js",
+      "Docker",
+      "TypeScript"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_038",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "Next.js",
+      "AWS",
+      "TailwindCSS"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Dynamic Pricing & Revenue Optimization Model and wanted to share direct experience using Next.js, AWS, TailwindCSS.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_039",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "React",
+      "Docker",
+      "Redis"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using React, Docker, Redis.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_040",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "AWS",
+      "Docker",
+      "TypeScript"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_041",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "Next.js",
+      "GraphQL",
+      "Redis"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_042",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "React",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using React, Docker, PostgreSQL.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_043",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "TailwindCSS",
+      "GraphQL",
+      "React"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_044",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "TailwindCSS",
+      "AWS",
+      "GraphQL"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Continuous Evaluation & Regression Harness directly mirrors a recent deployment I completed in B2B SaaS.\n\nIn that project, we engineered a solution with TailwindCSS, AWS, GraphQL that delivered a 45.0% measurable improvement (Created automated benchmark suite running synthetic test cases across builds.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_045",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "TailwindCSS",
+      "Docker",
+      "TypeScript"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Cloud Cost & Infrastructure Optimizer and wanted to share direct experience using TailwindCSS, Docker, TypeScript.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_046",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "Redis",
+      "React",
+      "Node.js"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_047",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "PostgreSQL",
+      "Node.js",
+      "React"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using PostgreSQL, Node.js, React.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_048",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "GraphQL",
+      "React",
+      "AWS"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using GraphQL, React, AWS.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_049",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "Docker",
+      "Next.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_050",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "TypeScript",
+      "Redis",
+      "TailwindCSS"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Logistics",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in Logistics.\n\nIn that project, we engineered a solution with TypeScript, Redis, TailwindCSS that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_051",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with TypeScript, PostgreSQL, TailwindCSS that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_052",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "TailwindCSS",
+      "GraphQL",
+      "Next.js"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_053",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "Node.js",
+      "AWS",
+      "GraphQL"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_054",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "Redis",
+      "Next.js",
+      "AWS"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Dynamic Pricing & Revenue Optimization Model and wanted to share direct experience using Redis, Next.js, AWS.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_055",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "Next.js",
+      "React",
+      "GraphQL"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_056",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "Redis",
+      "Node.js",
+      "Docker"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_057",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "Redis",
+      "Next.js",
+      "Node.js"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with Redis, Next.js, Node.js that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_058",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "Docker",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_059",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Modal Document Parsing Pipeline directly mirrors a recent deployment I completed in B2B SaaS.\n\nIn that project, we engineered a solution with PostgreSQL, TypeScript, Docker that delivered a 91.0% measurable improvement (Automated extraction and classification of complex financial statements.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_060",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "PostgreSQL",
+      "AWS",
+      "Next.js"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_061",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "React",
+      "Docker",
+      "TailwindCSS"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with React, Docker, TailwindCSS that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_062",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "Redis",
+      "PostgreSQL",
+      "GraphQL"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_063",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "PostgreSQL",
+      "Docker",
+      "Redis"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using PostgreSQL, Docker, Redis.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_064",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "Node.js",
+      "GraphQL",
+      "Docker"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using Node.js, GraphQL, Docker.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_065",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "React",
+      "Node.js",
+      "GraphQL"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Logistics",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for High-Throughput Enterprise Ingestion Engine directly mirrors a recent deployment I completed in Logistics.\n\nIn that project, we engineered a solution with React, Node.js, GraphQL that delivered a 42.0% measurable improvement (Engineered scalable pipeline processing 50M events daily with sub-50ms latency.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_066",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "Redis",
+      "TailwindCSS",
+      "PostgreSQL"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Redis, TailwindCSS, PostgreSQL that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_067",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "GraphQL"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with PostgreSQL, TypeScript, GraphQL that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_068",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "AWS"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "EdTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Automated Compliance & Redaction Service directly mirrors a recent deployment I completed in EdTech.\n\nIn that project, we engineered a solution with PostgreSQL, TypeScript, AWS that delivered a 28.0% measurable improvement (Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_069",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "Redis",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Distributed Cache & Query Acceleration Layer directly mirrors a recent deployment I completed in B2B SaaS.\n\nIn that project, we engineered a solution with Redis, Docker, PostgreSQL that delivered a 65.0% measurable improvement (Optimized database read latency by 65% utilizing multi-tiered Redis caching.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_070",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "Node.js",
+      "TailwindCSS",
+      "Redis"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Logistics",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in Logistics.\n\nIn that project, we engineered a solution with Node.js, TailwindCSS, Redis that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_071",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "Next.js"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using Node.js, PostgreSQL, Next.js.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_072",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_073",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "Docker",
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_074",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "Next.js",
+      "React",
+      "PostgreSQL"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using Next.js, React, PostgreSQL.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_075",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "TailwindCSS",
+      "GraphQL",
+      "Next.js"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using TailwindCSS, GraphQL, Next.js.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_076",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "Node.js",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using Node.js, Next.js, TailwindCSS.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_077",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "AWS",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with AWS, Redis, PostgreSQL that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_078",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "Next.js",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding A/B Testing & Experimentation Framework and wanted to share direct experience using Next.js, PostgreSQL, Docker.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_079",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "PostgreSQL",
+      "TailwindCSS",
+      "React"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using PostgreSQL, TailwindCSS, React.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_080",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "Docker",
+      "React",
+      "Next.js"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using Docker, React, Next.js.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_081",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "Node.js",
+      "GraphQL",
+      "TailwindCSS"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using Node.js, GraphQL, TailwindCSS.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_082",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "React",
+      "GraphQL",
+      "TypeScript"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with React, GraphQL, TypeScript that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_083",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "PostgreSQL",
+      "AWS",
+      "React"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "EdTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in EdTech.\n\nIn that project, we engineered a solution with PostgreSQL, AWS, React that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_084",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "Docker",
+      "TailwindCSS",
+      "PostgreSQL"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Automated Compliance & Redaction Service directly mirrors a recent deployment I completed in B2B SaaS.\n\nIn that project, we engineered a solution with Docker, TailwindCSS, PostgreSQL that delivered a 28.0% measurable improvement (Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_085",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "Redis",
+      "GraphQL",
+      "TailwindCSS"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_086",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "React",
+      "Node.js",
+      "Docker"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_087",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "TypeScript",
+      "AWS",
+      "TailwindCSS"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_088",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "Redis",
+      "Node.js",
+      "React"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "EdTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Interactive Real-Time Analytics Dashboard directly mirrors a recent deployment I completed in EdTech.\n\nIn that project, we engineered a solution with Redis, Node.js, React that delivered a 80.0% measurable improvement (Delivered responsive web analytics platform handling 100k concurrent active sessions.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_089",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "Docker",
+      "PostgreSQL",
+      "GraphQL"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_090",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using React, Next.js, TypeScript.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_091",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_092",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "React",
+      "Redis",
+      "Node.js"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_093",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "AWS",
+      "Next.js",
+      "GraphQL"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "EdTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in EdTech.\n\nIn that project, we engineered a solution with AWS, Next.js, GraphQL that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_094",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "Docker",
+      "TailwindCSS",
+      "GraphQL"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_095",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "Redis",
+      "Next.js",
+      "GraphQL"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using Redis, Next.js, GraphQL.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_096",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "React",
+      "Docker",
+      "GraphQL"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Adaptive Skill Knowledge Graph directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with React, Docker, GraphQL that delivered a 75.0% measurable improvement (Constructed NetworkX knowledge graph mapping semantic dependencies across domains.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_097",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for High-Throughput Enterprise Ingestion Engine directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with PostgreSQL, TypeScript, TailwindCSS that delivered a 42.0% measurable improvement (Engineered scalable pipeline processing 50M events daily with sub-50ms latency.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_098",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "Node.js",
+      "Docker",
+      "AWS"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_099",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "Node.js",
+      "TailwindCSS",
+      "React"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in B2B SaaS.\n\nIn that project, we engineered a solution with Node.js, TailwindCSS, React that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_100",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "TailwindCSS",
+      "AWS",
+      "Redis"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_101",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "TypeScript",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Distributed Cache & Query Acceleration Layer directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with TypeScript, GraphQL, PostgreSQL that delivered a 65.0% measurable improvement (Optimized database read latency by 65% utilizing multi-tiered Redis caching.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_102",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "Node.js",
+      "React",
+      "Docker"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Dynamic Pricing & Revenue Optimization Model and wanted to share direct experience using Node.js, React, Docker.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_103",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using React, Node.js, TypeScript.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_104",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "TypeScript",
+      "TailwindCSS",
+      "Node.js"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using TypeScript, TailwindCSS, Node.js.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_105",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "Next.js",
+      "Node.js",
+      "React"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Customer Churn & Lifetime Value Predictor and wanted to share direct experience using Next.js, Node.js, React.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_106",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "AWS",
+      "Node.js",
+      "Redis"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Secure OAuth 2.1 & Tenant Isolation Gateway directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with AWS, Node.js, Redis that delivered a 40.0% measurable improvement (Constructed zero-trust authorization gateway supporting SSO and RBAC.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_107",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "Node.js",
+      "TailwindCSS",
+      "Next.js"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using Node.js, TailwindCSS, Next.js.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_108",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "Redis",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_109",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "Next.js",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in B2B SaaS.\n\nIn that project, we engineered a solution with Next.js, Redis, PostgreSQL that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_110",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "Next.js",
+      "React",
+      "TypeScript"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding A/B Testing & Experimentation Framework and wanted to share direct experience using Next.js, React, TypeScript.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_111",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_112",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "Node.js",
+      "TailwindCSS",
+      "TypeScript"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_113",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "Next.js",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using Next.js, PostgreSQL, TypeScript.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_114",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "Next.js",
+      "GraphQL",
+      "React"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_115",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "React",
+      "Docker",
+      "AWS"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Real-Time Fraud & Anomaly Detection Gateway and wanted to share direct experience using React, Docker, AWS.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_116",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "TailwindCSS",
+      "AWS",
+      "React"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Automated Compliance & Redaction Service directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with TailwindCSS, AWS, React that delivered a 28.0% measurable improvement (Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_117",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "Docker",
+      "AWS",
+      "Node.js"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_118",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "Redis",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "EdTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in EdTech.\n\nIn that project, we engineered a solution with Redis, TypeScript, PostgreSQL that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_119",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "Docker",
+      "TypeScript",
+      "AWS"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Low-Latency Microservice Orchestration Mesh directly mirrors a recent deployment I completed in B2B SaaS.\n\nIn that project, we engineered a solution with Docker, TypeScript, AWS that delivered a 30.0% measurable improvement (Decoupled monolithic backend into resilient event-driven microservices.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_120",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "Docker",
+      "GraphQL",
+      "AWS"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Logistics",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Interactive Real-Time Analytics Dashboard directly mirrors a recent deployment I completed in Logistics.\n\nIn that project, we engineered a solution with Docker, GraphQL, AWS that delivered a 80.0% measurable improvement (Delivered responsive web analytics platform handling 100k concurrent active sessions.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_121",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "React",
+      "Docker",
+      "AWS"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with React, Docker, AWS that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_122",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "React",
+      "Redis",
+      "TailwindCSS"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using React, Redis, TailwindCSS.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_123",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "Redis",
+      "Next.js",
+      "React"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_124",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "Next.js",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Continuous Evaluation & Regression Harness directly mirrors a recent deployment I completed in B2B SaaS.\n\nIn that project, we engineered a solution with Next.js, PostgreSQL, TailwindCSS that delivered a 45.0% measurable improvement (Created automated benchmark suite running synthetic test cases across builds.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_125",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "GraphQL",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Logistics",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in Logistics.\n\nIn that project, we engineered a solution with GraphQL, AWS, PostgreSQL that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_126",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "Docker",
+      "AWS",
+      "GraphQL"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for A/B Testing & Experimentation Framework directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Docker, AWS, GraphQL that delivered a 22.0% measurable improvement (Architected Bayesian statistical experimentation engine for conversion testing.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_127",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "React",
+      "Redis",
+      "Node.js"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using React, Redis, Node.js.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_128",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "GraphQL",
+      "Docker",
+      "Node.js"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using GraphQL, Docker, Node.js.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_129",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "GraphQL",
+      "TailwindCSS",
+      "Docker"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using GraphQL, TailwindCSS, Docker.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_130",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "GraphQL",
+      "Redis",
+      "React"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_131",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "TailwindCSS",
+      "GraphQL",
+      "Redis"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with TailwindCSS, GraphQL, Redis that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_132",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "PostgreSQL",
+      "TailwindCSS",
+      "Next.js"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Automated Compliance & Redaction Service and wanted to share direct experience using PostgreSQL, TailwindCSS, Next.js.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_133",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "Docker",
+      "React",
+      "AWS"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using Docker, React, AWS.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_134",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "React",
+      "Redis",
+      "GraphQL"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_135",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_fullstack_web_dev_07",
+    "skills": [
+      "React",
+      "TailwindCSS",
+      "Next.js"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using React, TailwindCSS, Next.js.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_136",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_fullstack_web_dev_08",
+    "skills": [
+      "AWS",
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_137",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_fullstack_web_dev_09",
+    "skills": [
+      "React",
+      "GraphQL",
+      "TailwindCSS"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Customer Churn & Lifetime Value Predictor and wanted to share direct experience using React, GraphQL, TailwindCSS.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_138",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_fullstack_web_dev_10",
+    "skills": [
+      "GraphQL",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_139",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_fullstack_web_dev_11",
+    "skills": [
+      "Redis",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_140",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_fullstack_web_dev_12",
+    "skills": [
+      "React",
+      "AWS",
+      "Node.js"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using React, AWS, Node.js.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_141",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_fullstack_web_dev_13",
+    "skills": [
+      "Next.js",
+      "Docker",
+      "Node.js"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Cloud Cost & Infrastructure Optimizer and wanted to share direct experience using Next.js, Docker, Node.js.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_142",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_fullstack_web_dev_14",
+    "skills": [
+      "React",
+      "TailwindCSS",
+      "AWS"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for A/B Testing & Experimentation Framework directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with React, TailwindCSS, AWS that delivered a 22.0% measurable improvement (Architected Bayesian statistical experimentation engine for conversion testing.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_143",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_fullstack_web_dev_15",
+    "skills": [
+      "React",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "EdTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using React, PostgreSQL, Node.js.\n\nI've built similar systems in EdTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_144",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_fullstack_web_dev_16",
+    "skills": [
+      "GraphQL",
+      "AWS",
+      "TypeScript"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using GraphQL, AWS, TypeScript.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_145",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_fullstack_web_dev_01",
+    "skills": [
+      "Redis",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Logistics",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using Redis, PostgreSQL, TypeScript.\n\nI've built similar systems in Logistics focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_146",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_fullstack_web_dev_02",
+    "skills": [
+      "Next.js",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using Next.js, PostgreSQL, AWS.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_147",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_fullstack_web_dev_03",
+    "skills": [
+      "TailwindCSS",
+      "Redis",
+      "TypeScript"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_148",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_fullstack_web_dev_04",
+    "skills": [
+      "Next.js",
+      "Redis",
+      "GraphQL"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "EdTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_149",
+    "persona": "fullstack_web_dev",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_fullstack_web_dev_05",
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "B2B SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using React, Next.js, TypeScript.\n\nI've built similar systems in B2B SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 95.0
+  },
+  {
+    "id": "prop_fullstack_web_dev_150",
+    "persona": "fullstack_web_dev",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_fullstack_web_dev_06",
+    "skills": [
+      "React",
+      "AWS",
+      "Node.js"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Logistics",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 1900.0
+  }
+]

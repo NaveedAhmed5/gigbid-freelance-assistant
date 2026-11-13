@@ -1,7 +1,7 @@
 # GigBid Autonomous Execution Progress
 
 - [x] Phase 0: Environment Setup, Directory Structure, Configs & Docker
-- [ ] Phase 1: GigSim Simulator, 3 Persona Corpora, Policy Pack & Dev Dataset
+- [x] Phase 1: GigSim Simulator, 3 Persona Corpora, Policy Pack & Dev Dataset
 - [ ] Phase 2: Part A (1/2) — Custom MCP Servers (portfolio, marketplace, workspace)
 - [ ] Phase 3: Part A (2/2) — Marketplace Port, Live Upwork & GitHub Adapters, Client Discipline & R&D Question A
 - [ ] Phase 4: Part B (1/2) — Advanced RAG Ingestion & Variants (V0–V9)

@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "prop_ai_ml_engineer_001",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "Docker",
+      "LangGraph",
+      "Python"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_002",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "PyTorch",
+      "Python",
+      "LangGraph"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with PyTorch, Python, LangGraph that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_003",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "PyTorch",
+      "Python",
+      "Vector Search"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "LegalTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in LegalTech.\n\nIn that project, we engineered a solution with PyTorch, Python, Vector Search that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_004",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "PyTorch",
+      "vLLM",
+      "LangGraph"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Automated Compliance & Redaction Service directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with PyTorch, vLLM, LangGraph that delivered a 28.0% measurable improvement (Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_005",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "FastAPI",
+      "RAG Systems",
+      "LangGraph"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using FastAPI, RAG Systems, LangGraph.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_006",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "vLLM",
+      "LangChain",
+      "RAG Systems"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Healthcare",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Dynamic Pricing & Revenue Optimization Model and wanted to share direct experience using vLLM, LangChain, RAG Systems.\n\nI've built similar systems in Healthcare focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_007",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "LangGraph",
+      "RAG Systems",
+      "Transformers"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_008",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "LangGraph",
+      "PyTorch",
+      "vLLM"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_009",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "Transformers",
+      "Vector Search",
+      "Docker"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Customer Churn & Lifetime Value Predictor and wanted to share direct experience using Transformers, Vector Search, Docker.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_010",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "Transformers",
+      "RAG Systems",
+      "Python"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_011",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "PyTorch",
+      "Python",
+      "Transformers"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Healthcare",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using PyTorch, Python, Transformers.\n\nI've built similar systems in Healthcare focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_012",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "Vector Search",
+      "PyTorch",
+      "LangGraph"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_013",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "LangGraph",
+      "Docker",
+      "RAG Systems"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_014",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "LangChain",
+      "Transformers",
+      "Docker"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_015",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "FastAPI",
+      "RAG Systems",
+      "LangGraph"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_016",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "PyTorch",
+      "RAG Systems",
+      "Docker"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_017",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "Python",
+      "vLLM",
+      "Docker"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for High-Throughput Enterprise Ingestion Engine directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Python, vLLM, Docker that delivered a 42.0% measurable improvement (Engineered scalable pipeline processing 50M events daily with sub-50ms latency.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_018",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "PyTorch",
+      "LangGraph",
+      "LangChain"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using PyTorch, LangGraph, LangChain.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_019",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "Transformers",
+      "RAG Systems",
+      "vLLM"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with Transformers, RAG Systems, vLLM that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_020",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "LangGraph",
+      "Transformers",
+      "Python"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Automated Compliance & Redaction Service and wanted to share direct experience using LangGraph, Transformers, Python.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_021",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "LangChain",
+      "Transformers",
+      "Python"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Distributed Cache & Query Acceleration Layer directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with LangChain, Transformers, Python that delivered a 65.0% measurable improvement (Optimized database read latency by 65% utilizing multi-tiered Redis caching.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_022",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "Transformers",
+      "FastAPI",
+      "RAG Systems"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_023",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "FastAPI",
+      "Transformers",
+      "RAG Systems"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_024",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "LangChain",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Interactive Real-Time Analytics Dashboard directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with LangChain, LangGraph, FastAPI that delivered a 80.0% measurable improvement (Delivered responsive web analytics platform handling 100k concurrent active sessions.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_025",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "LangGraph",
+      "Python",
+      "vLLM"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in SaaS.\n\nIn that project, we engineered a solution with LangGraph, Python, vLLM that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_026",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "Vector Search",
+      "Python",
+      "vLLM"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Secure OAuth 2.1 & Tenant Isolation Gateway directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with Vector Search, Python, vLLM that delivered a 40.0% measurable improvement (Constructed zero-trust authorization gateway supporting SSO and RBAC.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_027",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "Docker",
+      "RAG Systems",
+      "LangChain"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_028",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "Python",
+      "vLLM",
+      "PyTorch"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using Python, vLLM, PyTorch.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_029",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "LangChain",
+      "PyTorch",
+      "vLLM"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with LangChain, PyTorch, vLLM that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_030",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "LangGraph",
+      "Transformers",
+      "PyTorch"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_031",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "Docker",
+      "LangGraph",
+      "Python"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Zero-Downtime Database Migration Framework directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with Docker, LangGraph, Python that delivered a 100.0% measurable improvement (Migrated 2TB relational database across regions without customer disruption.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_032",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "Docker",
+      "PyTorch",
+      "Transformers"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Adaptive Skill Knowledge Graph directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Docker, PyTorch, Transformers that delivered a 75.0% measurable improvement (Constructed NetworkX knowledge graph mapping semantic dependencies across domains.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_033",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "Docker",
+      "vLLM",
+      "Vector Search"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using Docker, vLLM, Vector Search.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_034",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "FastAPI",
+      "LangGraph",
+      "Vector Search"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using FastAPI, LangGraph, Vector Search.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_035",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "LangGraph",
+      "FastAPI",
+      "Transformers"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in SaaS.\n\nIn that project, we engineered a solution with LangGraph, FastAPI, Transformers that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_036",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "LangChain",
+      "FastAPI",
+      "RAG Systems"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_037",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "Vector Search",
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Distributed Cache & Query Acceleration Layer directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Vector Search, PyTorch, Python that delivered a 65.0% measurable improvement (Optimized database read latency by 65% utilizing multi-tiered Redis caching.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_038",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "RAG Systems",
+      "PyTorch",
+      "vLLM"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "LegalTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in LegalTech.\n\nIn that project, we engineered a solution with RAG Systems, PyTorch, vLLM that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_039",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "vLLM",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Low-Latency Microservice Orchestration Mesh and wanted to share direct experience using vLLM, LangGraph, FastAPI.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_040",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "LangChain",
+      "Vector Search",
+      "PyTorch"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_041",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "LangGraph",
+      "Vector Search",
+      "FastAPI"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with LangGraph, Vector Search, FastAPI that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_042",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "LangChain",
+      "RAG Systems",
+      "FastAPI"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using LangChain, RAG Systems, FastAPI.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_043",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "Docker",
+      "vLLM",
+      "Python"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_044",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "vLLM",
+      "FastAPI",
+      "PyTorch"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using vLLM, FastAPI, PyTorch.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_045",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "LangChain",
+      "FastAPI",
+      "PyTorch"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_046",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "PyTorch",
+      "vLLM",
+      "LangChain"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_047",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "FastAPI",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using FastAPI, Docker, LangGraph.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_048",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "Vector Search",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_049",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "vLLM",
+      "RAG Systems",
+      "FastAPI"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for High-Throughput Enterprise Ingestion Engine directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with vLLM, RAG Systems, FastAPI that delivered a 42.0% measurable improvement (Engineered scalable pipeline processing 50M events daily with sub-50ms latency.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_050",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Transformers"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using Python, PyTorch, Transformers.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_051",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "FastAPI",
+      "Python",
+      "vLLM"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Real-Time Fraud & Anomaly Detection Gateway directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with FastAPI, Python, vLLM that delivered a 50.0% measurable improvement (Implemented streaming risk assessment flagging anomalous behaviors within 20ms.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_052",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "Vector Search",
+      "LangChain",
+      "FastAPI"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Automated Compliance & Redaction Service directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with Vector Search, LangChain, FastAPI that delivered a 28.0% measurable improvement (Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_053",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "LangChain",
+      "RAG Systems",
+      "Transformers"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "LegalTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Distributed Cache & Query Acceleration Layer directly mirrors a recent deployment I completed in LegalTech.\n\nIn that project, we engineered a solution with LangChain, RAG Systems, Transformers that delivered a 65.0% measurable improvement (Optimized database read latency by 65% utilizing multi-tiered Redis caching.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_054",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "vLLM",
+      "Python",
+      "PyTorch"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with vLLM, Python, PyTorch that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_055",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "PyTorch",
+      "LangChain",
+      "Python"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_056",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "Vector Search",
+      "vLLM",
+      "LangChain"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Healthcare",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using Vector Search, vLLM, LangChain.\n\nI've built similar systems in Healthcare focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_057",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "Transformers",
+      "LangChain",
+      "Python"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_058",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "FastAPI",
+      "Vector Search",
+      "Python"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Secure OAuth 2.1 & Tenant Isolation Gateway and wanted to share direct experience using FastAPI, Vector Search, Python.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_059",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "Vector Search",
+      "LangGraph",
+      "vLLM"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_060",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "PyTorch",
+      "Vector Search",
+      "Transformers"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Continuous Evaluation & Regression Harness and wanted to share direct experience using PyTorch, Vector Search, Transformers.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_061",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "Docker",
+      "LangChain",
+      "LangGraph"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_062",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "LangChain",
+      "Docker",
+      "Transformers"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding A/B Testing & Experimentation Framework and wanted to share direct experience using LangChain, Docker, Transformers.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_063",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "Python",
+      "LangChain",
+      "Vector Search"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using Python, LangChain, Vector Search.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_064",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "Transformers",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Adaptive Skill Knowledge Graph directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with Transformers, LangGraph, FastAPI that delivered a 75.0% measurable improvement (Constructed NetworkX knowledge graph mapping semantic dependencies across domains.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_065",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "LangChain",
+      "PyTorch",
+      "Transformers"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_066",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "Python",
+      "RAG Systems",
+      "LangGraph"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with Python, RAG Systems, LangGraph that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_067",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "LangGraph",
+      "RAG Systems",
+      "Vector Search"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_068",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "FastAPI",
+      "LangGraph",
+      "vLLM"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Automated Compliance & Redaction Service and wanted to share direct experience using FastAPI, LangGraph, vLLM.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_069",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "Transformers"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using Python, LangGraph, Transformers.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_070",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "Vector Search",
+      "FastAPI",
+      "PyTorch"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in SaaS.\n\nIn that project, we engineered a solution with Vector Search, FastAPI, PyTorch that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_071",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "FastAPI",
+      "Vector Search",
+      "Transformers"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_072",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "vLLM",
+      "Vector Search",
+      "Python"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_073",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "PyTorch",
+      "FastAPI",
+      "LangChain"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_074",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "Docker",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_075",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "PyTorch",
+      "Transformers",
+      "Vector Search"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using PyTorch, Transformers, Vector Search.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_076",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "Vector Search",
+      "Transformers",
+      "PyTorch"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Continuous Evaluation & Regression Harness directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with Vector Search, Transformers, PyTorch that delivered a 45.0% measurable improvement (Created automated benchmark suite running synthetic test cases across builds.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_077",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "Transformers",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Cloud Cost & Infrastructure Optimizer and wanted to share direct experience using Transformers, LangGraph, FastAPI.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_078",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "Python",
+      "Transformers",
+      "Docker"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "LegalTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for A/B Testing & Experimentation Framework directly mirrors a recent deployment I completed in LegalTech.\n\nIn that project, we engineered a solution with Python, Transformers, Docker that delivered a 22.0% measurable improvement (Architected Bayesian statistical experimentation engine for conversion testing.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_079",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "vLLM",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Zero-Downtime Database Migration Framework and wanted to share direct experience using vLLM, Docker, LangGraph.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_080",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "Vector Search",
+      "Transformers",
+      "PyTorch"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using Vector Search, Transformers, PyTorch.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_081",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "Vector Search",
+      "Docker",
+      "PyTorch"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Healthcare",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using Vector Search, Docker, PyTorch.\n\nI've built similar systems in Healthcare focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_082",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "FastAPI",
+      "vLLM",
+      "Docker"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using FastAPI, vLLM, Docker.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_083",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "Transformers",
+      "Vector Search",
+      "Docker"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Real-Time Fraud & Anomaly Detection Gateway and wanted to share direct experience using Transformers, Vector Search, Docker.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_084",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "FastAPI",
+      "vLLM",
+      "LangChain"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_085",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "LangGraph",
+      "Transformers",
+      "vLLM"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using LangGraph, Transformers, vLLM.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_086",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "LangChain",
+      "FastAPI",
+      "Transformers"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_087",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "vLLM",
+      "Python",
+      "FastAPI"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Low-Latency Microservice Orchestration Mesh directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with vLLM, Python, FastAPI that delivered a 30.0% measurable improvement (Decoupled monolithic backend into resilient event-driven microservices.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_088",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "FastAPI",
+      "LangGraph",
+      "Transformers"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using FastAPI, LangGraph, Transformers.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_089",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "Docker",
+      "Vector Search",
+      "RAG Systems"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Customer Churn & Lifetime Value Predictor directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with Docker, Vector Search, RAG Systems that delivered a 32.0% measurable improvement (Trained predictive ensemble model boosting retention campaign ROI by 3.2x.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_090",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "RAG Systems",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_091",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "vLLM",
+      "RAG Systems",
+      "LangChain"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Modal Document Parsing Pipeline directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with vLLM, RAG Systems, LangChain that delivered a 91.0% measurable improvement (Automated extraction and classification of complex financial statements.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_092",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "PyTorch",
+      "FastAPI",
+      "Vector Search"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Continuous Evaluation & Regression Harness directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with PyTorch, FastAPI, Vector Search that delivered a 45.0% measurable improvement (Created automated benchmark suite running synthetic test cases across builds.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_093",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "PyTorch",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_094",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "LangGraph",
+      "Docker",
+      "LangChain"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding A/B Testing & Experimentation Framework and wanted to share direct experience using LangGraph, Docker, LangChain.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_095",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "Python",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_096",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "RAG Systems",
+      "PyTorch",
+      "Docker"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "Healthcare",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Adaptive Skill Knowledge Graph directly mirrors a recent deployment I completed in Healthcare.\n\nIn that project, we engineered a solution with RAG Systems, PyTorch, Docker that delivered a 75.0% measurable improvement (Constructed NetworkX knowledge graph mapping semantic dependencies across domains.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_097",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "Transformers",
+      "LangGraph",
+      "Docker"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using Transformers, LangGraph, Docker.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_098",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "RAG Systems",
+      "Transformers",
+      "LangGraph"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_099",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "LangChain",
+      "Python",
+      "PyTorch"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_100",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "Transformers",
+      "LangGraph",
+      "LangChain"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Automated Compliance & Redaction Service and wanted to share direct experience using Transformers, LangGraph, LangChain.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_101",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "vLLM",
+      "RAG Systems",
+      "Python"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "Healthcare",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using vLLM, RAG Systems, Python.\n\nI've built similar systems in Healthcare focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_102",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "vLLM",
+      "LangGraph",
+      "PyTorch"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_103",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "RAG Systems",
+      "LangChain",
+      "Docker"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_104",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "vLLM",
+      "Docker",
+      "Vector Search"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_105",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "RAG Systems",
+      "vLLM",
+      "Transformers"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_106",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "vLLM",
+      "RAG Systems",
+      "LangChain"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_107",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "RAG Systems",
+      "Docker",
+      "FastAPI"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Modal Document Parsing Pipeline directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with RAG Systems, Docker, FastAPI that delivered a 91.0% measurable improvement (Automated extraction and classification of complex financial statements.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_108",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "LangGraph",
+      "FastAPI",
+      "RAG Systems"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "LegalTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Continuous Evaluation & Regression Harness directly mirrors a recent deployment I completed in LegalTech.\n\nIn that project, we engineered a solution with LangGraph, FastAPI, RAG Systems that delivered a 45.0% measurable improvement (Created automated benchmark suite running synthetic test cases across builds.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_109",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "LangGraph",
+      "FastAPI",
+      "RAG Systems"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Cloud Cost & Infrastructure Optimizer directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with LangGraph, FastAPI, RAG Systems that delivered a 38.0% measurable improvement (Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_110",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "PyTorch",
+      "FastAPI",
+      "LangGraph"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_111",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "FastAPI",
+      "Vector Search",
+      "vLLM"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_112",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "vLLM",
+      "PyTorch",
+      "LangChain"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Adaptive Skill Knowledge Graph and wanted to share direct experience using vLLM, PyTorch, LangChain.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_113",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "LangChain",
+      "LangGraph",
+      "Transformers"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using LangChain, LangGraph, Transformers.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_114",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "LangChain",
+      "LangGraph",
+      "PyTorch"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Tenant Retrieval Augmentation System and wanted to share direct experience using LangChain, LangGraph, PyTorch.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_115",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "Transformers",
+      "Docker",
+      "Vector Search"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_116",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "vLLM",
+      "RAG Systems",
+      "Transformers"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_117",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "Transformers"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_118",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "Transformers",
+      "Python",
+      "Docker"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_119",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "RAG Systems",
+      "Python",
+      "Vector Search"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_120",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "FastAPI",
+      "Transformers",
+      "vLLM"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Interactive Real-Time Analytics Dashboard and wanted to share direct experience using FastAPI, Transformers, vLLM.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_121",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "vLLM",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_122",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "RAG Systems",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "FinTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Secure OAuth 2.1 & Tenant Isolation Gateway directly mirrors a recent deployment I completed in FinTech.\n\nIn that project, we engineered a solution with RAG Systems, LangGraph, FastAPI that delivered a 40.0% measurable improvement (Constructed zero-trust authorization gateway supporting SSO and RBAC.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_123",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "Transformers",
+      "RAG Systems",
+      "Python"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_124",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "Transformers",
+      "Vector Search",
+      "Docker"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "E-Commerce",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Continuous Evaluation & Regression Harness directly mirrors a recent deployment I completed in E-Commerce.\n\nIn that project, we engineered a solution with Transformers, Vector Search, Docker that delivered a 45.0% measurable improvement (Created automated benchmark suite running synthetic test cases across builds.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_125",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "LangChain",
+      "RAG Systems",
+      "Docker"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Cloud Cost & Infrastructure Optimizer and wanted to share direct experience using LangChain, RAG Systems, Docker.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_126",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "Docker",
+      "vLLM",
+      "Python"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "Healthcare",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding A/B Testing & Experimentation Framework and wanted to share direct experience using Docker, vLLM, Python.\n\nI've built similar systems in Healthcare focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_127",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "Transformers",
+      "Python",
+      "PyTorch"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_128",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "Transformers",
+      "LangChain",
+      "RAG Systems"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "LegalTech",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Adaptive Skill Knowledge Graph directly mirrors a recent deployment I completed in LegalTech.\n\nIn that project, we engineered a solution with Transformers, LangChain, RAG Systems that delivered a 75.0% measurable improvement (Constructed NetworkX knowledge graph mapping semantic dependencies across domains.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_129",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "LangChain",
+      "Python",
+      "FastAPI"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using LangChain, Python, FastAPI.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_130",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "Transformers",
+      "Vector Search",
+      "LangGraph"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Multi-Tenant Retrieval Augmentation System directly mirrors a recent deployment I completed in SaaS.\n\nIn that project, we engineered a solution with Transformers, Vector Search, LangGraph that delivered a 35.0% measurable improvement (Architected hybrid lexical-dense search indexing 10M records with 94% recall.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_131",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "RAG Systems",
+      "Vector Search",
+      "vLLM"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "Healthcare",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Real-Time Fraud & Anomaly Detection Gateway and wanted to share direct experience using RAG Systems, Vector Search, vLLM.\n\nI've built similar systems in Healthcare focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_132",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "Transformers",
+      "FastAPI",
+      "Docker"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Automated Compliance & Redaction Service and wanted to share direct experience using Transformers, FastAPI, Docker.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_133",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "FastAPI",
+      "PyTorch",
+      "RAG Systems"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Distributed Cache & Query Acceleration Layer and wanted to share direct experience using FastAPI, PyTorch, RAG Systems.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_134",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "Python",
+      "vLLM",
+      "Docker"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_135",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Low-Latency Microservice Orchestration Mesh",
+    "case_study_id": "cs_ai_ml_engineer_07",
+    "skills": [
+      "Vector Search",
+      "LangGraph",
+      "PyTorch"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "SaaS",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_136",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Interactive Real-Time Analytics Dashboard",
+    "case_study_id": "cs_ai_ml_engineer_08",
+    "skills": [
+      "Python",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_137",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Customer Churn & Lifetime Value Predictor",
+    "case_study_id": "cs_ai_ml_engineer_09",
+    "skills": [
+      "LangGraph",
+      "Python",
+      "LangChain"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Customer Churn & Lifetime Value Predictor and wanted to share direct experience using LangGraph, Python, LangChain.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_138",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "case_study_id": "cs_ai_ml_engineer_10",
+    "skills": [
+      "LangGraph",
+      "LangChain",
+      "RAG Systems"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_139",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Multi-Modal Document Parsing Pipeline",
+    "case_study_id": "cs_ai_ml_engineer_11",
+    "skills": [
+      "PyTorch",
+      "LangGraph",
+      "RAG Systems"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "E-Commerce",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Multi-Modal Document Parsing Pipeline and wanted to share direct experience using PyTorch, LangGraph, RAG Systems.\n\nI've built similar systems in E-Commerce focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_140",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Continuous Evaluation & Regression Harness",
+    "case_study_id": "cs_ai_ml_engineer_12",
+    "skills": [
+      "FastAPI",
+      "Vector Search",
+      "LangChain"
+    ],
+    "date": "2026-009-10",
+    "client_industry": "SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Continuous Evaluation & Regression Harness directly mirrors a recent deployment I completed in SaaS.\n\nIn that project, we engineered a solution with FastAPI, Vector Search, LangChain that delivered a 45.0% measurable improvement (Created automated benchmark suite running synthetic test cases across builds.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_141",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Cloud Cost & Infrastructure Optimizer",
+    "case_study_id": "cs_ai_ml_engineer_13",
+    "skills": [
+      "Docker",
+      "PyTorch",
+      "LangChain"
+    ],
+    "date": "2026-010-10",
+    "client_industry": "Healthcare",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Cloud Cost & Infrastructure Optimizer and wanted to share direct experience using Docker, PyTorch, LangChain.\n\nI've built similar systems in Healthcare focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_142",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "A/B Testing & Experimentation Framework",
+    "case_study_id": "cs_ai_ml_engineer_14",
+    "skills": [
+      "FastAPI",
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-011-10",
+    "client_industry": "FinTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding A/B Testing & Experimentation Framework and wanted to share direct experience using FastAPI, PyTorch, Python.\n\nI've built similar systems in FinTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_143",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Zero-Downtime Database Migration Framework",
+    "case_study_id": "cs_ai_ml_engineer_15",
+    "skills": [
+      "FastAPI",
+      "Transformers",
+      "vLLM"
+    ],
+    "date": "2026-001-10",
+    "client_industry": "LegalTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_144",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Adaptive Skill Knowledge Graph",
+    "case_study_id": "cs_ai_ml_engineer_16",
+    "skills": [
+      "LangGraph",
+      "PyTorch",
+      "Docker"
+    ],
+    "date": "2026-002-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_145",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "High-Throughput Enterprise Ingestion Engine",
+    "case_study_id": "cs_ai_ml_engineer_01",
+    "skills": [
+      "PyTorch",
+      "FastAPI",
+      "Docker"
+    ],
+    "date": "2026-003-10",
+    "client_industry": "SaaS",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding High-Throughput Enterprise Ingestion Engine and wanted to share direct experience using PyTorch, FastAPI, Docker.\n\nI've built similar systems in SaaS focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_146",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Multi-Tenant Retrieval Augmentation System",
+    "case_study_id": "cs_ai_ml_engineer_02",
+    "skills": [
+      "Docker",
+      "Python",
+      "Vector Search"
+    ],
+    "date": "2026-004-10",
+    "client_industry": "Healthcare",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_147",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Real-Time Fraud & Anomaly Detection Gateway",
+    "case_study_id": "cs_ai_ml_engineer_03",
+    "skills": [
+      "vLLM",
+      "Transformers",
+      "Vector Search"
+    ],
+    "date": "2026-005-10",
+    "client_industry": "FinTech",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_148",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Automated Compliance & Redaction Service",
+    "case_study_id": "cs_ai_ml_engineer_04",
+    "skills": [
+      "PyTorch",
+      "vLLM",
+      "Vector Search"
+    ],
+    "date": "2026-006-10",
+    "client_industry": "LegalTech",
+    "outcome": "replied",
+    "cover_letter": "Hello! I saw your post regarding Automated Compliance & Redaction Service and wanted to share direct experience using PyTorch, vLLM, Vector Search.\n\nI've built similar systems in LegalTech focusing on stability and throughput. What is your preferred timeline for the first deliverable?\n\nBest regards, looking forward to discussing further.",
+    "bid_amount_usd": 2200.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_149",
+    "persona": "ai_ml_engineer",
+    "type": "hourly",
+    "project": "Distributed Cache & Query Acceleration Layer",
+    "case_study_id": "cs_ai_ml_engineer_05",
+    "skills": [
+      "Python",
+      "Transformers",
+      "RAG Systems"
+    ],
+    "date": "2026-007-10",
+    "client_industry": "E-Commerce",
+    "outcome": "ignored",
+    "cover_letter": "Dear Hiring Manager, I am the perfect fit for your project and have read your job description with great interest.\n\nI have extensive experience in all the required technologies and can do any task you need with 100% guarantee.\n\nPlease let me know when we can start immediately.",
+    "bid_amount_usd": 110.0
+  },
+  {
+    "id": "prop_ai_ml_engineer_150",
+    "persona": "ai_ml_engineer",
+    "type": "fixed_price",
+    "project": "Dynamic Pricing & Revenue Optimization Model",
+    "case_study_id": "cs_ai_ml_engineer_06",
+    "skills": [
+      "PyTorch",
+      "Transformers",
+      "Vector Search"
+    ],
+    "date": "2026-008-10",
+    "client_industry": "SaaS",
+    "outcome": "won",
+    "cover_letter": "Hi there \u2014 your objective for Dynamic Pricing & Revenue Optimization Model directly mirrors a recent deployment I completed in SaaS.\n\nIn that project, we engineered a solution with PyTorch, Transformers, Vector Search that delivered a 14.8% measurable improvement (Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.). I can replicate this architecture for your requirements.\n\nWould you be open to a brief technical discussion this week to review the implementation roadmap?",
+    "bid_amount_usd": 2200.0
+  }
+]

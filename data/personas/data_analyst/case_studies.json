@@ -1,0 +1,226 @@
+[
+  {
+    "id": "cs_data_analyst_01",
+    "title": "High-Throughput Enterprise Ingestion Engine",
+    "industry": "Retail",
+    "skills": [
+      "BigQuery",
+      "Excel",
+      "Statistical Modeling",
+      "PowerBI"
+    ],
+    "metric_improvement_pct": 42.0,
+    "summary": "Engineered scalable pipeline processing 50M events daily with sub-50ms latency.",
+    "content": "# Case Study: High-Throughput Enterprise Ingestion Engine\n**Project ID:** cs_data_analyst_01 | **Industry:** Retail | **Role:** Lead Engineer\n**Key Technologies:** BigQuery, Excel, Statistical Modeling, PowerBI\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their retail workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging BigQuery, Excel, Statistical Modeling, PowerBI.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Engineered scalable pipeline processing 50M events daily with sub-50ms latency.\n- **Quantifiable ROI:** Demonstrated a 42.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_02",
+    "title": "Multi-Tenant Retrieval Augmentation System",
+    "industry": "FinTech",
+    "skills": [
+      "PowerBI",
+      "Snowflake",
+      "dbt",
+      "A/B Testing"
+    ],
+    "metric_improvement_pct": 35.0,
+    "summary": "Architected hybrid lexical-dense search indexing 10M records with 94% recall.",
+    "content": "# Case Study: Multi-Tenant Retrieval Augmentation System\n**Project ID:** cs_data_analyst_02 | **Industry:** FinTech | **Role:** Lead Engineer\n**Key Technologies:** PowerBI, Snowflake, dbt, A/B Testing\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their fintech workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging PowerBI, Snowflake, dbt, A/B Testing.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Architected hybrid lexical-dense search indexing 10M records with 94% recall.\n- **Quantifiable ROI:** Demonstrated a 35.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_03",
+    "title": "Real-Time Fraud & Anomaly Detection Gateway",
+    "industry": "Supply Chain",
+    "skills": [
+      "Snowflake",
+      "Python",
+      "SQL",
+      "A/B Testing"
+    ],
+    "metric_improvement_pct": 50.0,
+    "summary": "Implemented streaming risk assessment flagging anomalous behaviors within 20ms.",
+    "content": "# Case Study: Real-Time Fraud & Anomaly Detection Gateway\n**Project ID:** cs_data_analyst_03 | **Industry:** Supply Chain | **Role:** Lead Engineer\n**Key Technologies:** Snowflake, Python, SQL, A/B Testing\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their supply chain workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging Snowflake, Python, SQL, A/B Testing.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Implemented streaming risk assessment flagging anomalous behaviors within 20ms.\n- **Quantifiable ROI:** Demonstrated a 50.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_04",
+    "title": "Automated Compliance & Redaction Service",
+    "industry": "Media",
+    "skills": [
+      "PowerBI",
+      "SQL",
+      "Python",
+      "Excel"
+    ],
+    "metric_improvement_pct": 28.0,
+    "summary": "Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.",
+    "content": "# Case Study: Automated Compliance & Redaction Service\n**Project ID:** cs_data_analyst_04 | **Industry:** Media | **Role:** Lead Engineer\n**Key Technologies:** PowerBI, SQL, Python, Excel\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their media workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging PowerBI, SQL, Python, Excel.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Designed PII detection and rule-based redaction compliant with GDPR/HIPAA.\n- **Quantifiable ROI:** Demonstrated a 28.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_05",
+    "title": "Distributed Cache & Query Acceleration Layer",
+    "industry": "Gaming",
+    "skills": [
+      "Statistical Modeling",
+      "BigQuery",
+      "Excel",
+      "dbt"
+    ],
+    "metric_improvement_pct": 65.0,
+    "summary": "Optimized database read latency by 65% utilizing multi-tiered Redis caching.",
+    "content": "# Case Study: Distributed Cache & Query Acceleration Layer\n**Project ID:** cs_data_analyst_05 | **Industry:** Gaming | **Role:** Lead Engineer\n**Key Technologies:** Statistical Modeling, BigQuery, Excel, dbt\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their gaming workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging Statistical Modeling, BigQuery, Excel, dbt.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Optimized database read latency by 65% utilizing multi-tiered Redis caching.\n- **Quantifiable ROI:** Demonstrated a 65.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_06",
+    "title": "Dynamic Pricing & Revenue Optimization Model",
+    "industry": "Retail",
+    "skills": [
+      "Statistical Modeling",
+      "BigQuery",
+      "dbt",
+      "Python"
+    ],
+    "metric_improvement_pct": 14.8,
+    "summary": "Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.",
+    "content": "# Case Study: Dynamic Pricing & Revenue Optimization Model\n**Project ID:** cs_data_analyst_06 | **Industry:** Retail | **Role:** Lead Engineer\n**Key Technologies:** Statistical Modeling, BigQuery, dbt, Python\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their retail workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging Statistical Modeling, BigQuery, dbt, Python.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Built algorithmic pricing engine driving a 14.8% increase in gross merchandise value.\n- **Quantifiable ROI:** Demonstrated a 14.8% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_07",
+    "title": "Low-Latency Microservice Orchestration Mesh",
+    "industry": "FinTech",
+    "skills": [
+      "A/B Testing",
+      "Python",
+      "Snowflake",
+      "Tableau"
+    ],
+    "metric_improvement_pct": 30.0,
+    "summary": "Decoupled monolithic backend into resilient event-driven microservices.",
+    "content": "# Case Study: Low-Latency Microservice Orchestration Mesh\n**Project ID:** cs_data_analyst_07 | **Industry:** FinTech | **Role:** Lead Engineer\n**Key Technologies:** A/B Testing, Python, Snowflake, Tableau\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their fintech workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging A/B Testing, Python, Snowflake, Tableau.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Decoupled monolithic backend into resilient event-driven microservices.\n- **Quantifiable ROI:** Demonstrated a 30.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_08",
+    "title": "Interactive Real-Time Analytics Dashboard",
+    "industry": "Supply Chain",
+    "skills": [
+      "Python",
+      "dbt",
+      "Statistical Modeling",
+      "A/B Testing"
+    ],
+    "metric_improvement_pct": 80.0,
+    "summary": "Delivered responsive web analytics platform handling 100k concurrent active sessions.",
+    "content": "# Case Study: Interactive Real-Time Analytics Dashboard\n**Project ID:** cs_data_analyst_08 | **Industry:** Supply Chain | **Role:** Lead Engineer\n**Key Technologies:** Python, dbt, Statistical Modeling, A/B Testing\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their supply chain workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging Python, dbt, Statistical Modeling, A/B Testing.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Delivered responsive web analytics platform handling 100k concurrent active sessions.\n- **Quantifiable ROI:** Demonstrated a 80.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_09",
+    "title": "Customer Churn & Lifetime Value Predictor",
+    "industry": "Media",
+    "skills": [
+      "dbt",
+      "SQL",
+      "Tableau",
+      "Statistical Modeling"
+    ],
+    "metric_improvement_pct": 32.0,
+    "summary": "Trained predictive ensemble model boosting retention campaign ROI by 3.2x.",
+    "content": "# Case Study: Customer Churn & Lifetime Value Predictor\n**Project ID:** cs_data_analyst_09 | **Industry:** Media | **Role:** Lead Engineer\n**Key Technologies:** dbt, SQL, Tableau, Statistical Modeling\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their media workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging dbt, SQL, Tableau, Statistical Modeling.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Trained predictive ensemble model boosting retention campaign ROI by 3.2x.\n- **Quantifiable ROI:** Demonstrated a 32.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_10",
+    "title": "Secure OAuth 2.1 & Tenant Isolation Gateway",
+    "industry": "Gaming",
+    "skills": [
+      "Excel",
+      "SQL",
+      "A/B Testing",
+      "Python"
+    ],
+    "metric_improvement_pct": 40.0,
+    "summary": "Constructed zero-trust authorization gateway supporting SSO and RBAC.",
+    "content": "# Case Study: Secure OAuth 2.1 & Tenant Isolation Gateway\n**Project ID:** cs_data_analyst_10 | **Industry:** Gaming | **Role:** Lead Engineer\n**Key Technologies:** Excel, SQL, A/B Testing, Python\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their gaming workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging Excel, SQL, A/B Testing, Python.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Constructed zero-trust authorization gateway supporting SSO and RBAC.\n- **Quantifiable ROI:** Demonstrated a 40.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_11",
+    "title": "Multi-Modal Document Parsing Pipeline",
+    "industry": "Retail",
+    "skills": [
+      "dbt",
+      "Tableau",
+      "PowerBI",
+      "BigQuery"
+    ],
+    "metric_improvement_pct": 91.0,
+    "summary": "Automated extraction and classification of complex financial statements.",
+    "content": "# Case Study: Multi-Modal Document Parsing Pipeline\n**Project ID:** cs_data_analyst_11 | **Industry:** Retail | **Role:** Lead Engineer\n**Key Technologies:** dbt, Tableau, PowerBI, BigQuery\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their retail workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging dbt, Tableau, PowerBI, BigQuery.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Automated extraction and classification of complex financial statements.\n- **Quantifiable ROI:** Demonstrated a 91.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_12",
+    "title": "Continuous Evaluation & Regression Harness",
+    "industry": "FinTech",
+    "skills": [
+      "dbt",
+      "Excel",
+      "Snowflake",
+      "SQL"
+    ],
+    "metric_improvement_pct": 45.0,
+    "summary": "Created automated benchmark suite running synthetic test cases across builds.",
+    "content": "# Case Study: Continuous Evaluation & Regression Harness\n**Project ID:** cs_data_analyst_12 | **Industry:** FinTech | **Role:** Lead Engineer\n**Key Technologies:** dbt, Excel, Snowflake, SQL\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their fintech workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging dbt, Excel, Snowflake, SQL.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Created automated benchmark suite running synthetic test cases across builds.\n- **Quantifiable ROI:** Demonstrated a 45.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_13",
+    "title": "Cloud Cost & Infrastructure Optimizer",
+    "industry": "Supply Chain",
+    "skills": [
+      "SQL",
+      "Statistical Modeling",
+      "BigQuery",
+      "Python"
+    ],
+    "metric_improvement_pct": 38.0,
+    "summary": "Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.",
+    "content": "# Case Study: Cloud Cost & Infrastructure Optimizer\n**Project ID:** cs_data_analyst_13 | **Industry:** Supply Chain | **Role:** Lead Engineer\n**Key Technologies:** SQL, Statistical Modeling, BigQuery, Python\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their supply chain workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging SQL, Statistical Modeling, BigQuery, Python.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Reduced annual AWS cloud expenditures by 38% via serverless auto-scaling.\n- **Quantifiable ROI:** Demonstrated a 38.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_14",
+    "title": "A/B Testing & Experimentation Framework",
+    "industry": "Media",
+    "skills": [
+      "PowerBI",
+      "BigQuery",
+      "Tableau",
+      "dbt"
+    ],
+    "metric_improvement_pct": 22.0,
+    "summary": "Architected Bayesian statistical experimentation engine for conversion testing.",
+    "content": "# Case Study: A/B Testing & Experimentation Framework\n**Project ID:** cs_data_analyst_14 | **Industry:** Media | **Role:** Lead Engineer\n**Key Technologies:** PowerBI, BigQuery, Tableau, dbt\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their media workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging PowerBI, BigQuery, Tableau, dbt.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Architected Bayesian statistical experimentation engine for conversion testing.\n- **Quantifiable ROI:** Demonstrated a 22.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_15",
+    "title": "Zero-Downtime Database Migration Framework",
+    "industry": "Gaming",
+    "skills": [
+      "A/B Testing",
+      "Snowflake",
+      "Python",
+      "Tableau"
+    ],
+    "metric_improvement_pct": 100.0,
+    "summary": "Migrated 2TB relational database across regions without customer disruption.",
+    "content": "# Case Study: Zero-Downtime Database Migration Framework\n**Project ID:** cs_data_analyst_15 | **Industry:** Gaming | **Role:** Lead Engineer\n**Key Technologies:** A/B Testing, Snowflake, Python, Tableau\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their gaming workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging A/B Testing, Snowflake, Python, Tableau.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Migrated 2TB relational database across regions without customer disruption.\n- **Quantifiable ROI:** Demonstrated a 100.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  },
+  {
+    "id": "cs_data_analyst_16",
+    "title": "Adaptive Skill Knowledge Graph",
+    "industry": "Retail",
+    "skills": [
+      "SQL",
+      "BigQuery",
+      "Excel",
+      "Tableau"
+    ],
+    "metric_improvement_pct": 75.0,
+    "summary": "Constructed NetworkX knowledge graph mapping semantic dependencies across domains.",
+    "content": "# Case Study: Adaptive Skill Knowledge Graph\n**Project ID:** cs_data_analyst_16 | **Industry:** Retail | **Role:** Lead Engineer\n**Key Technologies:** SQL, BigQuery, Excel, Tableau\n\n### Problem Statement\nThe client experienced severe operational bottlenecks in their retail workflows, resulting in degraded user satisfaction, escalating infrastructure overhead, and manual intervention.\n\n### Architecture & Technical Solution\n1. **Core Architecture:** Deployed a modern event-driven solution leveraging SQL, BigQuery, Excel, Tableau.\n2. **Deterministic Guarantees:** Enforced strict schema validation, automated recovery fallbacks, and comprehensive telemetry.\n3. **Execution:** Implemented modular components allowing progressive rollout with zero downtime.\n\n### Measurable Business Outcomes\n- **Performance Impact:** Constructed NetworkX knowledge graph mapping semantic dependencies across domains.\n- **Quantifiable ROI:** Demonstrated a 75.0% measurable efficiency improvement within 60 days of production deployment.\n- **Client Endorsement:** Solution adopted as the core foundation for subsequent enterprise scaling.\n"
+  }
+]
