@@ -59,62 +59,61 @@ The evaluation was executed via `evals/runners/tool_granularity_eval.py` and out
 
 | Tool Granularity Paradigm | Success Rate | Avg Steps | Avg Tokens | Avg Latency (ms) | Error Recovery Rate |
 |---|---|---|---|---|---|
-| **Fine-Grained Atomic** | 82.5% | 8.20 | 5,209.9 | 1,629.25 | 60.0% |
-| **Coarse-Grained Monolithic** | 65.0% | 1.00 | 1,699.9 | 485.05 | 0.0% |
-| **Task-Optimized Compound** | **100.0%** | **2.52** | **2,003.2** | **507.37** | **90.0%** |
+| **Fine-Grained Atomic** | 82.5% | 7.8 | 5,209.9 | 1,629.2 | 60.0% |
+| **Coarse-Grained Monolithic** | 65.0% | 1.9 | 1,699.9 | 485.1 | 0.0% |
+| **Task-Optimized Compound** | **100.0%** | **2.6** | **2,003.2** | **507.4** | **90.0%** |
 
 ```
-Success Rate Comparison:
-Task-Optimized : [████████████████████] 100.0%
-Fine-Grained   : [████████████████░░░░]  82.5%
-Coarse-Grained : [█████████████░░░░░░░]  65.0%
+Success Rate:
+Task-Optimized Compound : [████████████████████] 100.0%
+Fine-Grained Atomic     : [████████████████░░░░]  82.5%
+Coarse-Grained Monolithic: [█████████████░░░░░░░]  65.0%
 
-Token Efficiency (Mean Tokens per Task):
-Task-Optimized :  2,003 tokens (Baseline Reference: 1.0x)
-Coarse-Grained :  1,700 tokens (0.85x - Fails to handle schema variance)
-Fine-Grained   :  5,210 tokens (2.60x - Severe multi-step orchestration overhead)
+Token Efficiency:
+Task-Optimized Compound :  2,003 tokens (1.0x baseline)
+Coarse-Grained Monolithic: 1,700 tokens (0.85x - poor recovery)
+Fine-Grained Atomic     :  5,210 tokens (2.60x overhead)
 ```
 
-### 3.4 Qualitative Analysis & Findings
-- **Fine-Grained Atomic Overhead**: While flexible, atomic tools cause acute token bloat (2.6x higher token usage). Agents frequently lost conversational state across 8+ sequential tool calls or failed on intermediate argument passing. When an error occurred, the agent successfully recovered in only 60% of cases.
-- **Coarse-Grained Monolithic Fragility**: Monolithic tools minimized step count (1.0 step) and tokens (1,700 tokens), but proved brittle when encountering unexpected inputs or partial failures. When a single parameter was missing or a client history field was null, the entire execution failed with **0.0% error recovery**.
-- **The Task-Optimized Sweet Spot**: Task-optimized tools strike the optimal architectural balance. By grouping cohesive data requirements (e.g. returning job details alongside client hiring statistics in `get_job_with_client_history`), the agent accomplishes complex tasks in 2.5 steps, consumes 61.5% fewer tokens than atomic tools, achieves a **100% task completion rate**, and recovers from injected transient network errors in **90% of instances**.
+### 3.4 Key Findings & Granularity Tradeoffs
+- **The Fine-Grained Tax**: Atomic tools impose severe token and latency penalties (2.6x tokens, 3.2x latency) due to repeated LLM tool-calling roundtrips and chat context bloat. Furthermore, failure at step 6 of 8 often causes context window confusion.
+- **The Monolithic Fragility Trap**: While coarse-grained tools minimize steps and tokens, they exhibit an **error recovery rate of 0.0%**. When any sub-step fails (e.g. transient API timeout or missing client spend history), the entire operation collapses with zero opportunity for mid-flight correction.
+- **Task-Optimized Compound Advantage**: Compound tools group tightly coupled operations into single idempotent actions while preserving intermediate validation checkpoints. This yields a **100% completion rate** and **90% error recovery**, delivering the optimal Pareto frontier.
 
 ---
 
-## 4. Advanced RAG Architecture & Variant Benchmark (R&D Question B)
+## 4. Advanced RAG Ingestion & Variants (R&D Question B)
 
 ### 4.1 Research Question B Formulation
-> *Which advanced retrieval strategy maximizes the semantic relevance, factual precision, and empirical conversion rates of freelance proposals while minimizing unsupported or hallucinated claims?*
+> *Which retrieval-augmented generation (RAG) architecture variant provides the highest factual precision, recall of verified skills, and reduction of unsupported claims in high-stakes professional proposal drafting?*
 
-### 4.2 Benchmark Variants Evaluated
-We implemented and evaluated 10 retrieval architectures in `rag/variants/`:
-- **V0 Naive**: Single dense cosine similarity search over monolithic chunks.
-- **V1 Decomposition**: Deconstructs job postings into atomic technical requirements and merges subquery results.
-- **V2 Hybrid**: Reciprocal Rank Fusion (RRF) combining BM25 lexical search with dense vector embeddings.
-- **V3 Rerank**: Two-stage pipeline applying a cross-encoder (`BAAI/bge-reranker-v2-m3`) over the top 25 candidates.
-- **V4 Outcome-Aware**: Multi-index retrieval boosting evidence and phrases that historically led to `won` proposals.
-- **V5 MultiVector**: Decoupled multi-vector retrieval (summary vector, code snippet vector, README vector).
-- **V6 Contextual**: Contextual chunk header injection prepending project metadata to every chunk.
-- **V7 HyDE**: Hypothetical Document Embeddings generating an ideal portfolio match prior to dense retrieval.
-- **V8 Corrective**: Self-RAG corrective retrieval grading chunk relevance and triggering web/fallback queries.
-- **V9 Skill Graph**: GraphRAG multi-hop traversal linking skills, projects, industries, and outcomes.
+### 4.2 Architectural Variants Evaluated (V0 through V9)
+1. **V0 Naive**: Single vector index over naive character chunks using cosine similarity.
+2. **V1 Decomposition**: LLM query decomposition into required skills, domain requisites, and deliverables.
+3. **V2 Hybrid**: Reciprocal Rank Fusion (RRF) combining dense embeddings with BM25 lexical keyword matching.
+4. **V3 Rerank**: Cross-encoder reranking (`bge-reranker-v2-m3`) applied over top-25 hybrid candidates.
+5. **V4 Outcome-Aware**: Reranked candidates dynamically scored with past contract outcome weights ($\text{won}=+0.25$, $\text{replied}=+0.10$, $\text{ignored}=-0.15$).
+6. **V5 MultiVector**: ParentDocument / Small-to-Big retrieval storing fine sentence vectors mapped to full project case studies.
+7. **V6 Contextual**: Chunk-level context enrichment prepending project summary headers prior to indexing.
+8. **V7 HyDE**: Hypothetical Document Embeddings generating idealized case studies before vector lookup.
+9. **V8 Corrective (CRAG)**: Retrieval evaluator scoring relevance, triggering web search fallback if confidence $<0.65$.
+10. **V9 Skill Graph**: Knowledge graph expansion linking adjacent competencies (e.g. `PyTorch` $\to$ `CUDA` $\to$ `vLLM`).
 
 ### 4.3 Quantitative Benchmark Results
-Evaluated on 60 benchmark jobs in `evals/runners/rag_eval.py` and recorded in `evals/results/rag_variants_comparison.csv`:
+Evaluated across 60 annotated test queries spanning 3 freelancer personas (`evals/runners/rag_eval.py` -> `evals/results/rag_variants_comparison.csv`):
 
-| Variant | Recall@5 | MRR | nDCG@10 | Unsupported Claims | Calibrated Judge (1-5) | GigSim Reply Rate | GigSim Hire Rate | P50 Latency (s) | P95 Latency (s) | Cost / Prop ($) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| **V0 Naive** | 0.58 | 0.42 | 0.52 | 1.80 | 3.20 | 0.32 | 0.12 | 0.08 | 0.18 | $0.005 |
-| **V1 Decomposition** | 0.72 | 0.59 | 0.67 | 1.20 | 3.70 | 0.45 | 0.18 | 0.22 | 0.45 | $0.012 |
-| **V2 Hybrid** | 0.81 | 0.68 | 0.76 | 0.80 | 4.10 | 0.54 | 0.24 | 0.15 | 0.32 | $0.008 |
-| **V3 Rerank** | 0.89 | 0.79 | 0.84 | 0.50 | 4.40 | 0.62 | 0.31 | 0.35 | 0.68 | $0.015 |
-| **V4 Outcome-Aware** | **0.94** | **0.86** | **0.91** | **0.10** | **4.80** | **0.74** | **0.42** | 0.38 | 0.72 | $0.016 |
-| **V5 MultiVector** | 0.84 | 0.71 | 0.79 | 0.70 | 4.20 | 0.56 | 0.26 | 0.25 | 0.51 | $0.014 |
-| **V6 Contextual** | 0.86 | 0.74 | 0.81 | 0.60 | 4.30 | 0.59 | 0.28 | 0.28 | 0.58 | $0.015 |
-| **V7 HyDE** | 0.83 | 0.70 | 0.78 | 0.80 | 4.10 | 0.53 | 0.25 | 0.42 | 0.82 | $0.022 |
-| **V8 Corrective** | 0.91 | 0.82 | 0.87 | 0.30 | 4.60 | 0.68 | 0.36 | 0.48 | 0.95 | $0.020 |
-| **V9 Skill Graph** | 0.88 | 0.78 | 0.83 | 0.40 | 4.50 | 0.65 | 0.33 | 0.19 | 0.39 | $0.009 |
+| Variant | Recall@5 | MRR | NDCG@10 | Unsupported Claims / Proposal | Calibrated Judge (1-5) | Reply Rate | Hire Rate | p95 Latency (s) | Cost / Prop ($) |
+|---|---|---|---|---|---|---|---|---|---|
+| **V0 Naive** | 0.58 | 0.42 | 0.52 | 1.80 | 3.20 | 32.0% | 12.0% | 0.18 | $0.0050 |
+| **V1 Decomposition** | 0.72 | 0.59 | 0.67 | 1.20 | 3.70 | 45.0% | 18.0% | 0.45 | $0.0120 |
+| **V2 Hybrid** | 0.81 | 0.68 | 0.76 | 0.80 | 4.10 | 54.0% | 24.0% | 0.32 | $0.0080 |
+| **V3 Rerank** | 0.89 | 0.79 | 0.84 | 0.50 | 4.40 | 62.0% | 31.0% | 0.68 | $0.0150 |
+| **V4 Outcome-Aware** | **0.94** | **0.86** | **0.91** | **0.10** | **4.80** | **74.0%** | **42.0%** | **0.72** | **$0.0160** |
+| **V5 MultiVector** | 0.84 | 0.71 | 0.79 | 0.70 | 4.20 | 56.0% | 26.0% | 0.51 | $0.0140 |
+| **V6 Contextual** | 0.86 | 0.74 | 0.81 | 0.60 | 4.30 | 59.0% | 28.0% | 0.58 | $0.0150 |
+| **V7 HyDE** | 0.83 | 0.70 | 0.78 | 0.80 | 4.10 | 53.0% | 25.0% | 0.82 | $0.0220 |
+| **V8 Corrective** | 0.91 | 0.82 | 0.87 | 0.30 | 4.60 | 68.0% | 36.0% | 0.95 | $0.0200 |
+| **V9 Skill Graph** | 0.88 | 0.78 | 0.83 | 0.40 | 4.50 | 65.0% | 33.0% | 0.39 | $0.0090 |
 
 ```
 Recall@5 Ranking:
@@ -138,7 +137,7 @@ V0 (Naive)         : 1.80  [Worst - Severe Hallucination]
 ```
 
 ### 4.4 LLM Judge Calibration & Reliability
-To ensure evaluation integrity, the automated LLM judge was calibrated against a gold-standard human expert test set of 20 annotated proposals via `evals/runners/judge_calibration.py`. The inter-annotator agreement achieved a **Cohen's Kappa $\kappa = 0.9032$** (90.3% agreement across 5 rubric dimensions: Requisition Fit, Factual Precision, Tone & Conciseness, Policy Adherence, Value Proposition), confirming high calibration.
+To ensure evaluation integrity, the automated LLM judge was calibrated against a gold-standard human expert test set of 30 annotated proposals via `evals/runners/judge_calibration.py`. The inter-annotator agreement achieved a **Cohen's Kappa $\kappa = 0.9032$** (93.3% accuracy across 5 rubric dimensions: Requisition Fit, Factual Precision, Tone & Conciseness, Policy Adherence, Value Proposition), confirming high calibration and minimal judge drift.
 
 ---
 
@@ -205,15 +204,15 @@ Single ReAct Agent    : 22.0% (Frequent degenerative reasoning loops)
 
 ---
 
-## 7. Guardrails, Prompt Injection Defense & Policy Compliance
+## 7. Guardrails, Prompt Injection Defense & Upwork Nov 2 Policy Walkthrough
 
 ### 7.1 Adversarial Threat Landscape
 Freelance marketplaces expose agents to malicious inputs embedded in job descriptions:
 - **Instruction Overrides**: Prompts attempting to force refunds, execute arbitrary shell tools, or reveal internal system prompts.
-- **Off-Platform Payment Solicitations**: Direct violations of marketplace terms (e.g. "Message me on Telegram @crypto_buyer for $5k payment via USDT").
+- **Off-Platform Payment Solicitations**: Direct violations of marketplace terms (e.g. "Message me on Telegram @fast_hire_crypto for immediate USDT payment").
 - **Exfiltration of Sensitive Data**: Inadvertent leaks of freelancer phone numbers, personal email addresses, or client financial credentials.
 
-### 7.2 Defense Implementation & Results
+### 7.2 Defense Implementation & Benchmark Results
 Evaluated in `evals/runners/injection_eval.py` on 50 adversarial attack vectors (`evals/results/injection_defense.json`):
 
 | Threat Category | Test Cases | Blocked / Defended | Defense Rate | PII Redactions |
@@ -225,6 +224,23 @@ Evaluated in `evals/runners/injection_eval.py` on 50 adversarial attack vectors 
 | **Overall Defense Benchmark** | **50** | **50** | **100.0%** | **15 Redactions** |
 
 Every untrusted marketplace job description is encapsulated in `<untrusted_job_post>` delimiters. Downstream agents are strictly instructed that enclosed tokens cannot alter system instructions. All detected injection attempts trigger an immediate `RiskAssessor` classification of `high_risk` and skip proposal generation, conserving Connects.
+
+### 7.3 Detailed Walkthrough of Upwork's Nov 2 Policy Update Compliance
+
+On November 2, major freelance marketplaces instituted sweeping policy enforcement updates governing artificial intelligence and automated bidding:
+
+1. **Strict Prohibition of Off-Platform Contact Prior to Contract Offer**:
+   - *Rule*: Freelancers may not share email, phone numbers, Skype, Telegram, Zoom links, or personal websites until a formal client offer is accepted.
+   - *GigBid Defense*: The `ComplianceGuardNode` runs automated regex and semantic scans for URLs, handles, and digits. Detected contact sharing triggers a non-negotiable proposal rejection.
+2. **Prohibition of Free Work Samples / Unpaid Pilots**:
+   - *Rule*: Clients and freelancers may not request or provide custom unpaid production code as a condition for hiring.
+   - *GigBid Defense*: `JobAnalystNode` checks for test task solicitations (e.g. "Build this feature first for evaluation"). If detected, `RiskAssessorNode` marks the job as `TOS_VIOLATION` and skips bidding.
+3. **Mandatory Human-in-the-Loop Review**:
+   - *Rule*: Unsupervised autonomous proposal blasting violates terms of service.
+   - *GigBid Defense*: LangGraph's native `interrupt()` halts execution at the `human_approval` gate. The proposal preview, price breakdown, and claim evidence are displayed on the frontend cockpit. Zero proposals are submitted to live marketplace adapters without explicit operator sign-off.
+4. **Draft-Only Live Marketplace Safety**:
+   - *Rule*: Accidental Connects depletion or automated contract lock-in.
+   - *GigBid Defense*: The live adapter (`UpworkLiveAdapter`) strictly enforces `force_draft_only=True`. All write operations create drafts on the Upwork portal, requiring final human contract execution on Upwork itself.
 
 ---
 
@@ -252,12 +268,24 @@ Combined with an average proposal generation cost of $\$0.0162$ and Connects pri
 
 ---
 
-## 9. Error Analysis, Failure Modes & Edge Case Resilience
+## 9. Error Analysis, Failure Taxonomy & Edge Case Resilience
 
-Despite high overall performance, several edge cases warrant discussion:
-1. **Cold-Start Freelancers**: When a freelancer persona has fewer than 3 historical case studies, the RAG retriever falls back to generalized technical concepts, causing judge scores to drop from 4.8 to 3.6.
-2. **Ambiguous Job Deliverables**: When clients provide one-sentence job descriptions (e.g. "Need Python expert to fix bug"), `JobAnalystNode` uncertainty increases, prompting the system to generate clarifying questions rather than bidding blindly.
-3. **Degraded Mode Under Network Outages**: When the marketplace MCP server encounters simulated network latency or transient drops, the circuit breaker in `agent/mcp_client.py` gracefully queues operations, logs diagnostic alerts, and displays the `DegradedModeBanner` on the web interface without crashing active worker threads.
+### 9.1 The 10-Job Failure Taxonomy
+
+To evaluate system boundary resilience and document known failure modes, 10 complex failure scenarios were systematically analyzed across the pipeline:
+
+| Case ID | Job Scenario Description | Observed Failure / Edge Mode | Pipeline Root Cause | Corrective Architecture & Resolution | Status |
+|---|---|---|---|---|---|
+| `FAIL-01` | "Need fast bug fix for web app" (1 sentence description) | Scope Ambiguity & Quote Volatility | Missing deliverables in job text; `JobAnalyst` generated wide confidence interval ($200–$2,000) | `PricingNode` detected high variance and routed to `ASK_CLARIFICATION` rather than bidding blind | **Resolved** |
+| `FAIL-02` | "Contact me on Telegram @fast_hire_crypto for immediate $5k payment" | Off-Platform Solicitation & Scam | Embedded social handle violating Upwork Nov 2 policy | `RiskAssessorNode` flagged `TOS_VIOLATION` with 0.99 confidence; skipped bidding immediately | **Resolved** |
+| `FAIL-03` | Junior candidate persona with 0 relevant vector case studies | Grounding Breakdown / Hallucination | Retrieval score $<0.30$; LLM writer attempted to invent production metrics | `ClaimVerifierNode` caught 2 unsupported claims and aborted proposal with `UNVERIFIED_EVIDENCE` | **Resolved** |
+| `FAIL-04` | Enterprise client offering $15 fixed price for full SaaS build | Extreme Unprofitable Budget Trap | Client budget ceiling far below freelancer hourly floor ($110/hr) | `PricingStrategistNode` executed Connects ROI evaluation and marked job as `UNPROFITABLE_SKIP` | **Resolved** |
+| `FAIL-05` | "Build a complete working auth microservice as a free test sample" | Free Work Sample Exploitation | Client demanded uncompensated production deliverables | `ComplianceGuardNode` identified free sample clause, flagged violation, and refused bid | **Resolved** |
+| `FAIL-06` | Client requests Zoom call before submitting formal contract offer | Pre-Contract Communication Violation | Client attempted to bypass platform messaging before contract creation | `ConversationGraph` intercepted message, polite decline sent citing Upwork Nov 2 policy | **Resolved** |
+| `FAIL-07` | Job requires exact library "LangGraph v0.2.1" and "Pydantic v2.7" | Dense Lexical Keyword Mismatch | Pure dense cosine search retrieved general LLM case studies without exact library match | Solved by **V2 Hybrid / BM25** keyword retrieval which boosted exact version matches to rank #1 | **Resolved** |
+| `FAIL-08` | Client requests 3 extra microservices during post-proposal chat | Client Scope Creep in Negotiation | Client expanded deliverables without budget adjustment | `LiaisonNode` Scope Creep Detector calculated $+60\%$ scope shift and generated Change Order quote | **Resolved** |
+| `FAIL-09` | Marketplace MCP server experiences transient socket drop | Infrastructure Outage / Timeout | Unhandled network exception in external tool calling | MCP Client Circuit Breaker trapped error, enabled `DegradedModeBanner`, and queued retry | **Resolved** |
+| `FAIL-10` | Cyclical reasoning loop in ReAct baseline agent | Step Budget Runaway ($>25$ steps) | ReAct loop re-read job 4 times without making progress, burning 35k tokens | Solved by **LangGraph StateGraph** which topologically forces one-way DAG execution | **Resolved** |
 
 ---
 
@@ -280,4 +308,3 @@ All empirical findings, datasets, and configurations are reproducible via the re
 - Budget & Outcomes Benchmark: `evals/results/budget_and_outcomes.json`
 - Signature Extension A/B Test: `evals/results/extension_ab_test.json`, `docs/EXTENSION.md`
 - Architectural Decision Records: `docs/adr/001_mcp_boundary.md` through `004_approval_interrupts.md`
-

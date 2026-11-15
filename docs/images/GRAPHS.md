@@ -1,0 +1,70 @@
+# System Graph Visualizations
+
+## 1. BidGraph (Autonomous Intake, Risk, Match, Pricing, Writer, Verifier, Critic, Compliance & Human Approval)
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	analyst(analyst)
+	risk(risk)
+	matcher(matcher)
+	pricing(pricing)
+	writer(writer)
+	verifier(verifier)
+	critic(critic)
+	compliance(compliance)
+	human_approval(human_approval)
+	submit_live(submit_live)
+	end_skipped(end_skipped)
+	needs_attention(needs_attention)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> analyst;
+	analyst --> risk;
+	compliance --> human_approval;
+	critic -.-> compliance;
+	critic -.-> writer;
+	human_approval -.-> end_skipped;
+	human_approval -.-> submit_live;
+	matcher -.-> needs_attention;
+	matcher -.-> pricing;
+	pricing -.-> end_skipped;
+	pricing -.-> writer;
+	risk --> matcher;
+	verifier --> critic;
+	writer --> verifier;
+	end_skipped --> __end__;
+	needs_attention --> __end__;
+	submit_live --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+```
+
+## 2. ConversationGraph (Client Liaison, Scope Creep & Gate)
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	liaison_draft(liaison_draft)
+	human_gate(human_gate)
+	send_reply(send_reply)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> liaison_draft;
+	human_gate -. &nbsp;end&nbsp; .-> __end__;
+	human_gate -.-> send_reply;
+	liaison_draft --> human_gate;
+	send_reply --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+```

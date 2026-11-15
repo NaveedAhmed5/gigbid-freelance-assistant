@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gigbid-portfolio-mcp"
+version = "1.0.0"
+description = "Standalone Model Context Protocol (MCP) server for candidate portfolio, verified evidence, case studies, and past proposals."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "GigBid Engineering Team", email = "engineering@gigbid.ai" }
+]
+dependencies = [
+    "pydantic>=2.7.0",
+    "mcp>=1.0.0",
+    "fastapi>=0.111.0",
+    "uvicorn>=0.30.0",
+    "httpx>=0.27.0",
+]
+
+[project.scripts]
+gigbid-portfolio-mcp = "mcp_servers.portfolio.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
