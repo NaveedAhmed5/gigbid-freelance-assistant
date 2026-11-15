@@ -17,8 +17,7 @@ install:
 	pip install -e ".[dev]"
 
 dev:
-	uvicorn apps.api.main:app --reload --port 8000 &
-	cd apps/web && npm run dev
+	python scripts/start_dev.py
 
 test:
 	pytest -v tests/ mcp_servers/

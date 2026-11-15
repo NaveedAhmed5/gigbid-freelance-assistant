@@ -19,6 +19,9 @@ class DenseVectorIndex:
         self.fallback_deterministic = os.getenv(
             "EMBEDDING_FALLBACK_DETERMINISTIC", "true"
         ).lower() in ("true", "1", "yes")
+        self.fallback_deterministic = (
+            os.getenv("EMBEDDING_FALLBACK_DETERMINISTIC", "true").lower() in ("true", "1", "yes")
+        )
 
     def _embed_text(self, text: str) -> np.ndarray:
         """Deterministic dense embedding generator for CPU benchmarking and fast testing."""
