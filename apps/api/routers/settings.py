@@ -6,15 +6,16 @@ from fastapi import APIRouter, Depends, HTTPException
 
 from agent.config import load_agent_config
 from agent.memory.store import get_memory_store
-from apps.api.auth.security import get_current_user
+from apps.api.auth.security import decrypt_oauth_token, get_current_user
 from apps.api.schemas.models import SettingsResponse, SettingsUpdateRequest
+from mcp_servers.marketplace.adapters.upwork_live import get_token_store
 
 router = APIRouter(prefix="/settings", tags=["Settings"])
 
 CURRENT_SETTINGS = {
     "autonomy_level": "semi_autonomous",
     "active_profile": "open",
-    "marketplace_adapter": "gigsim",
+    "marketplace_adapter": "upwork_live",
     "max_critic_loops": 2,
 }
 
@@ -25,15 +26,22 @@ def get_settings(current_user: dict = Depends(get_current_user)):
     mem_store = get_memory_store()
     mems = mem_store.list_memories()
 
+    user_id = current_user.get("user_id", "usr_reviewer_01")
+    upwork_tok = decrypt_oauth_token("tenant_default") or get_token_store().get_token(user_id)
+    is_connected = bool(upwork_tok is not None and len(upwork_tok) > 10)
+
+    effective_adapter = CURRENT_SETTINGS["marketplace_adapter"]
+
     return SettingsResponse(
         autonomy_level=CURRENT_SETTINGS["autonomy_level"],
         active_profile=config.active_profile,
-        marketplace_adapter=config.marketplace_adapter,
+        marketplace_adapter=effective_adapter,
         max_critic_loops=config.budgets.max_critic_loops,
         open_model_default=config.profiles["open"].default_llm,
         paid_model_default=config.profiles["paid"].default_llm,
         style_memories_count=len(mems["style"]),
         outcome_memories_count=len(mems["outcome"]),
+        upwork_connected=is_connected,
     )
 
 

@@ -4,3 +4,4 @@ Write-Host "       Launching GigBid Real-Time Full-Stack Services       " -Foreg
 Write-Host "============================================================" -ForegroundColor Cyan
 
 python scripts/start_dev.py
+

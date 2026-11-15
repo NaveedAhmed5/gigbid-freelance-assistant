@@ -83,3 +83,4 @@ class SettingsResponse(BaseModel):
     paid_model_default: str
     style_memories_count: int
     outcome_memories_count: int
+    upwork_connected: bool = False

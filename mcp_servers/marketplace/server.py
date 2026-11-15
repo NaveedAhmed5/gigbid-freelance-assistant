@@ -1,6 +1,7 @@
 """Marketplace MCP Server with Idempotency, Rate Limiting, Audit Logs, and Safety Annotations."""
 
 import json
+import os
 import time
 import uuid
 from datetime import datetime, timezone
@@ -63,8 +64,16 @@ class MarketplaceMCPServer(BaseMCPServer):
         self.rate_limit_window_sec: float = 60.0
         self.drafts: Dict[str, Dict[str, Any]] = {}
         self.active_jobs_cache: Dict[str, Dict[str, Any]] = {}
+        self._live_adapter = None
         self._load_jobs()
         self._register_all_tools()
+
+    def get_live_adapter(self):
+        if self._live_adapter is None:
+            from mcp_servers.marketplace.adapters.upwork_live import UpworkLiveAdapter
+
+            self._live_adapter = UpworkLiveAdapter()
+        return self._live_adapter
 
     def _load_jobs(self):
         job_file = DATA_DIR / "processed" / "job_stream.json"
@@ -205,6 +214,12 @@ class MarketplaceMCPServer(BaseMCPServer):
     def tool_search_jobs(
         self, query: Optional[str] = None, category: Optional[str] = None, limit: int = 20
     ) -> List[Dict[str, Any]]:
+        if os.getenv("MARKETPLACE_ADAPTER", "").lower() == "upwork_live":
+            live_jobs = self.get_live_adapter().search_jobs(query=query, category=category, limit=limit)
+            for j in live_jobs:
+                self.active_jobs_cache[j["id"]] = j
+            return live_jobs
+
         jobs = list(self.active_jobs_cache.values())
         if category:
             jobs = [j for j in jobs if j.get("category", "").lower() == category.lower()]
@@ -218,11 +233,15 @@ class MarketplaceMCPServer(BaseMCPServer):
         return jobs[:limit]
 
     def tool_get_job(self, job_id: str) -> Dict[str, Any]:
+        if os.getenv("MARKETPLACE_ADAPTER", "").lower() == "upwork_live" and job_id.startswith("live_upwork_"):
+            return self.get_live_adapter().get_job(job_id)
         if job_id not in self.active_jobs_cache:
             raise KeyError(f"Job {job_id} not found in marketplace.")
         return self.active_jobs_cache[job_id]
 
     def tool_get_client_history(self, client_id: str) -> Dict[str, Any]:
+        if os.getenv("MARKETPLACE_ADAPTER", "").lower() == "upwork_live":
+            return self.get_live_adapter().get_client_history(client_id)
         return {
             "client_id": client_id,
             "total_spend_usd": 45000.0,
@@ -234,12 +253,19 @@ class MarketplaceMCPServer(BaseMCPServer):
         }
 
     def tool_get_connects_balance(self, freelancer_id: str = "freelancer_1") -> Dict[str, Any]:
+        if os.getenv("MARKETPLACE_ADAPTER", "").lower() == "upwork_live":
+            return self.get_live_adapter().get_connects_balance(freelancer_id)
         return {"freelancer_id": freelancer_id, "balance": 150}
 
     def tool_list_messages(self, thread_id: str) -> List[Dict[str, Any]]:
         return []
 
     def tool_create_proposal_draft(self, **kwargs) -> Dict[str, Any]:
+        if os.getenv("MARKETPLACE_ADAPTER", "").lower() == "upwork_live":
+            draft_res = self.get_live_adapter().create_proposal_draft(**kwargs)
+            self.drafts[draft_res["draft_id"]] = draft_res
+            return draft_res
+
         data = ProposalDraftInput(**kwargs)
         draft_id = data.draft_id or f"draft_{uuid.uuid4().hex[:8]}"
         draft_record = {
@@ -263,6 +289,28 @@ class MarketplaceMCPServer(BaseMCPServer):
         # Idempotency check: if key already used, return stored response immediately
         if input_data.idempotency_key in self.idempotency_store:
             return self.idempotency_store[input_data.idempotency_key]
+
+        if os.getenv("MARKETPLACE_ADAPTER", "").lower() == "upwork_live":
+            res = self.get_live_adapter().submit_proposal(
+                job_id=input_data.job_id,
+                freelancer_id=input_data.freelancer_id,
+                cover_letter=input_data.cover_letter,
+                bid_amount_usd=input_data.bid_amount_usd,
+                estimated_duration=input_data.estimated_duration,
+                idempotency_key=input_data.idempotency_key,
+                dry_run=input_data.dry_run,
+                screening_answers=input_data.screening_answers,
+                trace_id=input_data.trace_id,
+            )
+            self.idempotency_store[input_data.idempotency_key] = res
+            self._write_audit_log(
+                input_data.freelancer_id,
+                "submit_proposal[upwork_live]",
+                input_data.model_dump(),
+                res,
+                input_data.trace_id,
+            )
+            return res
 
         job = self.active_jobs_cache.get(input_data.job_id)
         if not job:
@@ -321,6 +369,27 @@ class MarketplaceMCPServer(BaseMCPServer):
 
         if input_data.idempotency_key and input_data.idempotency_key in self.idempotency_store:
             return self.idempotency_store[input_data.idempotency_key]
+
+        if os.getenv("MARKETPLACE_ADAPTER", "").lower() == "upwork_live":
+            res = self.get_live_adapter().send_message(
+                thread_id=input_data.thread_id,
+                sender_id=input_data.sender_id,
+                recipient_id=input_data.recipient_id,
+                text=input_data.text,
+                idempotency_key=input_data.idempotency_key,
+                dry_run=input_data.dry_run,
+                trace_id=input_data.trace_id,
+            )
+            if input_data.idempotency_key:
+                self.idempotency_store[input_data.idempotency_key] = res
+            self._write_audit_log(
+                input_data.sender_id,
+                "send_message[upwork_live]",
+                input_data.model_dump(),
+                res,
+                input_data.trace_id,
+            )
+            return res
 
         if input_data.dry_run:
             res = {

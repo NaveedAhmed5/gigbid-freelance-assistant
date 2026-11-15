@@ -117,7 +117,7 @@ budgets:
 
 # Active Strategy Selection
 active_rag_variant: "v4_outcome_aware"
-marketplace_adapter: "gigsim"
+marketplace_adapter: "upwork_live"
 
 # Upwork Nov 2 Policy Update Rules
 platform_rules:

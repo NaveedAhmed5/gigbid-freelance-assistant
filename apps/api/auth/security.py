@@ -89,6 +89,11 @@ def encrypt_oauth_token(tenant_id: str, plain_token: str) -> None:
     TENANT_OAUTH_STORE[tenant_id] = encrypted
 
 
+def clear_oauth_token(tenant_id: str) -> None:
+    if tenant_id in TENANT_OAUTH_STORE:
+        del TENANT_OAUTH_STORE[tenant_id]
+
+
 def decrypt_oauth_token(tenant_id: str) -> Optional[str]:
     encrypted = TENANT_OAUTH_STORE.get(tenant_id)
     if not encrypted:

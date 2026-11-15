@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function OnboardingPage() {
@@ -8,7 +8,19 @@ export default function OnboardingPage() {
   const [email, setEmail] = useState('reviewer@gigbid.ai');
   const [password, setPassword] = useState('reviewer-demo-pass');
   const [persona, setPersona] = useState('ai_ml_engineer');
+  const [upworkConnected, setUpworkConnected] = useState(false);
   const [statusMsg, setStatusMsg] = useState('');
+
+  useEffect(() => {
+    fetch('http://localhost:8000/api/auth/upwork/status')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data && data.connected) {
+          setUpworkConnected(true);
+        }
+      })
+      .catch(() => {});
+  }, []);
 
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,6 +40,10 @@ export default function OnboardingPage() {
       // Local fallback redirect
       router.push('/inbox');
     }
+  };
+
+  const handleConnectUpwork = () => {
+    window.location.href = 'http://localhost:8000/api/auth/upwork/login';
   };
 
   return (
@@ -78,6 +94,31 @@ export default function OnboardingPage() {
           </select>
         </div>
 
+        {/* Upwork Live Connection Box */}
+        <div className="p-3 bg-slate-50 border border-slate-200 rounded-lg text-xs space-y-2">
+          <div className="flex justify-between items-center">
+            <span className="font-semibold text-slate-800">Upwork Live MCP:</span>
+            <span
+              className={`px-2 py-0.5 rounded text-[10px] font-bold ${
+                upworkConnected
+                  ? 'bg-emerald-100 text-emerald-800 border border-emerald-300'
+                  : 'bg-slate-200 text-slate-700 border border-slate-300'
+              }`}
+            >
+              {upworkConnected ? 'Connected' : 'Not Connected'}
+            </span>
+          </div>
+          {!upworkConnected && (
+            <button
+              type="button"
+              onClick={handleConnectUpwork}
+              className="w-full py-1.5 px-3 bg-[#14a800] hover:bg-[#108a00] text-white font-bold rounded text-[11px] shadow-sm transition-colors"
+            >
+              Connect Upwork Account (OAuth 2.1)
+            </button>
+          )}
+        </div>
+
         {statusMsg && <div className="text-xs text-emerald-700 font-semibold">{statusMsg}</div>}
 
         <button
@@ -91,4 +132,3 @@ export default function OnboardingPage() {
     </div>
   );
 }
-

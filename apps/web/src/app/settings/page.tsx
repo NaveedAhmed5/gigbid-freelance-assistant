@@ -4,8 +4,10 @@ import React, { useState, useEffect } from 'react';
 
 export default function SettingsPage() {
   const [autonomy, setAutonomy] = useState('semi_autonomous');
-  const [adapter, setAdapter] = useState('gigsim');
+  const [adapter, setAdapter] = useState('upwork_live');
   const [profile, setProfile] = useState('open');
+  const [upworkConnected, setUpworkConnected] = useState(false);
+  const [upworkLoading, setUpworkLoading] = useState(false);
   const [memories, setMemories] = useState([
     {
       key: 'style_edit_01',
@@ -19,6 +21,46 @@ export default function SettingsPage() {
     },
   ]);
   const [statusMsg, setStatusMsg] = useState('');
+
+  // Fetch initial connection status and URL query params
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('upwork') === 'connected') {
+        setStatusMsg('Upwork Live OAuth 2.1 account connected successfully! MCP adapter active.');
+        setUpworkConnected(true);
+      }
+    }
+
+    // Query backend upwork status
+    fetch('http://localhost:8000/api/auth/upwork/status')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data && data.connected) {
+          setUpworkConnected(true);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
+  const handleConnectUpwork = () => {
+    setUpworkLoading(true);
+    // Redirect to OAuth 2.1 PKCE login endpoint
+    window.location.href = 'http://localhost:8000/api/auth/upwork/login';
+  };
+
+  const handleDisconnectUpwork = async () => {
+    setUpworkLoading(true);
+    try {
+      await fetch('http://localhost:8000/api/auth/upwork/disconnect', { method: 'POST' });
+      setUpworkConnected(false);
+      setStatusMsg('Upwork account disconnected. Switched to local adapter.');
+    } catch {
+      setUpworkConnected(false);
+    } finally {
+      setUpworkLoading(false);
+    }
+  };
 
   const handleDeleteMemory = (key: string) => {
     setMemories((prev) => prev.filter((m) => m.key !== key));
@@ -46,17 +88,92 @@ export default function SettingsPage() {
   };
 
   return (
-    <div className="space-y-8 max-w-4xl">
+    <div className="space-y-8 max-w-4xl pb-12">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight text-slate-900">System Configuration & Memory Viewer</h1>
-        <p className="text-xs text-slate-500">Configure agent autonomy levels, active model profiles, and inspect persistent memories.</p>
+        <h1 className="text-2xl font-bold tracking-tight text-slate-900">System Configuration & Integrations</h1>
+        <p className="text-xs text-slate-500">Configure agent autonomy levels, live Upwork MCP OAuth 2.1 integration, and memory viewer.</p>
       </div>
 
       {statusMsg && (
-        <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs px-4 py-2.5 rounded-lg font-semibold">
-          {statusMsg}
+        <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs px-4 py-2.5 rounded-lg font-semibold flex items-center justify-between">
+          <span>{statusMsg}</span>
+          <button onClick={() => setStatusMsg('')} className="text-emerald-600 hover:text-emerald-900 font-bold ml-2">✕</button>
         </div>
       )}
+
+      {/* Upwork Live Integration Card */}
+      <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <div className="flex items-center justify-between">
+          <div className="space-y-1">
+            <div className="flex items-center space-x-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
+              <h3 className="font-bold text-sm text-slate-900">Upwork Live MCP Integration (OAuth 2.1 + PKCE)</h3>
+            </div>
+            <p className="text-xs text-slate-500">
+              Direct connection to Upwork Model Context Protocol (<code className="bg-slate-100 px-1 py-0.5 rounded text-[11px]">https://mcp.upwork.com/mcp</code>) with Fernet encrypted token store.
+            </p>
+          </div>
+
+          <div className="flex items-center space-x-2">
+            <span
+              data-testid="upwork-status-badge"
+              className={`px-3 py-1 rounded-full text-xs font-bold ${
+                upworkConnected
+                  ? 'bg-emerald-100 text-emerald-800 border border-emerald-300'
+                  : 'bg-slate-100 text-slate-600 border border-slate-300'
+              }`}
+            >
+              {upworkConnected ? '● Connected' : '○ Not Connected'}
+            </span>
+          </div>
+        </div>
+
+        <div className="bg-slate-50 rounded-lg p-3.5 border border-slate-200 text-xs space-y-2">
+          <div className="flex justify-between items-center text-slate-700">
+            <span className="font-semibold">Endpoint Protocol:</span>
+            <span className="font-mono text-slate-600">Streamable HTTP (JSON-RPC 2.0)</span>
+          </div>
+          <div className="flex justify-between items-center text-slate-700">
+            <span className="font-semibold">Draft-Only Safety Guard:</span>
+            <span className="text-emerald-700 font-bold">Enforced (Submissions create safe drafts on Upwork)</span>
+          </div>
+          <div className="flex justify-between items-center text-slate-700">
+            <span className="font-semibold">Token Security:</span>
+            <span className="font-mono text-slate-600">AES-128-CBC + SHA-256 HMAC (Fernet)</span>
+          </div>
+        </div>
+
+        <div className="pt-2 flex items-center space-x-3">
+          {upworkConnected ? (
+            <button
+              type="button"
+              onClick={handleDisconnectUpwork}
+              disabled={upworkLoading}
+              className="px-4 py-2 border border-red-300 text-red-700 hover:bg-red-50 text-xs font-bold rounded-lg transition-colors"
+            >
+              Disconnect Upwork Account
+            </button>
+          ) : (
+            <button
+              type="button"
+              data-testid="connect-upwork-button"
+              onClick={handleConnectUpwork}
+              disabled={upworkLoading}
+              className="px-5 py-2.5 bg-[#14a800] hover:bg-[#108a00] text-white text-xs font-bold rounded-lg shadow-sm transition-colors flex items-center space-x-2"
+            >
+              <span>Connect Upwork Account (OAuth 2.1)</span>
+              <span>&rarr;</span>
+            </button>
+          )}
+
+          <a
+            href="http://localhost:8000/api/auth/upwork/callback?code=mock_test_code"
+            className="text-xs text-slate-400 hover:text-slate-600 underline font-medium"
+          >
+            [Simulate Instant Local Auth]
+          </a>
+        </div>
+      </div>
 
       {/* Settings Form */}
       <form onSubmit={handleSaveSettings} className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
@@ -83,7 +200,7 @@ export default function SettingsPage() {
               onChange={(e) => setProfile(e.target.value)}
               className="w-full text-xs border border-slate-300 rounded p-2 focus:ring-2 focus:ring-emerald-500 font-medium"
             >
-              <option value="open">Open Weights Profile (Ollama / Qwen2.5)</option>
+              <option value="open">Open Weights Profile (Groq Llama 3.1 & 3.3)</option>
               <option value="paid">Commercial API Profile (Frontier GPT-4o)</option>
             </select>
           </div>
@@ -95,8 +212,8 @@ export default function SettingsPage() {
               onChange={(e) => setAdapter(e.target.value)}
               className="w-full text-xs border border-slate-300 rounded p-2 focus:ring-2 focus:ring-emerald-500 font-medium"
             >
-              <option value="gigsim">GigSim Simulator (Deterministic Benchmark)</option>
               <option value="upwork_live">Upwork Live MCP (OAuth 2.1 Guarded)</option>
+              <option value="gigsim">GigSim Simulator (Deterministic Benchmark)</option>
             </select>
           </div>
         </div>
@@ -147,4 +264,3 @@ export default function SettingsPage() {
     </div>
   );
 }
-

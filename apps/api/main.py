@@ -12,6 +12,7 @@ from apps.api.routers import (
     proposals,
     runs,
     settings,
+    upwork_oauth,
 )
 from apps.api.streaming import router as streaming_router
 
@@ -32,6 +33,7 @@ app.add_middleware(
 
 # Mount Routers
 app.include_router(auth.router)
+app.include_router(upwork_oauth.router)
 app.include_router(jobs.router)
 app.include_router(proposals.router)
 app.include_router(approvals.router)

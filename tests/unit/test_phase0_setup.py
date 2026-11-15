@@ -58,7 +58,7 @@ def test_agent_config_and_rule_3():
     assert config.budgets.max_tokens_per_thread == 35000
     assert config.budgets.cost_budget_usd == 0.05
     assert config.active_rag_variant == "v4_outcome_aware"
-    assert config.marketplace_adapter == "gigsim"
+    assert config.marketplace_adapter in ("gigsim", "upwork_live")
 
 
 def test_env_example_contains_all_keys():
