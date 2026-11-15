@@ -40,4 +40,3 @@ def test_portfolio_server_tools_and_resources():
         {"question": "How do you optimize retrieval latency?", "persona": "ai_ml_engineer"},
     )
     assert "Answer a screening question" or "screening" in prompt_out
-

@@ -8,6 +8,7 @@ Invariants:
 - Durable checkpointer for crash resilience and resume
 """
 
+import uuid
 from typing import Any, Dict, Optional
 
 from langgraph.checkpoint.memory import MemorySaver
@@ -216,7 +217,12 @@ def node_human_approval(state: BidGraphState) -> Dict[str, Any]:
     human_response = interrupt({"type": "APPROVAL_REQUIRED", "data": approval_payload})
 
     is_approved = (
-        human_response.get("approved", False) if isinstance(human_response, dict) else False
+        bool(
+            human_response.get("approved", False)
+            or human_response.get("action") in ("approve", "approved", True)
+        )
+        if isinstance(human_response, dict)
+        else (human_response in ("approve", "approved", True))
     )
 
     step: TraceStep = {
@@ -249,6 +255,8 @@ def node_submit_live(state: BidGraphState) -> Dict[str, Any]:
         arguments={"limit": 1},
     )
 
+    trace_id = f"trace_{state['job_id']}_{uuid.uuid4().hex[:8]}"
+
     # Perform submit via marketplace port/server
     submission_res = client.marketplace_server.call_tool(
         "submit_proposal",
@@ -260,6 +268,7 @@ def node_submit_live(state: BidGraphState) -> Dict[str, Any]:
             "estimated_duration": quote.estimated_duration,
             "idempotency_key": f"submit_{state['job_id']}",
             "dry_run": False,
+            "trace_id": trace_id,
         },
     )
 

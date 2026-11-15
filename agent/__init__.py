@@ -1,2 +1,1 @@
 """GigBid Agent Core Package"""
-

@@ -19,7 +19,10 @@ class NodeRoute(BaseModel):
 
 class ProfileConfig(BaseModel):
     description: str
+    provider: str = "groq"
+    base_url: Optional[str] = None
     default_llm: str
+    reasoning_llm: Optional[str] = None
     embedding_model: str
     reranker_model: str
     deterministic_fallback: bool = True

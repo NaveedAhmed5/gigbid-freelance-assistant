@@ -1,6 +1,7 @@
 """Dense Vector Index with Cosine Similarity and Deterministic Fallback."""
 
 import hashlib
+import os
 from typing import List, Optional, Tuple
 
 import numpy as np
@@ -15,6 +16,9 @@ class DenseVectorIndex:
         self.dim = dim
         self.chunks: List[DocumentChunk] = []
         self.vectors: Optional[np.ndarray] = None
+        self.fallback_deterministic = os.getenv(
+            "EMBEDDING_FALLBACK_DETERMINISTIC", "true"
+        ).lower() in ("true", "1", "yes")
 
     def _embed_text(self, text: str) -> np.ndarray:
         """Deterministic dense embedding generator for CPU benchmarking and fast testing."""

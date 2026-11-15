@@ -75,4 +75,3 @@ class MarketplacePort(ABC):
     ) -> Dict[str, Any]:
         """Send a message to a client."""
         pass
-

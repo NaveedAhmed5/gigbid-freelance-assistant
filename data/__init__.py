@@ -1,2 +1,1 @@
 """GigBid Data Package"""
-
