@@ -25,3 +25,4 @@ gigbid-portfolio-mcp = "mcp_servers.portfolio.server:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]
+
