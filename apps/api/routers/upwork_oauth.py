@@ -17,8 +17,9 @@ import uuid
 from typing import Any, Dict, Optional
 
 import httpx
-from fastapi import APIRouter, Query, Request
+from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import RedirectResponse
+from pydantic import BaseModel
 
 from apps.api.auth.security import (
     clear_oauth_token,
@@ -88,20 +89,39 @@ def get_effective_client_id() -> str:
 # OAuth Routes (mounted both at /api/auth/upwork and /auth/upwork for compatibility)
 # -----------------------------------------------------------------------------
 
+class TokenStoreRequest(BaseModel):
+    access_token: str
+
+
+@router.post("/api/auth/upwork/token")
+@router.post("/auth/upwork/token")
+def set_upwork_token(payload: TokenStoreRequest):
+    """Directly save and encrypt an Upwork bearer token."""
+    token = payload.access_token.strip()
+    if not token:
+        raise HTTPException(status_code=400, detail="Token cannot be empty")
+    store = get_token_store()
+    store.store_token("usr_reviewer_01", token)
+    store.store_token("tenant_default", token)
+    encrypt_oauth_token("tenant_default", token)
+    os.environ["UPWORK_ACCESS_TOKEN"] = token
+    os.environ["MARKETPLACE_ADAPTER"] = "upwork_live"
+    return {"status": "ok", "message": "Upwork access token stored securely (Fernet encrypted)."}
+
+
 @router.get("/api/auth/upwork/login")
 @router.get("/auth/upwork/login")
 def upwork_oauth_login(request: Request, format: Optional[str] = Query(None)):
-    """Generate PKCE challenge, register client if needed, and redirect to Upwork."""
+    """Generate PKCE challenge and strictly redirect to Upwork's OAuth 2.1 login screen."""
     env_id = os.getenv("UPWORK_OAUTH_CLIENT_ID", "").strip()
-
-    # If no live Upwork Developer Client ID is provided in .env, automatically complete
-    # authentication using our encrypted sandbox session to prevent Upwork's "Client not found" error
     if not env_id:
-        logger.info("No UPWORK_OAUTH_CLIENT_ID in .env; completing auth with encrypted sandbox session.")
+        # Prevent Upwork's "Client not found or disabled" error by redirecting back with clear explanation
         return RedirectResponse(
-            url="http://localhost:8000/api/auth/upwork/callback?code=mock_sandbox_auth_code",
+            url="http://localhost:3000/settings?upwork_error=missing_client_id",
             status_code=307,
         )
+
+    client_id = env_id
 
     metadata = discover_upwork_oauth_metadata()
     auth_endpoint = metadata.get(
@@ -110,7 +130,6 @@ def upwork_oauth_login(request: Request, format: Optional[str] = Query(None)):
 
     code_verifier, code_challenge = generate_pkce_pair()
     state = uuid.uuid4().hex
-    client_id = env_id
 
     # Store session
     OAUTH_PKCE_SESSIONS[state] = {

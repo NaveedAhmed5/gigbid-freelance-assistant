@@ -1,6 +1,7 @@
 """API State Manager: Bridges LangGraph execution, checkpointer, and REST state."""
 
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -27,6 +28,10 @@ class APIStateManager:
         self._load_seed_jobs()
 
     def _load_seed_jobs(self):
+        adapter = os.getenv("MARKETPLACE_ADAPTER", "gigsim").lower()
+        if adapter == "upwork_live":
+            # In Upwork Live MCP mode, do not populate dummy seed jobs
+            return
         job_file = DATA_DIR / "processed" / "job_stream.json"
         if job_file.exists():
             jobs = json.loads(job_file.read_text(encoding="utf-8"))

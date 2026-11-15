@@ -1,5 +1,9 @@
 """GigBid FastAPI Application Entrypoint."""
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -35,6 +39,7 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(upwork_oauth.router)
 app.include_router(jobs.router)
+app.include_router(jobs.router, prefix="/api")
 app.include_router(proposals.router)
 app.include_router(approvals.router)
 app.include_router(messages.router)
